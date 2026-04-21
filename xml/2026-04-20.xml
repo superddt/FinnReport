@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report date="2026-04-20">
+
+  <stock ticker="NVDA" name="NVIDIA Corporation" sector="半導體 / AI基礎設施" exchange="NASDAQ">
+    <decision>BUY</decision>
+    <price>201.68</price>
+    <week52_low>95.04</week52_low>
+    <week52_high>212.19</week52_high>
+
+    <metrics>
+      <metric key="單季營收"    value="$681B"   sub="同比 +73%"/>
+      <metric key="Forward P/E" value="17.94"   sub="PEG 0.72"/>
+      <metric key="毛利率"      value="75%"     sub="營運利潤 65%"/>
+      <metric key="自由現金流"  value="$349B"   sub="單季"/>
+      <metric key="市值"        value="$4.9T"   sub="全球頂尖"/>
+      <metric key="Beta"        value="2.34"    sub="高波動"/>
+    </metrics>
+
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="TTM P/E"  val="41.16"/>
+      <kv key="稀釋EPS"  val="$1.76（預期$11.24）"/>
+      <kv key="現金儲備" val="$625.56億"/>
+      <kv key="流動比率" val="3.905"/>
+      <kv key="季度回購" val="$38億"/>
+      <prose>市值約4.9兆美元，在數據中心GPU市場佔絕對主導地位。營收單季681.27億美元，同比增長73%，季增19%，呈現指數級成長態勢。</prose>
+      <prose>Forward P/E僅17.94倍，PEG比率0.72低於1，顯示股價相對成長率仍具吸引力。管理層明確拒絕收購PC製造商，專注AI基礎設施、邊緣計算及量子計算生態系統，財務結構極度健康。</prose>
+    </section>
+
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="趨勢"     val="強勁上漲趨勢"/>
+      <kv key="50日均線" val="$183.30（支撐）"/>
+      <kv key="52週高點" val="$212.19（阻力）"/>
+      <kv key="近一週"   val="+6.9%"/>
+      <prose>股價處於強勁上漲趨勢，成功抵禦宏觀負面消息影響，位於52週區間中上段（91.5%分位）。資金持續流入，技術面呈現突破整理、再創新高格局。</prose>
+      <prose>高Beta值2.335意味著股價波動性高於大盤，適合風險承受能力較高的投資者。</prose>
+    </section>
+
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <prose>整體情緒極度樂觀，被視為華爾街最看好的10隻主要股票之一。在中東地緣政治衝突背景下，AI板塊展現獨立性，NVDA被視為「必需品」而非「可選消費」，資金從防禦性板塊持續流入。</prose>
+      <tag>量子計算 — Xanadu +237%</tag>
+      <tag>邊緣AI × QNX合作</tag>
+      <tag>國防AI替換需求</tag>
+      <tag>避風港效應</tag>
+    </section>
+
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>供應鏈地緣政治：中東局勢長期對半導體供應鏈（航道、能源）構成潛在斷鏈威脅</risk>
+      <risk>估值依賴高成長：若AI資本開支放緩或財報指引不及預期，可能引發估值壓縮</risk>
+      <risk>庫存風險：存貨從100億快速增至214億，需監測是否出現積壓</risk>
+      <risk>競爭加劇：AMD、Intel及雲端巨頭（Google/Amazon/Meta）自製晶片可能侵蝕市場份額</risk>
+      <risk>高Beta值：市場回調時可能面臨更大的下跌幅度</risk>
+    </section>
+
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級"   value="買入 BUY"                        value_color="#3B6D11"/>
+      <verdict_card label="核心邏輯" value="基本面強勁 + 新增長曲線 + 宏觀韌性"/>
+      <verdict_card label="止損參考" value="跌破20日均線或關鍵支撐位"/>
+      <strategy>趨勢交易員：持有多頭部位，將回調視為進場良機，建議設置緊密止損以管理短期超買風險</strategy>
+      <strategy>長期投資者：忽略短期波動，持有以享受AI與量子計算的長期紅利</strategy>
+      <strategy>成長邏輯：量子計算與邊緣AI開拓第二增長極，Forward P/E 18倍對此成長速度具極高性價比</strategy>
+    </section>
+  </stock>
+
+  <stock ticker="AAPL" name="Apple Inc." sector="消費電子 / 科技" exchange="NASDAQ">
+    <decision>HOLD</decision>
+    <price>270.23</price>
+    <week52_low>196.00</week52_low>
+    <week52_high>288.62</week52_high>
+
+    <metrics>
+      <metric key="季度營收"    value="$143.8B" sub="同比 +15.6%"/>
+      <metric key="Forward P/E" value="28.90"   sub="PEG 2.43"/>
+      <metric key="毛利率"      value="48.15%"  sub="歷史高位"/>
+      <metric key="自由現金流"  value="$51.6B"  sub="單季"/>
+      <metric key="現金儲備"    value="$45.3B"  sub="季增 +49.6%"/>
+      <metric key="RSI"         value="64.18"   sub="健康區間"/>
+    </metrics>
+
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="TTM P/E"  val="34.25"/>
+      <kv key="DCF估值"  val="$230–$280（接近上限）"/>
+      <kv key="季度回購" val="$24.7B"/>
+      <kv key="股息"     val="$3.9B/季"/>
+      <kv key="流動比率" val="0.974（略低於1）"/>
+      <kv key="債務/權益" val="102.63%"/>
+      <prose>最新財季總收入143.76B創歷史新高，毛利率48.15%顯示強大定價權與成本控制能力。年化股東回報超110B，現金流極為強勁。</prose>
+      <prose>惟PEG比率2.43偏高，當前股價接近DCF估值上限$280，追高風險較大。流動比率略低於1，需關注短期償債壓力。</prose>
+    </section>
+
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="趨勢排列" val="多頭（價格>50MA>200MA）"/>
+      <kv key="50日均線" val="$260.55（第一支撐）"/>
+      <kv key="200日均線" val="$251.83（強支撐）"/>
+      <kv key="短期阻力" val="$272.30"/>
+      <kv key="MACD"     val="由負轉正，柱狀圖擴張"/>
+      <kv key="VWMA"     val="$258.32（價格在上方）"/>
+      <prose>多頭排列確認中長期趨勢向上，MACD動能反轉，RSI 64.18尚未超買，仍有上升空間但需警惕回調。股價接近52週高點，短期獲利回吐壓力增加。</prose>
+      <prose>ATR約$6.11，建議止損設置在$258–$260區間（約1.5–2倍ATR）。</prose>
+    </section>
+
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <prose>科技巨頭仍是推動大盤上漲的核心力量，市場對AI及大型科技公司信心強勁。中國市場Q1 iPhone出貨量同比增長20%，在整體市場下滑背景下表現優異，市場份額升至第二。</prose>
+      <prose>智能眼鏡產品正在測試中，預計2027年推出，有望成為繼iPhone後的下一個重大增長引擎。</prose>
+      <tag>中國iPhone出貨 +20%</tag>
+      <tag>智能眼鏡 2027</tag>
+      <tag>過去一年 +37.8%</tag>
+      <tag>印度反壟斷風險</tag>
+    </section>
+
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>監管風險：印度反壟斷調查最終聽證，Apple未提交要求數據，面臨潛在罰款或業務限制</risk>
+      <risk>估值風險：P/E與PEG偏高，業績不及預期可能引發估值修正</risk>
+      <risk>地緣政治：霍爾木茲海峽動態及中國市場依賴度上升，可能影響供應鏈穩定性</risk>
+      <risk>技術回調：股價接近52週高點，若跌破50日均線$260可能引發技術性賣壓</risk>
+      <risk>競爭：Meta在智能眼鏡提前布局，AI晶片巨頭2028年前或市值超越Apple</risk>
+    </section>
+
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#FAEEDA" color_text="#633806" open="true" full="true">
+      <verdict_card label="評級"     value="持有 HOLD"  value_color="#854F0B"/>
+      <verdict_card label="短期目標價" value="$280–$285"/>
+      <verdict_card label="止損設置"  value="$258–$260（50日均線）"/>
+      <strategy>現有持倉者：繼續持有，密切監控$272阻力位突破情況；若跌破$260（50日均線）則需警惕趨勢反轉</strategy>
+      <strategy>新進投資者：建議等待回調至$250–$260區間（200日均線附近）再分批建倉，避免在高位追漲</strategy>
+      <strategy>長期視角：智能眼鏡新產品為長期增長鋪路，但短期監管與宏觀風險需密切監控</strategy>
+    </section>
+  </stock>
+
+</report>
