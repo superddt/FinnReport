@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <report date="2026-04-21">
-  <stock ticker="TSLA" name="Tesla, Inc." sector="Consumer Cyclical" exchange="NASDAQ">
-    <decision>SELL</decision>
-    <price>392.50</price>
-    <week52_low>138.80</week52_low>
-    <week52_high>409.28</week52_high>
+  <stock ticker="TSLA" name="TSLA" sector="Tech/Consumer" exchange="NASDAQ">
+    <decision>賣出 SELL</decision>
+    <price>386.42</price>
+    <week52_low>244.43</week52_low>
+    <week52_high>498.83</week52_high>
     <metrics>
-      <metric key="TTM P/E" value="351.29" sub="Extreme Premium"/>
-      <metric key="Net Margin" value="4%" sub="Margin Collapse"/>
-      <metric key="Cash Position" value="$44.06B" sub="Fortress Balance Sheet"/>
-      <metric key="Forward EPS" value="$2.75" sub="High Growth Expectation"/>
-      <metric key="PEG Ratio" value="5.75" sub="Severely Overvalued"/>
+      <metric key="PE" value="357.8" sub="Valuation"/>
+      <metric key="PEG" value="5.75" sub="PEG Ratio"/>
+      <metric key="ROE" value="0.049" sub="ROE"/>
+      <metric key="Net Margin" value="0.04" sub="Margin"/>
+      <metric key="EPS" value="1.08" sub="EPS"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
       <kv key="估值狀態" val="極端泡沫"/>
@@ -32,23 +32,23 @@
       <risk>CEO 關鍵人物風險及注意力分散。</risk>
     </section>
     <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
-      <verdict_card label="評級" value="賣出 SELL" value_color="#A32D2D"/>
+      <verdict_card label="評級" value="賣出 SELL" value_color="#3B6D11"/>
       <verdict_card label="目標價" value="$280"/>
       <verdict_card label="止損" value="$405"/>
-      <strategy>建議立即減持或清空倉位。僅在股價放量突破並企穩於 200 SMA ($399.25) 以上且利潤率止跌回升後才考慮重新介入。</strategy>
+      <strategy>建議立即減持或清空倉位。僅在股價放量突破並企穩於 200 SMA 以上且利潤率止跌回升後才考慮重新介入。</strategy>
     </section>
   </stock>
-<stock ticker="NVDA" name="NVIDIA Corporation" sector="Technology" exchange="NASDAQ">
-    <decision>BUY</decision>
-    <price>202.06</price>
-    <week52_low>170.00</week52_low>
+  <stock ticker="NVDA" name="NVDA" sector="Tech/Consumer" exchange="NASDAQ">
+    <decision>買入 BUY</decision>
+    <price>199.88</price>
+    <week52_low>102.02</week52_low>
     <week52_high>212.19</week52_high>
     <metrics>
-      <metric key="Forward P/E" value="17.78" sub="Undervalued vs Growth"/>
-      <metric key="PEG Ratio" value="0.72" sub="Strong Buy Signal"/>
-      <metric key="Net Margin" value="55.6%" sub="Extreme Pricing Power"/>
-      <metric key="ROE" value=">100%" sub="Hyper-efficiency"/>
-      <metric key="Forward EPS" value="$11.24" sub="Huge Leap Expected"/>
+      <metric key="PE" value="40.7" sub="Valuation"/>
+      <metric key="PEG" value="0.72" sub="PEG Ratio"/>
+      <metric key="ROE" value="1.01" sub="ROE"/>
+      <metric key="Net Margin" value="0.556" sub="Margin"/>
+      <metric key="EPS" value="4.91" sub="EPS"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
       <kv key="估值狀態" val="增長紅利"/>
@@ -72,21 +72,21 @@
     <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
       <verdict_card label="評級" value="買入 BUY" value_color="#3B6D11"/>
       <verdict_card label="目標價" value="$230+"/>
-      <verdict_card label="止損" value="$181.98 (200SMA)"/>
+      <verdict_card label="止損" value="$181.98"/>
       <strategy>採取分批建倉策略：第一批於 $193 附近佈局，第二批於 50SMA ($183.90) 附近加碼。避免在 RSI 超買區一次性重倉。</strategy>
     </section>
   </stock>
-    <stock ticker="AAPL" name="Apple Inc." sector="Technology" exchange="NASDAQ">
+  <stock ticker="AAPL" name="AAPL" sector="Tech/Consumer" exchange="NASDAQ">
     <decision>買入</decision>
     <price>266.17</price>
-    <week52_low>252.13</week52_low>
-    <week52_high>273.05</week52_high>
+    <week52_low>193.25</week52_low>
+    <week52_high>288.62</week52_high>
     <metrics>
-      <metric key="Forward P/E" value="28.36" sub="估值合理"/>
-      <metric key="ROE" value="152%" sub="頂級效率"/>
-      <metric key="Forward EPS" value="$9.39" sub="增長預期"/>
-      <metric key="PEG Ratio" value="2.46" sub="相對於增長被高估"/>
-      <metric key="Cash Position" value="$66.91B" sub="流動性強"/>
+      <metric key="PE" value="34.6" sub="Valuation"/>
+      <metric key="PEG" value="2.46" sub="PEG Ratio"/>
+      <metric key="ROE" value="1.52" sub="ROE"/>
+      <metric key="Net Margin" value="0.27" sub="Margin"/>
+      <metric key="EPS" value="7.69" sub="EPS"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
       <kv key="估值狀態" val="邊緣 AI 轉型"/>
@@ -105,9 +105,9 @@
       <tag>iPhone 週期</tag>
     </section>
     <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
-      <risk>與 Tim Cook 離職相關的關鍵人物風險。
-相對於短期增長的估值偏高 (PEG 2.46)。
-地緣政治緊張 (美伊關係) 影響高 Beta 科技股。</risk>
+      <risk>與 Tim Cook 離職相關的關鍵人物風險。</risk>
+      <risk>相對於短期增長的估值偏高 (PEG 2.46)。</risk>
+      <risk>地緣政治緊張 (美伊關係) 影響高 Beta 科技股。</risk>
     </section>
     <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
       <verdict_card label="評級" value="買入" value_color="#3B6D11"/>
@@ -116,17 +116,17 @@
       <strategy>戰術性入場：在 10EMA (~$263.80) 和 50SMA (~$260.50) 設置限價單。避免在局部高點直接市價買入。</strategy>
     </section>
   </stock>
-  <stock ticker="GOOGL" name="Alphabet Inc." sector="Communication Services" exchange="NASDAQ">
+  <stock ticker="GOOGL" name="GOOGL" sector="Tech/Consumer" exchange="NASDAQ">
     <decision>買入</decision>
-    <price>337.42</price>
-    <week52_low>273.0</week52_low>
-    <week52_high>340.0</week52_high>
+    <price>332.29</price>
+    <week52_low>147.84</week52_low>
+    <week52_high>349.0</week52_high>
     <metrics>
-      <metric key="Forward P/E" value="26.5x" sub="估值合理"/>
-      <metric key="Profit Margin" value="32.8%" sub="高效率"/>
-      <metric key="Cash Position" value="$126.84B" sub="現金堡壘"/>
-      <metric key="Debt-to-Equity" value="16.13%" sub="低槓桿"/>
-      <metric key="Fwd EPS" value="$13.xx" sub="前景強勁"/>
+      <metric key="PE" value="30.8" sub="Valuation"/>
+      <metric key="PEG" value="2.31" sub="PEG Ratio"/>
+      <metric key="ROE" value="0.357" sub="ROE"/>
+      <metric key="Net Margin" value="0.328" sub="Margin"/>
+      <metric key="EPS" value="10.8" sub="EPS"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
       <kv key="估值狀態" val="AI 基礎設施主導"/>
@@ -145,9 +145,9 @@
       <tag>SpaceX 股份</tag>
     </section>
     <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
-      <risk>CapEx 激增 (每季高達 280 億) 影響短期利潤率。
-技術面超買顯示可能出現回調。
-在搜索領域面臨 OpenAI/Microsoft 的激烈競爭。</risk>
+      <risk>CapEx 激增 (每季高達 280 億) 影響短期利潤率。</risk>
+      <risk>技術面超買顯示可能出現回調。</risk>
+      <risk>在搜索領域面臨 OpenAI/Microsoft 的激烈競爭。</risk>
     </section>
     <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
       <verdict_card label="評級" value="買入" value_color="#3B6D11"/>
@@ -155,17 +155,18 @@
       <verdict_card label="止損" value="$308.00"/>
       <strategy>分批入場：30% 立即進入，70% 等待 50SMA (~$308) 附近佈局，以降低在高點買入的風險。</strategy>
     </section>
-  </stock>  <stock ticker="MSFT" name="Microsoft Corporation" sector="Technology" exchange="NASDAQ">
+  </stock>
+  <stock ticker="MSFT" name="MSFT" sector="Tech/Consumer" exchange="NASDAQ">
     <decision>買入</decision>
-    <price>418.07</price>
-    <week52_low>392.61</week52_low>
-    <week52_high>470.09</week52_high>
+    <price>424.16</price>
+    <week52_low>356.28</week52_low>
+    <week52_high>555.45</week52_high>
     <metrics>
-      <metric key="Forward P/E" value="22.44" sub="估值合理"/>
-      <metric key="Profit Margin" value="39.04%" sub="頂級獲利能力"/>
-      <metric key="Cash Position" value="$89.46B" sub="強大流動性"/>
-      <metric key="ROE" value="34.39%" sub="高資本效率"/>
-      <metric key="Net Income Growth" value="Strong" sub="盈利加速"/>
+      <metric key="PE" value="26.5" sub="Valuation"/>
+      <metric key="PEG" value="1.32" sub="PEG Ratio"/>
+      <metric key="ROE" value="0.34" sub="ROE"/>
+      <metric key="Net Margin" value="0.39" sub="Margin"/>
+      <metric key="EPS" value="15.97" sub="EPS"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
       <kv key="估值狀態" val="AI 基礎設施規模化"/>
@@ -185,14 +186,14 @@
       <tag>Xbox 策略調整</tag>
     </section>
     <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
-      <risk>英國 28 億美元集體訴訟可能影響 Azure 的利潤率及監管地位。
-自由現金流 (FCF) 因 CapEx 激增而大幅下降，對 AI 投資的回報率 (ROI) 依賴度高。
-地緣政治局勢影響高 Beta 科技股的整體波動。</risk>
+      <risk>英國 28 億美元集體訴訟可能影響 Azure 的利潤率及監管地位。</risk>
+      <risk>自由現金流 (FCF) 因 CapEx 激增而大幅下降，對 AI 投資的回報率 (ROI) 依賴度高。</risk>
+      <risk>地緣政治局勢影響高 Beta 科技股的整體波動。</risk>
     </section>
     <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
       <verdict_card label="評級" value="買入" value_color="#3B6D11"/>
-      <verdict_card label="目標價" value="$470.00 (200SMA)"/>
-      <verdict_card label="止損" value="$392.61 (50SMA)"/>
+      <verdict_card label="目標價" value="$470.00"/>
+      <verdict_card label="止損" value="$392.61"/>
       <strategy>採取分批建倉策略：在目前水平 (~418) 建立初步部位，並在回調至 10日EMA (~400) 時加碼，以避免在高點一次性重倉。</strategy>
     </section>
   </stock>
