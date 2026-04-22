@@ -159,18 +159,45 @@
     </section>
   </stock>
   <stock ticker="GOOG" name="Alphabet Inc." sector="Communication Services" exchange="NASDAQ">
-    <decision>HOLD</decision>
+    <decision>持有 HOLD</decision>
     <price>330.47</price>
     <week52_low>148.40</week52_low>
     <week52_high>350.15</week52_high>
-    <metric key="PEG" value="2.29" sub="Valuation"/>
-    <metric key="RSI" value="63.42" sub="Momentum"/>
-    <metric key="Price vs 200SMA" value="+20%" sub="Technical"/>
-    <metric key="CapEx Growth" value="+74%" sub="Financial"/>
-    <section id="fundamental">Alphabet 正在執行高信心的 AI 基礎設施轉型，推出 TPU 8t/8i 晶片以減少對 Nvidia 的依賴。財務面表現強勁，營運現金流增長 31.4% 達 1647 億美元，淨利增長 32%。然而，資本支出（CapEx）大幅增加 74% 至 915 億美元，導致自由現金流（FCF）增長幾乎停滯（0.7%），顯示出短期利潤率受壓。</section>
-    <section id="technical">股價在三週內經歷了 24% 的劇烈 V 型反轉，目前交易價格較 200 日均線高出 20%。雖然黃金交叉已確認且 MACD 持續看漲，但 RSI 已從超買區回落至 63.42，顯示進入健康盤整期。關鍵支撐位在 50 日均線 ($307) 與 200 日均線 ($274)。</section>
-    <section id="sentiment">情緒極為正向。市場對 Google Cloud Next 發佈的 TPU 新晶片、Gemini 企業級 Agent 平台以及 7.5 億美元的推廣基金反應強烈。與 Salesforce、Oracle 及 Deloitte 的合作驗證了其 AI 商業化能力，投資者將其視為 AI 基礎設施競賽中的領軍者。</section>
-    <section id="risk">主要風險在於估值過高，PEG 比率 2.29 意味著市場已將未來表現定價至完美狀態，缺乏容錯空間。此外，資本支出與自由現金流的背離是歷史性的利潤率壓縮前兆，且技術面過快上漲增加了均值回歸（回調 10-15%）的概率。</section>
-    <section id="verdict">建議【持有】。對於現有持倉，建議在 335-339 美元壓力區獲利了結 25-30% 以鎖定利潤。不建議在 330 美元附近新進場，理想的建倉區間為回調至 200 日均線區域 (274-285 美元) 或 PEG  ratio 降至 1.5 以下，以確保安全邊際。</section>
+    <metrics>
+      <metric key="PEG" value="2.29" sub="Valuation"/>
+      <metric key="RSI" value="63.42" sub="Momentum"/>
+      <metric key="Price vs 200SMA" value="+20%" sub="Technical"/>
+      <metric key="CapEx Growth" value="+74%" sub="Financial"/>
+    </metrics>
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="估值狀態" val="AI 基礎設施轉型"/>
+      <prose>Alphabet 正在執行高信心的 AI 基礎設施轉型，推出 TPU 8t/8i 晶片以減少對 Nvidia 的依賴。</prose>
+      <prose>財務面表現強勁，營運現金流增長 31.4% 達 1647 億美元，淨利增長 32%。</prose>
+      <prose>然而，資本支出（CapEx）大幅增加 74% 至 915 億美元，導致自由現金流（FCF）增長幾乎停滯（0.7%），顯示出短期利潤率受壓。</prose>
+    </section>
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="V 型反轉 / 盤整"/>
+      <prose>股價在三週內經歷了 24% 的劇烈 V 型反轉，目前交易價格較 200 日均線高出 20%。</prose>
+      <prose>雖然黃金交叉已確認且 MACD 持續看漲，但 RSI 已從超買區回落至 63.42，顯示進入健康盤整期。</prose>
+      <prose>關鍵支撐位在 50 日均線 ($307) 與 200 日均線 ($274)。</prose>
+    </section>
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <prose>情緒極為正向。市場對 Google Cloud Next 發佈的 TPU 新晶片、Gemini 企業級 Agent 平台以及 7.5 億美元的推廣基金反應強烈。</prose>
+      <prose>與 Salesforce, Oracle 及 Deloitte 的合作驗證了其 AI 商業化能力，投資者將其視為 AI 基礎設施競賽中的領軍者。</prose>
+      <tag>TPU 8t/8i</tag>
+      <tag>Gemini Enterprise</tag>
+      <tag>Nvidia Alternative</tag>
+    </section>
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>估值過高：PEG 比率 2.29 意味著市場已將未來表現定價至完美狀態，缺乏容錯空間。</risk>
+      <risk>利潤率壓縮：資本支出與自由現金流的背離是歷史性的利潤率壓縮前兆。</risk>
+      <risk>均值回歸：技術面過快上漲增加了回調 10-15% 的概率。</risk>
+    </section>
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="持有 HOLD" value_color="#3B6D11"/>
+      <verdict_card label="理想建倉區" value="$274 - $285"/>
+      <verdict_card label="壓力區" value="$335 - $339"/>
+      <strategy>建議【持有】。對於現有持倉，建議在 335-339 美元壓力區獲利了結 25-30% 以鎖定利潤。不建議在 330 美元附近新進場，理想的建倉區間為回調至 200 日均線區域 (274-285 美元) 或 PEG ratio 降至 1.5 以下，以確保安全邊際。</strategy>
+    </section>
   </stock>
 </report>
