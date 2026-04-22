@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <report date="2026-04-21">
-  <stock ticker="NVDA" name="NVIDIA Corporation" sector="Technology" exchange="NASDAQ">
+  <stock ticker="TSLA" name="Tesla, Inc." sector="Consumer Cyclical" exchange="NASDAQ">
+    <decision>SELL</decision>
+    <price>392.50</price>
+    <week52_low>138.80</week52_low>
+    <week52_high>409.28</week52_high>
+    <metrics>
+      <metric key="TTM P/E" value="351.29" sub="Extreme Premium"/>
+      <metric key="Net Margin" value="4%" sub="Margin Collapse"/>
+      <metric key="Cash Position" value="$44.06B" sub="Fortress Balance Sheet"/>
+      <metric key="Forward EPS" value="$2.75" sub="High Growth Expectation"/>
+      <metric key="PEG Ratio" value="5.75" sub="Severely Overvalued"/>
+    </metrics>
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="估值狀態" val="極端泡沫"/>
+      <prose>儘管擁有 440 億美元的強大現金流，但 TTM P/E 高達 351 倍，且淨利潤率崩潰至 4%，顯示其定價能力顯著下降。</prose>
+      <prose>目前的股價完全建立在於 AI 與 Robotics 的「未來奇蹟」之幻想上，而非現有營收支持。</prose>
+    </section>
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="短期反彈 / 長期看跌"/>
+      <prose>股價在 160-190 美元區間震盪。RSI 處於中性區（約 48），尚未出現明顯的底部反轉信號。</prose>
+      <prose>關鍵支撐位在 150 美元，突破 200 美元壓力位後方能開啟反彈行情。</prose>
+    </section>
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <prose>市場對 Elon Musk 的政治參與度以及對 Robotaxi 的實際進度持有分歧。</prose>
+      <tag>Robotaxi</tag>
+      <tag>FSD v12</tag>
+    </section>
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>電動車市場需求飽和導致的價格戰持續。</risk>
+      <risk>CEO 關鍵人物風險及注意力分散。</risk>
+    </section>
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="賣出 SELL" value_color="#A32D2D"/>
+      <verdict_card label="目標價" value="$280"/>
+      <verdict_card label="止損" value="$405"/>
+      <strategy>建議立即減持或清空倉位。僅在股價放量突破並企穩於 200 SMA ($399.25) 以上且利潤率止跌回升後才考慮重新介入。</strategy>
+    </section>
+  </stock>
+<stock ticker="NVDA" name="NVIDIA Corporation" sector="Technology" exchange="NASDAQ">
     <decision>BUY</decision>
     <price>202.06</price>
     <week52_low>170.00</week52_low>
