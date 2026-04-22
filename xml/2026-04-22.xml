@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <report date="2026-04-22">
-  <stock ticker="NVDA" name="NVIDIA Corporation" sector="Technology/Semiconductors" exchange="NASDAQ">
+<stock ticker="NVDA" name="NVIDIA Corporation" sector="Technology/Semiconductors" exchange="NASDAQ">
     <decision>賣出 SELL</decision>
     <price>199.88</price>
     <week52_low>102.02</week52_low>
@@ -39,7 +39,7 @@
       <strategy>執行全倉減持（賣出），鎖定已實現收益並消除下行分佈風險。若回測確認突破 $207 且成交量超過 20 日均線，或回測至 200-SMA 並確認積累信號，才能考慮重新入場。維持紀律直到下一個 earnings cycle。</strategy>
     </section>
   </stock>
-  <stock ticker="TSLA" name="Tesla, Inc." sector="Auto/Technology" exchange="NASDAQ">
+<stock ticker="TSLA" name="Tesla, Inc." sector="Auto/Technology" exchange="NASDAQ">
     <decision>賣出 SELL</decision>
     <price>386.42</price>
     <week52_low>244.43</week52_low>
@@ -77,7 +77,7 @@
       <strategy>立即減持或清空倉位。僅在股價放量突破並企穩於 200 SMA 以上且利潤率止跌回升後才考慮重新介入。</strategy>
     </section>
   </stock>
-  <stock ticker="AAPL" name="Apple Inc." sector="Technology/Consumer" exchange="NASDAQ">
+<stock ticker="AAPL" name="Apple Inc." sector="Technology/Consumer" exchange="NASDAQ">
     <decision>賣出 SELL</decision>
     <price>266.17</price>
     <week52_low>193.25</week52_low>
@@ -117,7 +117,7 @@
       <strategy>未來 2-3 個交易日內減持 50-60% 部位以平衡資本保存與剩餘上行參與度。將所有清倉資金投入短期國庫券或現金持有。</strategy>
     </section>
   </stock>
-  <stock ticker="MSFT" name="Microsoft Corporation" sector="Technology/Cloud" exchange="NASDAQ">
+<stock ticker="MSFT" name="Microsoft Corporation" sector="Technology/Cloud" exchange="NASDAQ">
     <decision>持有 HOLD</decision>
     <price>424.16</price>
     <week52_low>356.28</week52_low>
@@ -157,5 +157,20 @@
       <verdict_card label="止損" value="$392.61"/>
       <strategy>維持現狀，不調整部位。在 4 月 29 日 Q3 earnings 週期之前保持靜態。實施分層擴張策略：僅在回調至 10日EMA (~$400) 時啟動部分入場，以避免在高點一次性重倉。</strategy>
     </section>
+  </stock>
+  <stock ticker="GOOG" name="Alphabet Inc." sector="Communication Services" exchange="NASDAQ">
+    <decision>HOLD</decision>
+    <price>330.47</price>
+    <week52_low>148.40</week52_low>
+    <week52_high>350.15</week52_high>
+    <metric key="PEG" value="2.29" sub="Valuation"/>
+    <metric key="RSI" value="63.42" sub="Momentum"/>
+    <metric key="Price vs 200SMA" value="+20%" sub="Technical"/>
+    <metric key="CapEx Growth" value="+74%" sub="Financial"/>
+    <section id="fundamental">Alphabet 正在執行高信心的 AI 基礎設施轉型，推出 TPU 8t/8i 晶片以減少對 Nvidia 的依賴。財務面表現強勁，營運現金流增長 31.4% 達 1647 億美元，淨利增長 32%。然而，資本支出（CapEx）大幅增加 74% 至 915 億美元，導致自由現金流（FCF）增長幾乎停滯（0.7%），顯示出短期利潤率受壓。</section>
+    <section id="technical">股價在三週內經歷了 24% 的劇烈 V 型反轉，目前交易價格較 200 日均線高出 20%。雖然黃金交叉已確認且 MACD 持續看漲，但 RSI 已從超買區回落至 63.42，顯示進入健康盤整期。關鍵支撐位在 50 日均線 ($307) 與 200 日均線 ($274)。</section>
+    <section id="sentiment">情緒極為正向。市場對 Google Cloud Next 發佈的 TPU 新晶片、Gemini 企業級 Agent 平台以及 7.5 億美元的推廣基金反應強烈。與 Salesforce、Oracle 及 Deloitte 的合作驗證了其 AI 商業化能力，投資者將其視為 AI 基礎設施競賽中的領軍者。</section>
+    <section id="risk">主要風險在於估值過高，PEG 比率 2.29 意味著市場已將未來表現定價至完美狀態，缺乏容錯空間。此外，資本支出與自由現金流的背離是歷史性的利潤率壓縮前兆，且技術面過快上漲增加了均值回歸（回調 10-15%）的概率。</section>
+    <section id="verdict">建議【持有】。對於現有持倉，建議在 335-339 美元壓力區獲利了結 25-30% 以鎖定利潤。不建議在 330 美元附近新進場，理想的建倉區間為回調至 200 日均線區域 (274-285 美元) 或 PEG  ratio 降至 1.5 以下，以確保安全邊際。</section>
   </stock>
 </report>
