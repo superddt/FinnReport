@@ -158,7 +158,7 @@
       <strategy>維持現狀，不調整部位。在 4 月 29 日 Q3 earnings 週期之前保持靜態。實施分層擴張策略：僅在回調至 10日EMA (~$400) 時啟動部分入場，以避免在高點一次性重倉。</strategy>
     </section>
   </stock>
-  <stock ticker="GOOG" name="Alphabet Inc." sector="Communication Services" exchange="NASDAQ">
+<stock ticker="GOOG" name="Alphabet Inc." sector="Communication Services" exchange="NASDAQ">
     <decision>持有 HOLD</decision>
     <price>330.47</price>
     <week52_low>148.40</week52_low>
@@ -198,6 +198,41 @@
       <verdict_card label="理想建倉區" value="$274 - $285"/>
       <verdict_card label="壓力區" value="$335 - $339"/>
       <strategy>建議【持有】。對於現有持倉，建議在 335-339 美元壓力區獲利了結 25-30% 以鎖定利潤。不建議在 330 美元附近新進場，理想的建倉區間為回調至 200 日均線區域 (274-285 美元) 或 PEG ratio 降至 1.5 以下，以確保安全邊際。</strategy>
+    </section>
+  </stock>
+  <stock ticker="BRK-B" name="Berkshire Hathaway Inc." sector="Conglomerate" exchange="NYSE">
+    <decision>BUY</decision>
+    <price>468.50</price>
+    <week52_low>455.19</week52_low>
+    <week52_high>542.07</week52_high>
+    <metrics>
+      <metric key="P/B (Tangible)" value="0.93" sub="Valuation"/>
+      <metric key="Cash Reserve" value="$373B" sub="Liquidity"/>
+      <metric key="RSI" value="34.89" sub="Momentum"/>
+      <metric key="ATR" value="6.46" sub="Volatility"/>
+    </metrics>
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="##3B6D11" open="true">
+      <kv key="估值狀態" val="深層價值區間"/>
+      <prose>BRK-B 處於極具吸引力的價值區間，交易價格僅為有形帳面價值 (Tangible Book Value) 的 0.93 倍。公司坐擁 3730 億美元的現金堡壘，提供極強的結構性底部資金支持。雖然營收小幅下降 3.2%，且 2025 年未進行股票回購，但其能源部門（估值近 1000 億美元）與保險業務提供了穩定的現金流。目前的低估值反映了市場對 Greg Abel 接任後的投資組合調整（拋售 150 億美元資產）的短期疑慮，而非基本面惡化。</prose>
+    </section>
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="下跌趨勢 / 動能衰竭"/>
+      <prose>技術面處於確認的下跌趨勢，但出現明顯的動能衰竭跡象。RSI 降至 34.89 接近超賣區，MACD 雖仍為負值但斜率正在改善。股價在 467-468 美元（3 月低點）形成關鍵支撐。目前的波動率（ATR 6.46）正在收縮，預示著盤整期將至，為價值投資者提供了分批建倉的機會。</prose>
+    </section>
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <kv key="核心主題" val="領導層轉型"/>
+      <prose>市場情緒分化。正面因素在於 Greg Abel 展現了果斷的管理風格及其對能源業務的掌控；負面因素則集中在 Abel 缺乏傳統投資管理經驗以及對其拋售資產後去向的疑慮。然而，在宏觀環境不安（地緣政治緊張）時，BRK-B 作為低 Beta 的防禦性資產，其「避風港」屬性會增強，吸引追求質量的資本回流。</prose>
+    </section>
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>領導層轉型風險：Abel 的資本配置能力尚未驗證。</risk>
+      <risk>估值陷阱：B/P 低可能反映未來增長停滯。</risk>
+      <risk>宏觀環境：地緣政治對保險/鐵路業務的影響。</risk>
+    </section>
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="買入 BUY" value_color="#1D9E75"/>
+      <verdict_card label="建倉區" value="$465 - $472"/>
+      <verdict_card label="止損" value="$450"/>
+      <strategy>建議【買入 BUY】。這是一個典型的價值回歸交易。策略為分批建倉：首批 35% 在 465-472 美元區間配置；若回調至 455-458 美元則增持 20%；待 13F 文件確認資本再配置方向後部署餘下資金。硬止損設在 450 美元（位於有形帳面價值下方）。目標價區間 520-560 美元，預計持有週期 12-18 個月。</strategy>
     </section>
   </stock>
 </report>
