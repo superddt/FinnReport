@@ -794,7 +794,7 @@ function buildSection(sec) {
   const icon     = sec.getAttribute('icon');
   const colorBg  = sec.getAttribute('color_bg')   || '#f0f0ee';
   const colorTxt = sec.getAttribute('color_text')  || '#333';
-  const isOpen   = sec.getAttribute('open') === 'true';
+  const isOpen   = sec.getAttribute('open') === 'true' || id === 'sentiment' || id === 'risk';
   const isFull   = sec.getAttribute('full') === 'true';
   const isVerdict = id === 'verdict';
 
