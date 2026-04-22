@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report date="2026-04-22">
+  <stock ticker="NVDA" name="NVIDIA Corporation" sector="Technology/Semiconductors" exchange="NASDAQ">
+    <decision>賣出 SELL</decision>
+    <price>199.88</price>
+    <week52_low>102.02</week52_low>
+    <week52_high>212.19</week52_high>
+    <metrics>
+      <metric key="PE" value="40.7" sub="Valuation"/>
+      <metric key="PEG" value="0.72" sub="PEG Ratio"/>
+      <metric key="ROE" value="1.01" sub="ROE"/>
+      <metric key="Net Margin" value="0.556" sub="Margin"/>
+      <metric key="EPS" value="4.91" sub="EPS"/>
+    </metrics>
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="估值狀態" val="增長紅利"/>
+      <prose>NVDA 展現出極其強悍的財務能力，淨利潤率高達 55.6%，ROE 超過 100%。</prose>
+      <prose>儘管 TTM P/E 較高，但 Forward P/E 僅 17.9x 且 PEG 為 0.72，顯示其價格相對於預期增長其實是被低估的。</prose>
+    </section>
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="強勢牛市 (Overbought)"/>
+      <prose>股價處於典型的「牛疊 (Bull Stack)」結構，價格 &gt; 10EMA &gt; 50SMA &gt; 200SMA。</prose>
+      <prose>RSI 為 71.65 進入超買區，短期可能面臨橫盤或回調，但長線趨勢依然強勁。</prose>
+    </section>
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <prose>市場將 NVDA 視為 AI 基礎設施的核心。儘管有「AI 泡沫」的爭論，但超大規模雲端服務商（Hyperscalers）的 CapEx 持續投入提供了強大支撑。</prose>
+      <tag>CUDA 生態護城河</tag>
+      <tag>量子計算擴展</tag>
+    </section>
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>庫存翻倍：半導體庫存 YoY 增加 112% 至 214 億美元，是需求放緩的領先指標。</risk>
+      <risk>客戶集中度風險：極度依賴少數幾家雲端巨頭（Google, Amazon, Meta）。</risk>
+      <risk>估值崩潰風險：若 AI ROI 未能如期轉化為利潤，Forward PE 的支撐將瓦解。</risk>
+    </section>
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="賣出 SELL" value_color="#A32D2D"/>
+      <verdict_card label="目標價" value="$190"/>
+      <verdict_card label="止損" value="$190"/>
+      <strategy>執行全倉減持（賣出），鎖定已實現收益並消除下行分佈風險。若回測確認突破 $207 且成交量超過 20 日均線，或回測至 200-SMA 並確認積累信號，才能考慮重新入場。維持紀律直到下一個 earnings cycle。</strategy>
+    </section>
+  </stock>
+  <stock ticker="TSLA" name="Tesla, Inc." sector="Auto/Technology" exchange="NASDAQ">
+    <decision>賣出 SELL</decision>
+    <price>386.42</price>
+    <week52_low>244.43</week52_low>
+    <week52_high>498.83</week52_high>
+    <metrics>
+      <metric key="PE" value="357.8" sub="Valuation"/>
+      <metric key="PEG" value="5.75" sub="PEG Ratio"/>
+      <metric key="ROE" value="0.049" sub="ROE"/>
+      <metric key="Net Margin" value="0.04" sub="Margin"/>
+      <metric key="EPS" value="1.08" sub="EPS"/>
+    </metrics>
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="估值狀態" val="極端泡沫"/>
+      <prose>儘管擁有 440 億美元的強大現金流，但 TTM P/E 高達 357 倍，且淨利潤率崩潰至 4%，顯示其定價能力顯著下降。</prose>
+      <prose>目前的股價完全建立在於 AI 與 Robotics 的「未來奇蹟」之幻想上，而非現有營收支持。</prose>
+    </section>
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="短期反彈 / 長期看跌"/>
+      <prose>股價在 160-190 美元區間震盪。RSI 處於中性區（約 48），尚未出現明顯的底部反轉信號。</prose>
+      <prose>關鍵支撐位在 150 美元，突破 200 美元壓力位後方能開啟反彈行情。</prose>
+    </section>
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <prose>市場對 Elon Musk 的政治參與度以及對 Robotaxi 的實際進度持有分歧。</prose>
+      <tag>Robotaxi</tag>
+      <tag>FSD v12</tag>
+    </section>
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>電動車市場需求飽和導致的價格戰持續。</risk>
+      <risk>CEO 關鍵人物風險及注意力分散。</risk>
+    </section>
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="賣出 SELL" value_color="#A32D2D"/>
+      <verdict_card label="目標價" value="$280"/>
+      <verdict_card label="止損" value="$405"/>
+      <strategy>立即減持或清空倉位。僅在股價放量突破並企穩於 200 SMA 以上且利潤率止跌回升後才考慮重新介入。</strategy>
+    </section>
+  </stock>
+  <stock ticker="AAPL" name="Apple Inc." sector="Technology/Consumer" exchange="NASDAQ">
+    <decision>賣出 SELL</decision>
+    <price>266.17</price>
+    <week52_low>193.25</week52_low>
+    <week52_high>288.62</week52_high>
+    <metrics>
+      <metric key="PE" value="34.6" sub="Valuation"/>
+      <metric key="PEG" value="2.46" sub="PEG Ratio"/>
+      <metric key="ROE" value="1.52" sub="ROE"/>
+      <metric key="Net Margin" value="0.27" sub="Margin"/>
+      <metric key="EPS" value="7.69" sub="EPS"/>
+    </metrics>
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="估值狀態" val="邊緣 AI 轉型"/>
+      <prose>Apple 正轉向邊緣 AI (Edge AI)，將 AI 直接整合進晶片與 OS，有望觸發大規模 iPhone 升級週期。</prose>
+      <prose>CEO 從 Tim Cook 轉交給 John Ternus 被視為向硬體中心 AI 領導力的戰略升级。</prose>
+    </section>
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="強勢牛市"/>
+      <prose>價格處於教科書級的牛市排列：價格 &gt; 10EMA &gt; 50SMA &gt; 200SMA。</prose>
+      <prose>MACD 正向加速。RSI (66.53) 表現強勁且尚未進入超買區。</prose>
+    </section>
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <prose>市場對 CEO 過渡持有分歧，但對 AI 在消費端硬體的落地感到樂觀。</prose>
+      <tag>邊緣 AI</tag>
+      <tag>John Ternus</tag>
+      <tag>iPhone 週期</tag>
+    </section>
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>與 Tim Cook 離職相關的關鍵人物風險。</risk>
+      <risk>相對於短期增長的估值偏高 (PEG 2.46)。</risk>
+      <risk>地緣政治緊張 (美伊關係) 影響高 Beta 科技股。</risk>
+    </section>
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="賣出 SELL" value_color="#A32D2D"/>
+      <verdict_card label="減持比例" value="50-60%"/>
+      <verdict_card label="止損" value="$252.13"/>
+      <strategy>未來 2-3 個交易日內減持 50-60% 部位以平衡資本保存與剩餘上行參與度。將所有清倉資金投入短期國庫券或現金持有。</strategy>
+    </section>
+  </stock>
+  <stock ticker="MSFT" name="Microsoft Corporation" sector="Technology/Cloud" exchange="NASDAQ">
+    <decision>持有 HOLD</decision>
+    <price>424.16</price>
+    <week52_low>356.28</week52_low>
+    <week52_high>555.45</week52_high>
+    <metrics>
+      <metric key="PE" value="26.5" sub="Valuation"/>
+      <metric key="PEG" value="1.32" sub="PEG Ratio"/>
+      <metric key="ROE" value="0.34" sub="ROE"/>
+      <metric key="Net Margin" value="0.39" sub="Margin"/>
+      <metric key="EPS" value="15.97" sub="EPS"/>
+    </metrics>
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="估值狀態" val="AI 基礎設施規模化"/>
+      <prose>微軟正處於 AI 基礎設施的規模化階段，儘管 CapEx 激增導致自由現金流下降，但營收與淨利潤的同步飆升證明了投資的有效性。</prose>
+      <prose>擁有近 900 億美元的現金儲備，使其在 AI 軍備競賽中具有極高的抗風險能力。</prose>
+    </section>
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="短期強勢反轉 / 長期修復"/>
+      <prose>短期走勢強勁，股價已成功奪回 50 日均線 (SMA 50, ~$392.61)，確認中期趨勢由熊轉牛。</prose>
+      <prose>MACD 強勢金叉且直方圖持續擴張，顯示反彈動能充足。RSI 為 67.44，接近超買區但仍有上升空間。</prose>
+    </section>
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <prose>市場對 Azure AI 的成長充滿信心，但關注英國對雲端授權的 28 億美元集體訴訟風險。遊戲部門的策略調整（價格下調）被視為追求盈利而非盲目擴張。</prose>
+      <tag>Azure AI</tag>
+      <tag>Copilot</tag>
+      <tag>雲端授權爭議</tag>
+      <tag>Xbox 策略調整</tag>
+    </section>
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>英國 28 億美元集體訴訟可能影響 Azure 的利潤率及監管地位。</risk>
+      <risk>自由現金流 (FCF) 因 CapEx 激增而大幅下降，對 AI 投資的回報率 (ROI) 依賴度高。</risk>
+      <risk>地緣政治局勢影響高 Beta 科技股的整體波動。</risk>
+    </section>
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="持有 HOLD" value_color="#3B6D11"/>
+      <verdict_card label="目標價" value="$470.00"/>
+      <verdict_card label="止損" value="$392.61"/>
+      <strategy>維持現狀，不調整部位。在 4 月 29 日 Q3 earnings 週期之前保持靜態。實施分層擴張策略：僅在回調至 10日EMA (~$400) 時啟動部分入場，以避免在高點一次性重倉。</strategy>
+    </section>
+  </stock>
+</report>
