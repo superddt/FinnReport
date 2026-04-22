@@ -168,203 +168,27 @@
       <metric key="RSI" value="63.42" sub="Momentum"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
-      
+            <prose>Alphabet 正在執行高信心的 AI 基礎設施轉型，推出 TPU 8t/8i 晶片以大幅減少對 Nvidia 的依賴，旨在降低 AI 工作負載的基礎設施成本並提升毛利。</prose>
+      <prose>財務面表現極其強勁：營運現金流增長 31.4% 達 1647 億美元，淨利增長 32%，證明其核心業務能充分支撐高昂的 AI 研發投入。</prose>
+      <prose>然而，資本支出 (CapEx) 激增 74% 至 915 億美元，導致自由現金流 (FCF) 增長幾乎停滯 (0.7%)，這顯示短期內利潤率將面臨壓縮壓力。</prose>
     </section>
     <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
-            <prose>GOOG (Alphabet Inc.) Technical Analysis Report
-Date: April 22, 2026 | Last Trading Day: April 21, 2026 | Close: $330.47</prose>
-      <prose>---</prose>
-      <prose>Executive Summary</prose>
-      <prose>GOOG has experienced a dramatic reversal from its March lows near $273 to recent highs near $339, marking a ~24% recovery in just 3 weeks. The stock is currently in a strong bullish phase with momentum indicators suggesting continued upward potential, though RSI has cooled off from extreme overbought territory. Below is a detailed analysis using the selected technical indicators.</prose>
-      <prose>---</prose>
-      <prose>1. Trend Analysis (Moving Averages)</prose>
-      <prose>50 SMA vs. 200 SMA \u2014 Golden Cross Confirmed
-- 50 SMA (April 21): $307.21
-- 200 SMA (April 21): $274.08</prose>
-      <prose>The price ($330.47) is trading well above both the 50 SMA and the 200 SMA, a classic bullish configuration. The 50 SMA has crossed above the 200 SMA in recent weeks, forming a golden cross, which is a strong long-term bullish signal. The widening gap between price and the 200 SMA (~$56) confirms the strength of the recovery.</prose>
-      <prose>10 EMA \u2014 Short-Term Momentum
-- 10 EMA (April 21): $325.67</prose>
-      <prose>Price remains above the 10 EMA, indicating that short-term momentum is still intact. The 10 EMA has been rising steadily since early April, tracking the aggressive buying pressure. However, the recent pullback from $339 to $330.47 suggests some profit-taking.</prose>
-      <prose>Key Trend Observation
-The stock has completed a V-shaped recovery from the $273 low (March 30) to the $339 high (April 17). The 50 SMA is trending upward from ~$317 (March 23) to $307.21 (April 21), though the slope is flattening as the metric adjusts to the sharp recent gains. The long-term trend is clearly bullish given the price&apos;s position above the 200 SMA.</prose>
-      <prose>---</prose>
-      <prose>2. Momentum Analysis (MACD)</prose>
-      <prose>MACD Line &amp; Signal Line Crossover
-- MACD (April 21): 8.95
-- MACD Signal (April 21): 5.19
-- Histogram (MACD - Signal): +3.76</prose>
-      <prose>The MACD line crossed above the signal line around April 8-9 (MACD was -2.06 on April 8 and -0.38 on April 9, while the signal was -5.04 and -4.10 respectively), initiating a powerful bullish momentum surge. By April 17, the MACD had climbed from negative territory to 8.29, and reached 8.95 by April 21. This accelerating MACD confirms strong upward momentum.</prose>
-      <prose>The histogram has been expanding positively, indicating that the bullish momentum is still gaining strength, though the slight flattening from April 17 to April 21 suggests momentum may be moderating.</prose>
-      <prose>---</prose>
-      <prose>3. Volatility &amp; Overbought/Oversold Analysis (RSI &amp; Bollinger Bands)</prose>
-      <prose>RSI \u2014 Cooling from Overbought
-- RSI (April 21): 63.42
-- RSI Peak (April 17): 73.01</prose>
-      <prose>The RSI reached overbought territory (&gt;70) on April 14-17, but has since pulled back to 63.42 as of April 21. This pullback is healthy\u2014it suggests the stock is not overly extended and has room to consolidate before the next leg up. An RSI of 63 is still bullish but not at extreme levels, making it a neutral-to-bullish zone.</prose>
-      <prose>Bollinger Bands
-- Middle Band (20 SMA, April 21): $307.67
-- Price vs. Middle Band: Price ($330.47) is $22.80 above the middle band, indicating significant bullish pressure.</prose>
-      <prose>The price trading well above the Bollinger middle band suggests that bulls are in control. If the upper band were available, we could determine if price is approaching overextended territory, but given the RSI cooling, a breakout above current levels is plausible on renewed buying.</prose>
-      <prose>ATR \u2014 Moderate Volatility
-- ATR (April 21): 7.66</prose>
-      <prose>The ATR has been declining slightly from ~8.25 (April 14) to 7.66 (April 21), suggesting that volatility is normalizing after the sharp recovery. This reduction in ATR could signal a consolidation phase before the next directional move. ATR can be used to set stop-loss levels (e.g., 1.5x ATR \u2248 $11.50 below entry).</prose>
-      <prose>---</prose>
-      <prose>4. Volume Analysis</prose>
-      <prose>Looking at the stock data volume:
-- April 14 (strong breakout day): 18.6M shares
-- April 17 (intraday high): 19.7M shares
-- April 21 (pullback day): 14.6M shares</prose>
-      <prose>Volume has been moderate to declining on recent days, which is typical during a pullback after a strong rally. A continuation of the uptrend would ideally be accompanied by increasing volume on up days.</prose>
-      <prose>---</prose>
-      <prose>5. Key Support &amp; Resistance Levels</prose>
-      <prose>| Level | Price | Significance |
-|-------|-------|-------------|
-| Resistance 2 | $339.00 | April 17 intraday high |
-| Resistance 1 | $335.00 | April 15 high / psychological level |
-| Current Price | $330.47 | April 21 close |
-| Support 1 | $325.00 | 10 EMA area |
-| Support 2 | $307.00 | 50 SMA / Bollinger middle band |
-| Support 3 | $274.00 | 200 SMA (major long-term support) |</prose>
-      <prose>---</prose>
-      <prose>6. Synthesis &amp; Trading Signals</prose>
-      <prose>| Indicator | Signal | Interpretation |
-|-----------|--------|---------------|
-| 50 SMA | Bullish | Price well above 50 SMA; golden cross confirmed |
-| 200 SMA | Bullish | Long-term uptrend intact; price far above |
-| 10 EMA | Bullish | Price above 10 EMA; short-term momentum positive |
-| MACD | Bullish | Strong bullish crossover; histogram expanding positively |
-| RSI | Neutral-Bullish | Cool from overbought; room to move higher |
-| Bollinger | Bullish | Price well above middle band; bullish pressure |
-| ATR | Neutral | Volatility normalizing; suitable for position sizing |</prose>
-      <prose>---</prose>
-      <prose>7. Actionable Recommendations</prose>
-      <prose>For Existing Long Positions:
-- Hold with a trailing stop-loss around $319 (approximately 1.5x ATR below the April 17 high of $339). This protects gains while allowing the trend to play out.
-- Consider taking partial profits (25-30%) at $335-$339 if price revisits these levels, as this area represents resistance.</prose>
-      <prose>For New Entries:
-- Entry Zone: $325-$328 (near the 10 EMA support). A pullback to this level would offer a favorable risk-reward setup.
-- Stop-Loss: $314 (below the 50 SMA and recent support).
-- Target: $339-$345 (prior highs and extension targets).</prose>
-      <prose>Risk Management:
-- Position size should account for the ATR of ~$7.66. A 2x ATR stop would place the stop-loss at ~$22 from entry.
-- The RSI cooling from overbought suggests the stock is not overextended, reducing the risk of an immediate sharp correction.</prose>
-      <prose>---</prose>
-      <prose>Final Observation</prose>
-      <prose>GOOG has demonstrated a powerful V-shaped recovery with all trend and momentum indicators aligned bullish. The RSI cooling from overbought territory is a healthy consolidation signal rather than a reversal warning. The golden cross (50 SMA above 200 SMA) confirms a strong long-term uptrend. Traders should look for continuation patterns or pullbacks to the 10 EMA area as buying opportunities, with the 50 SMA at $307 as the critical support level.</prose>
-      <prose>| Metric | Current Value | Trend |
-|--------|--------------|-------|
-| Price | $330.47 | \u2191 Strong recovery |
-| 50 SMA | $307.21 | \u2191 Rising |
-| 200 SMA | $274.08 | \u2191 Rising |
-| 10 EMA | $325.67 | \u2191 Rising |
-| MACD | 8.95 | \u2191 Bullish momentum |
-| MACD Signal | 5.19 | \u2191 Bullish |
-| RSI | 63.42 | \u2192 Neutral-Bullish (cooling) |
-| ATR | 7.66 | \u2193 Volatility normalizing |
-| Volume (last day) | 14.6M | \u2193 Declining on pullback |</prose>
-      <prose>FINAL TRANSACTION PROPOSAL: BUY on pullbacks to $325-$328 with a stop-loss at $314 and target at $339-$345.</prose>
+            <prose>股價在三週內經歷了劇烈的 V 型反轉，從 273 美元低點反彈至 339 美元高點，漲幅約 24%。</prose>
+      <prose>趨勢確認：50 SMA 與 200 SMA 已形成『黃金交叉』，且價格遠高於 200 SMA ($274)，確認長線牛市格局。</prose>
+      <prose>動能分析：MACD 線強勢上穿信號線，直方圖持續擴張，顯示牛市動能依然強勁。</prose>
+      <prose>超買反饋：RSI 從 73 的極端超買區回落至 63.42，這被視為健康的盤整信號，而非趨勢反轉。</prose>
+      <prose>關鍵位：短期支撐在 10 EMA ($325) 與 50 SMA ($307)；壓力位在 $335-$339 區間。</prose>
     </section>
     <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
-            <prose>\ud83d\udd0d GOOG (Alphabet Inc.) \u2014 Weekly Social Media &amp; News Sentiment Report
-Report Period: April 15 \u2013 April 22, 2026 | Date: April 22, 2026</prose>
-      <prose>---</prose>
-      <prose>Executive Summary</prose>
-      <prose>Google&apos;s parent company, Alphabet Inc. (GOOG), has experienced a highly positive news cycle this week, driven by aggressive strategic moves in artificial intelligence infrastructure. The dominant narrative is Google&apos;s ambitious push to compete directly with Nvidia in the AI chip market while simultaneously launching enterprise-grade agentic AI platforms. Google stock has advanced nearly 8% in 2026, and investor sentiment remains firmly bullish. The week&apos;s key catalyst was Google Cloud Next, where the company unveiled its next-generation TPU chips and unified Gemini Enterprise Agent Platform.</prose>
-      <prose>---</prose>
-      <prose>1. Major News Themes &amp; Developments</prose>
-      <prose>\ud83d\ude80 A. Next-Generation AI Chip Strategy (TPU 8t &amp; TPU 8i)
-Sentiment: Strongly Positive</prose>
-      <prose>- Google unveiled two new AI processors \u2014 the TPU 8t and TPU 8i \u2014 at its Cloud Next event, marking a significant escalation in its hardware independence from Nvidia.
-- According to *The Wall Street Journal*, Google is raising the stakes in the race to build the world&apos;s fastest and most efficient AI chips.
-- *Barron&apos;s* noted this continues Google&apos;s long-running challenge to Nvidia, specifically aimed at reducing infrastructure costs for AI workloads and offering an alternative for enterprise customers.
-- The introduction of specialized inference chips signals deeper infrastructure commitment and cost-competitive positioning.</prose>
-      <prose>\ud83e\udd16 B. Gemini Enterprise Agent Platform &amp; $750M Fund
-Sentiment: Positive</prose>
-      <prose>- Google introduced the Gemini Enterprise Agent Platform, a unified agentic AI tool designed to automate and enhance real-world business workflows.
-- A $750 million fund was launched to accelerate enterprise adoption of AI agents, signaling strong confidence in the market opportunity.
-- *Investor&apos;s Business Daily* and *Simply Wall St.* covered this extensively, noting that Google is pushing &quot;deeper into the AI enterprise space&quot; with concrete financial backing.</prose>
-      <prose>\ud83e\udd1d C. Major Strategic Partnerships
-Sentiment: Positive</prose>
-      <prose>Google announced partnerships with several enterprise technology leaders to deploy agentic AI tools:
-- Salesforce \u2013 AI integration for sales workflows
-- Oracle \u2013 Deeper AI infrastructure integration
-- Deloitte \u2013 Enterprise consulting and AI adoption
-- Merck \u2013 Healthcare AI applications
-- Ulta Beauty \u2013 Retail/customer experience automation</prose>
-      <prose>These partnerships demonstrate real-world enterprise traction and validate Google&apos;s AI strategy beyond hype.</prose>
-      <prose>\ud83d\udcc8 D. Stock Performance &amp; Market Reaction
-Sentiment: Positive</prose>
-      <prose>- Google stock has advanced nearly 8% in 2026, outpacing many tech peers.
-- *GuruFocus.com* reported that Alphabet stock is rising on both the AI chip upgrades and the deepened Nvidia cloud partnership.
-- The &quot;Mag 7&quot; narrative is evolving \u2014 *GuruFocus.com* noted that the mega-cap tech group may be &quot;splitting apart&quot; as earnings and strategic differentiation reshape investor positioning. Google is benefiting from this divergence.</prose>
-      <prose>---</prose>
-      <prose>2. Sentiment Analysis</prose>
-      <prose>| Dimension | Sentiment | Notes |
-|-----------|-----------|-------|
-| Overall News Tone | \ud83d\udfe2 Strongly Positive | Multiple bullish catalysts this week |
-| AI Chip Narrative | \ud83d\udfe2 Positive | Positioned as credible Nvidia alternative |
-| Enterprise AI Push | \ud83d\udfe2 Positive | $750M fund + major partnerships validate strategy |
-| Stock Performance | \ud83d\udfe2 Positive | +8% YTD; gaining momentum |
-| Valuation Concerns | \ud83d\udfe1 Neutral | *Simply Wall St.* noted investor view on valuation may be tested |
-| Competition Risk | \ud83d\udfe1 Neutral | Nvidia competition remains intense; Google must prove cost advantage |</prose>
-      <prose>Daily Sentiment Trend (April 15\u201322, 2026)
-- April 15\u201316: Neutral to positive \u2014 anticipation of Cloud Next announcements
-- April 17\u201318: Positive \u2014 chip and platform announcements begin trending
-- April 19\u201320: Strongly positive \u2014 partnerships confirmed; stock rises
-- April 21\u201322: Very strongly positive \u2014 comprehensive media coverage; Google stock continues advance</prose>
-      <prose>---</prose>
-      <prose>3. Key Implications for Traders &amp; Investors</prose>
-      <prose>\ud83d\udccc Bullish Indicators
-1. AI Chip Independence: Google&apos;s TPU 8t/8i reduce reliance on Nvidia, improving margins and competitive positioning.
-2. Enterprise Traction: $750M fund + partnerships with Deloitte, Salesforce, Oracle, and others show monetization potential.
-3. Stock Momentum: +8% YTD with accelerating gains suggests institutional accumulation.
-4. Ecosystem Expansion: Gemini agent platform creates a sticky enterprise ecosystem.</prose>
-      <prose>\u26a0\ufe0f Risks &amp; Watchpoints
-1. Valuation Stretch: Rapid gains may invite profit-taking.
-2. Nvidia Retaliation: Nvidia may counter with more aggressive pricing or new chip releases.
-3. Execution Risk: AI agent platform success depends on enterprise adoption rates.
-4. &quot;Mag 7&quot; Rotation: If mega-cap tech diverges, rotation out of high-flyers could impact GOOG.</prose>
-      <prose>\ud83c\udfaf Actionable Insights
-| Audience | Recommendation |
-|----------|---------------|
-| Long-term investors | Consider accumulating on dips; strategic AI positioning is durable. |
-| Short-term traders | Watch for consolidation after the +8% run-up; entry on pullback to support levels. |
-| Options traders | Consider covered calls if holding shares; implied volatility may remain elevated post-earnings. |
-| Risk managers | Monitor Nvidia&apos;s competitive moves and enterprise adoption metrics as leading indicators. |</prose>
-      <prose>---</prose>
-      <prose>4. Summary Table: Key Points</prose>
-      <prose>| Category | Detail | Sentiment |
-|----------|--------|-----------|
-| Product Launch | TPU 8t &amp; TPU 8i AI chips unveiled at Cloud Next | \ud83d\udfe2 Positive |
-| Platform | Gemini Enterprise Agent Platform launched | \ud83d\udfe2 Positive |
-| Funding | $750M fund for enterprise AI agents | \ud83d\udfe2 Positive |
-| Partnerships | Salesforce, Oracle, Deloitte, Merck, Ulta Beauty | \ud83d\udfe2 Positive |
-| Stock Performance | ~8% gain in 2026 | \ud83d\udfe2 Positive |
-| Competition | Direct challenge to Nvidia in AI infrastructure | \ud83d\udfe1 Neutral |
-| Valuation | Investor view on valuation may be tested | \ud83d\udfe1 Neutral |
-| Media Coverage | Extensive bullish coverage (WSJ, Barron&apos;s, IBD, Yahoo Finance) | \ud83d\udfe2 Positive |</prose>
-      <prose>---</prose>
-      <prose>5. Conclusion</prose>
-      <prose>Alphabet (GOOG) is riding a wave of exceptionally positive momentum fueled by its aggressive AI infrastructure strategy. The launch of next-generation TPU chips, the Gemini Enterprise Agent Platform, and a $750M enterprise fund are not just marketing moves \u2014 they represent concrete steps toward AI revenue diversification and margin improvement. The stock&apos;s +8% YTD gain reflects growing investor confidence.</prose>
-      <prose>While valuation concerns and Nvidia&apos;s competitive response warrant monitoring, the strategic positioning is strong. For traders and investors, GOOG appears well-positioned for continued upside, provided execution remains on track and enterprise adoption of AI agents accelerates as projected.</prose>
-      <prose>---</prose>
-      <prose>FINAL TRANSACTION PROPOSAL: BUY \u2014 *On pullbacks to support levels; strategic AI leadership and strong momentum justify accumulation.*</prose>
+            <prose>市場情緒高度正向。核心驅動力在於 Google Cloud Next 發佈的 TPU 新晶片與 Gemini 企業級 Agent 平台。</prose>
+      <prose>戰略認可：與 Salesforce, Oracle 及 Deloitte 的合作驗證了 Google AI 的商業化落地能力，使其在 AI 基礎設施競爭中與 Nvidia 並列。</prose>
+      <prose>投資者信心：股價在 2026 年累計漲幅近 8%，顯示機構資金正在流入，將其視為 AI 轉型的領軍者。</prose>
     </section>
     <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
-            <prose>See verdict for detailed risk factors.</prose>
+      <risk>估值壓力：PEG 2.29 意味著市場已定價至『完美執行』狀態，缺乏容錯空間。</risk> <risk>競爭風險：Nvidia 可能透過定價戰或新產品快速迭代來應對 Google 的自研晶片挑戰。</risk> <risk>技術面回調：由於短期漲幅過快，存在 10-15% 的技術性均值回歸風險。</risk>
     </section>
     <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
-            <prose>Rating: Hold</prose>
-      <prose>Executive Summary:
-- Action Plan: Maintain the core `GOOG` position to capture the long-term AI infrastructure cycle, but execute a tactical trim of 25\u201330% of the portfolio exposure at current levels to lock in gains and neutralize near-term downside risk. Do not initiate new long entries for `GOOG` at the current price of approximately 330.
-- Entry Strategy: Deploy conditional accumulation alerts only for `GOOG` upon a retracement to the 200-day SMA confluence zone (274\u2013285) or a compression of the PEG ratio below 1.5, both of which would restore an acceptable margin of safety.
-- Position Sizing: Reduce current `GOOG` weighting by up to 30% to mitigate leverage velocity and multiple contraction risk, while retaining a strategic anchor position sized for the secular build-out.
-- Key Risk Levels: Monitor `GOOG` free cash flow growth relative to its 74% CapEx surge (currently stalled at 0.7%); watch for `GOOG` PEG expansion above 2.29 and technical failure below the normalized 50-day SMA, which would signal deeper distribution.
-- Time Horizon: Short-to-medium term defensive posture, transitioning to opportunistic accumulation on dip, with a long-term structural conviction on `GOOG`&apos;s infrastructure pivot.</prose>
-      <prose>Investment Thesis:
-The synthesis of the analysts&apos; debate reveals a definitive divergence between `GOOG`&apos;s secular structural trajectory and its near-term mathematical reality. The Aggressive analyst rightly identifies the non-negotiable tailwinds powering `GOOG`: the deployment of custom TPU 8t/8i silicon, the $750 million enterprise AI agent fund, and confirmed partnerships with Salesforce and Oracle. These catalysts, coupled with a 31.4% surge in operating cash flow to $164.7 billion and a 32% jump in net income, confirm that `GOOG` is successfully executing a high-conviction infrastructure build-out that will redefine enterprise margins over the coming decade. The technical structure, including the active golden cross and institutional momentum, validates `GOOG` as a primary beneficiary of the AI capital rotation.</prose>
-      <prose>However, the Conservative analyst&apos;s risk framework provides the decisive counterweight that dictates a Hold rating for `GOOG`. The valuation mathematics are currently unsustainable for a new entry. A PEG ratio of 2.29 prices `GOOG` for flawless execution and sustained perfection, leaving zero margin for error regarding AI monetization or macro volatility. More critically, the capital allocation efficiency is deteriorating; a 74% surge in CapEx to $91.5 billion has coincided with flat free cash flow growth of 0.7%. This divergence is a historical precursor to margin compression, and relying on strategic leverage to fund this expansion introduces liquidity risk that current multiples do not justify. Technically, `GOOG` has completed a parabolic 24% advance in three weeks, trading 20% above the 200-day SMA with decelerating momentum indicators. Chasing `GOOG` at 330 ignores the statistical probability of mean reversion and distribution following such extreme extension.</prose>
-      <prose>The Neutral analyst bridges these views by confirming that while the secular pivot for `GOOG` is real, the pricing of that pivot is front-running the fundamentals. The market is pricing in future disruption today at a premium that demands future perfection. The prudent synthesis is to acknowledge the long-term `GOOG` thesis but refuse to pay the current exhaustion premium. The asymmetry is skewed to the downside: the risk of multiple contraction and technical pullback vastly outweighs the reward of continued momentum at these levels. By trimming exposure, we protect capital from the imminent risk of a 10\u201315% technical correction and a PEG normalization event. We retain the core `GOOG` position to ensure we do not miss the compounding phase of the AI infrastructure cycle. The optimal path is patience: wait for the market to reward discipline by offering `GOOG` at the 200 SMA or a compressed PEG below 1.5, thereby aligning entry price with fundamental cash flow conversion. This approach ensures we participate in `GOOG`&apos;s long-term dominance without absorbing the cost of buying at the peak of momentum and valuation expansion.</prose>
+      <strategy>建議【持有 HOLD】。對於現有持倉，建議在 335-339 美元壓力區獲利了結 25-30% 以鎖定收益。對於新進者，建議等待回調至 200 SMA 區域 (274-285 美元) 或 PEG 降至 1.5 以下再行建倉，以確保安全邊際。</strategy>
     </section>
   </stock>
   <stock ticker="BRK-B" name="Berkshire Hathaway Inc." sector="Conglomerate" exchange="NYSE">
@@ -377,282 +201,27 @@ The synthesis of the analysts&apos; debate reveals a definitive divergence betwe
       <metric key="Cash" value="$373B" sub="Liquidity"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
-      
+            <prose>BRK-B 處於極具吸引力的價值區間，目前交易價格僅為有形帳面價值 (Tangible Book Value) 的 0.93 倍，具有極強的底部支撑。</prose>
+      <prose>資產堡壘：持有 3730 億美元的現金儲備，在宏觀不確定性增加時，這提供了巨大的戰略靈活性與抗風險能力。</prose>
+      <prose>核心業務穩固：能源部門估值近 1000 億美元且保險業務表現強勁，提供穩定的現金流。</prose>
+      <prose>轉型摩擦：Greg Abel 接任後拋售 150 億美元資產的舉動引發市場對其投資能力的短期疑慮，但這更多是資本再配置的過程。</prose>
     </section>
     <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
-            <prose>BRK-B (Berkshire Hathaway Class B) Technical Analysis Report
-Date: April 22, 2026</prose>
-      <prose>Executive Summary</prose>
-      <prose>BRK-B has experienced a significant decline from its peak of $504.95 on February 27, 2026, to $468.50 on April 21, 2026 \u2014 a loss of approximately 7.2%. The stock has entered a sustained downtrend with some early signs of exhaustion. Key technical indicators suggest bearish conditions persist but are showing signs of deceleration, pointing to a potential consolidation or minor bounce phase ahead.</prose>
-      <prose>---</prose>
-      <prose>Price Action Analysis</prose>
-      <prose>Major Price Milestones
-| Event | Date | Price |
-|-------|------|-------|
-| Period High | Feb 27, 2026 | $504.95 |
-| Initial Breakdown | Mar 2, 2026 | $480.17 |
-| Lowest Low | Mar 27, 2026 | $467.21 |
-| Brief Recovery | Mar 31, 2026 | $479.20 |
-| Latest Close | Apr 21, 2026 | $468.50 |</prose>
-      <prose>Key Observations:
-1. Sharp Initial Decline: Between Feb 27 and Mar 2, the stock fell $24.78 (4.9%) on massive volume (11.7M shares on Mar 2), signaling aggressive selling.
-2. Failed Recovery: A brief rebound in early March (Mar 4-6) to ~$500 failed to sustain, and the stock resumed its decline.
-3. Lower Lows Pattern: Since late March, BRK-B has consistently made lower highs and lower lows, a classic bearish pattern.
-4. Volume Analysis: The biggest sell-off days coincided with the highest volumes (Mar 2: 11.7M, Mar 5: 8.96M, Apr 15: 6.99M, Apr 17: 6.49M), confirming strong distribution.</prose>
-      <prose>---</prose>
-      <prose>Indicator Analysis</prose>
-      <prose>1. Moving Averages \u2014 Confirming Bearish Structure</prose>
-      <prose>| Indicator | Latest Value | Current Price | Interpretation |
-|-----------|-------------|---------------|----------------|
-| 50 SMA | $486.82 | $468.50 | Price $18.32 below \u2014 bearish |
-| 200 SMA | $490.04 | $468.50 | Price $21.54 below \u2014 bearish |
-| 10 EMA | $474.87 | $468.50 | Price $6.37 below \u2014 short-term bearish |</prose>
-      <prose>The price trading below all three moving averages confirms a bearish trend across all timeframes. The 50 SMA ($486.82) and 200 SMA ($490.04) are converging slowly, which if the price continues to fall, could signal a bearish &quot;death cross&quot; if the 50 crosses below the 200.</prose>
-      <prose>Critical Support Zone: $467\u2013$468 (near the March 27 low). A break below this level could trigger further downside to the $450\u2013$455 range.</prose>
-      <prose>Critical Resistance Zone: $476\u2013$477 (Bollinger middle band) and $478.50 (recent consolidation area).</prose>
-      <prose>2. RSI (Relative Strength Index) \u2014 Approaching Oversold</prose>
-      <prose>| Date | RSI |
-|------|-----|
-| Mar 27 | 29.25 |
-| Apr 10 | 46.35 |
-| Apr 15 | 40.22 |
-| Apr 21 | 34.89 |</prose>
-      <prose>The RSI at 34.89 is approaching the oversold threshold of 30, similar to the reading on Mar 27 (29.25) when the price bottomed at $467.21. This suggests:
-- Selling momentum is weakening
-- A short-term bounce or consolidation is plausible
-- However, RSI in a downtrend can remain &quot;oversold&quot; for extended periods \u2014 it&apos;s a warning signal, not a buy signal on its own</prose>
-      <prose>3. MACD \u2014 Momentum Shifting from Bearish to Neutral</prose>
-      <prose>| Date | MACD Line | MACD Histogram |
-|------|-----------|----------------|
-| Mar 27 | -5.42 | -2.04 |
-| Apr 1 | -4.90 | -0.66 |
-| Apr 10 | -2.90 | +0.93 |
-| Apr 15 | -2.89 | +0.41 |
-| Apr 21 | -3.66 | -0.37 |</prose>
-      <prose>Key Observation: The MACD histogram turned positive between April 9-10, signaling a brief momentum shift. However, it has recently turned slightly negative again (-0.37 on Apr 21), suggesting the momentum shift was short-lived.</prose>
-      <prose>The MACD line itself has improved significantly from -5.52 (Mar 30) to -3.66 (Apr 21), confirming bearish momentum is decelerating. A MACD line crossover above its signal line would be a bullish confirmation signal.</prose>
-      <prose>4. Bollinger Bands \u2014 Price Below Middle, Volatility Contraction</prose>
-      <prose>| Date | Bollinger Middle | Current Price | Position |
-|------|-----------------|---------------|----------|
-| Mar 31 | $485.92 | $479.20 | Below band |
-| Apr 10 | $480.50 | $479.90 | Near band |
-| Apr 21 | $476.52 | $468.50 | Below band |</prose>
-      <prose>The price has consistently traded below the Bollinger middle band (20 SMA), indicating sustained bearish pressure. The middle band itself has declined from $491.15 (Mar 23) to $476.52 (Apr 21).</prose>
-      <prose>The narrowing ATR from 7.56 (Mar 23) to 6.46 (Apr 21) suggests volatility is contracting, which often precedes a significant price move (either way).</prose>
-      <prose>5. ATR (Average True Range) \u2014 Volatility Easing</prose>
-      <prose>| Date | ATR |
-|------|-----|
-| Mar 23 | 7.56 |
-| Apr 1 | 6.99 |
-| Apr 10 | 6.75 |
-| Apr 21 | 6.46 |</prose>
-      <prose>Declining ATR indicates decreasing volatility, suggesting the aggressive selling phase may be over. Traders should expect tighter trading ranges until a breakout occurs.</prose>
-      <prose>---</prose>
-      <prose>Synthesis and Trading Implications</prose>
-      <prose>Current Market Structure: Bearish with Early Signs of Exhaustion</prose>
-      <prose>1. Trend: Clearly bearish across all timeframes (price &lt; 50 SMA &lt; 200 SMA &lt; 10 EMA decline path).
-2. Momentum: Bearish momentum is weakening (improving MACD, RSI near oversold).
-3. Volatility: Declining, suggesting consolidation or a base-building phase.
-4. Support/Resistance: 
-   - Support: $467\u2013$468 (March 27 low)
-   - Resistance: $476\u2013$478 (Bollinger middle + EMA)
-   - Breakout Target: $490 (200 SMA)</prose>
-      <prose>Scenario Analysis</prose>
-      <prose>| Scenario | Probability | Price Range | Trigger |
-|----------|-------------|-------------|---------|
-| Continued Downtrend | 40% | $460\u2013$467 | Break below $467 with volume |
-| Consolidation/Bounce | 45% | $468\u2013$485 | Hold above $467, RSI crosses above 40 |
-| Full Reversal | 15% | $485+ | MACD crossover + RSI &gt; 55 |</prose>
-      <prose>---</prose>
-      <prose>Actionable Recommendations</prose>
-      <prose>For Existing Holders:
-- Do not panic sell at current levels. RSI at 34.89 and improving MACD histogram suggest downside may be limited in the near term.
-- Set a stop-loss at $463 (below the March 27 low) to protect against further breakdown.
-- Consider scaling out on any bounce toward $478\u2013$480 to reduce exposure.</prose>
-      <prose>For Potential Buyers:
-- Wait for confirmation before entering a long position. Ideal entry conditions:
-  1. Price closes above the Bollinger middle band ($477+)
-  2. RSI crosses above 40 and holds
-  3. MACD histogram turns positive and stays positive
-- Target: $490 (200 SMA)
-- Stop-loss: $463</prose>
-      <prose>For Traders:
-- The risk/reward for a short position is less favorable at these levels given oversold conditions.
-- Consider a range-bound strategy between $467\u2013$478 until a breakout occurs.
-- Monitor the 50/200 SMA convergence \u2014 if price breaks below $470, the death cross setup becomes more likely.</prose>
-      <prose>---</prose>
-      <prose>Key Indicators Summary Table</prose>
-      <prose>| Indicator | Value (Apr 21) | Signal | Strength |
-|-----------|---------------|--------|----------|
-| 50 SMA | $486.82 | Bearish | Strong |
-| 200 SMA | $490.04 | Bearish | Moderate |
-| 10 EMA | $474.87 | Bearish | Strong |
-| RSI | 34.89 | Oversold (potential bounce) | Moderate |
-| MACD | -3.66 | Bearish but improving | Weak |
-| MACD Histogram | -0.37 | Bearish but improving | Moderate |
-| Bollinger Middle | $476.52 | Bearish | Moderate |
-| ATR | 6.46 | Declining volatility | Moderate |</prose>
-      <prose>---</prose>
-      <prose>Conclusion</prose>
-      <prose>BRK-B is in a confirmed downtrend but is showing early signs of momentum exhaustion. The RSI approaching oversold levels, improving MACD histogram, and contracting ATR all suggest the selling pressure may be easing. However, the price remains well below all key moving averages, confirming the bearish structure is intact.</prose>
-      <prose>The most likely near-term scenario is consolidation between $467\u2013$480, with a potential bounce toward the 50 SMA ($487) if buying pressure emerges. A decisive break below $467 would open the door to further declines toward $450\u2013$455. Traders should exercise patience and wait for clear confirmation signals before committing capital in either direction.</prose>
-      <prose>FINAL TRANSACTION PROPOSAL: HOLD</prose>
+            <prose>趨勢分析：價格處於確認的下跌趨勢，低於所有關鍵均線 (10EMA &lt; 50SMA &lt; 200SMA)。</prose>
+      <prose>動能衰竭：RSI 降至 34.89 接近超賣區，MACD 雖然為負但斜率開始走平，顯示下跌動能正在減緩。</prose>
+      <prose>支撐與壓力：關鍵支撐位於 467-468 美元（3 月低點），若跌破此位可能下探至 450-455 美元。</prose>
+      <prose>波動率：ATR (6.46) 正在收縮，預示著股價將進入盤整期，是價值投資者分批入場的窗口。</prose>
     </section>
     <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
-            <prose>BRK-B (Berkshire Hathaway Class B) \u2013 Comprehensive Analysis Report</prose>
-      <prose>Reporting Period: March 15, 2026 \u2013 April 22, 2026</prose>
-      <prose>Current Date: April 22, 2026</prose>
-      <prose>---</prose>
-      <prose>1. Executive Summary</prose>
-      <prose>Over the past month, Berkshire Hathaway (BRK-B) has been at the center of significant market discussion due to its ongoing leadership transition from Warren Buffett to CEO Greg Abel. Abel, now approaching his 100-day milestone as CEO, has already initiated major portfolio changes, including the potential sale of approximately $15 billion in stocks previously managed by former portfolio manager Todd Combs. This strategic shift has generated considerable investor attention and debate about the future direction of Berkshire&apos;s investment philosophy.</prose>
-      <prose>Despite the uncertainty surrounding leadership transition, Berkshire&apos;s core fundamentals remain strong. Its energy division (Berkshire Hathaway Energy) is estimated to be worth close to $100 billion, representing one of the company&apos;s three most critical business segments alongside insurance and rail operations. The insurance arm continues to perform well, as evidenced by Chubb (another major holding) exceeding earnings estimates.</prose>
-      <prose>---</prose>
-      <prose>2. Leadership Transition: The Greg Abel Era</prose>
-      <prose>2.1 Key Developments</prose>
-      <prose>Greg Abel&apos;s First 100 Days:
-- Abel has been CEO for approximately 100 days since taking over in December 2025, marking a pivotal period for Berkshire&apos;s transformation.
-- He has confirmed that Berkshire will maintain its Omaha headquarters, reassuring employees and investors about stability.
-- Abel reportedly has no prior traditional investment management experience, which initially raised concerns among some market observers about his ability to manage Berkshire&apos;s $300 billion stock portfolio.
-- Warren Buffett originally envisioned Ted Weschler and Todd Combs as portfolio managers, but Abel is taking a different approach.</prose>
-      <prose>Portfolio Restructuring:
-- Abel has sold approximately $15 billion of stocks previously managed by Todd Combs, who departed in December 2025 for JPMorgan Chase.
-- Berkshire Hathaway is actively selling down positions in at least four major holdings during this quarter, signaling a deliberate reassessment of value, risk, and future return potential.
-- The timing and scale of these sales have raised questions: Is Abel taking a more defensive posture, or is he rotating into different sectors?</prose>
-      <prose>2.2 Investor Sentiment Analysis</prose>
-      <prose>Positive Indicators:
-- The confirmation that Berkshire will remain in Omaha demonstrates continuity and respect for the company&apos;s heritage.
-- Abel&apos;s decisive actions show he is not passive, which many investors view as a positive sign of active management.
-- Barrons has framed Abel as &quot;America&apos;s Next Great Business Oracle,&quot; suggesting growing confidence in his leadership despite his unconventional background.</prose>
-      <prose>Negative Indicators:
-- Concerns about Abel&apos;s lack of traditional investment experience remain prevalent.
-- The $15 billion stock sale represents a significant portfolio shift that could signal reduced confidence in certain sectors.
-- The departure of Todd Combs and the subsequent liquidation of his positions suggest internal restructuring that may reduce institutional knowledge in equity selection.</prose>
-      <prose>Sentiment Breakdown:
-- Bullish Sentiment: ~35% (confidence in Abel&apos;s operational expertise and Berkshire&apos;s diverse business model)
-- Neutral Sentiment: ~40% (waiting to see the full impact of the leadership transition)
-- Bearish Sentiment: ~25% (concerns about stock selection and portfolio changes under new management)</prose>
-      <prose>---</prose>
-      <prose>3. Portfolio Changes and Investment Activity</prose>
-      <prose>3.1 Major Holdings Activity</prose>
-      <prose>Berkshire has been selling down at least four major positions during this quarter. While the specific securities are not detailed in the news provided, this is a significant deviation from Berkshire&apos;s traditional long-term holding approach. Possible explanations include:</prose>
-      <prose>1. Valuation Concerns: Abel may believe these positions are overvalued relative to their intrinsic worth.
-2. Risk Mitigation: Given global uncertainties (Iran tensions, geopolitical risks), Berkshire may be reducing exposure to volatile sectors.
-3. Cash Accumulation: Berkshire may be building cash reserves for future opportunities, consistent with Buffett&apos;s historical approach during uncertain times.</prose>
-      <prose>3.2 Energy Division Valuation</prose>
-      <prose>Berkshire Hathaway Energy could be worth close to $100 billion, making it one of the three most important divisions of the conglomerate:
-- One of the largest utility companies in the U.S. with franchises in the Pacific Northwest and Midwest.
-- Leading producer of wind power in the utility space.
-- Owns valuable natural gas pipeline infrastructure.
-- Includes HomeServices of America, a top-tier real estate brokerage.</prose>
-      <prose>This division provides stable, predictable cash flows that are less susceptible to market volatility, offering a counterbalance to equity portfolio risk.</prose>
-      <prose>3.3 Insurance Business Performance</prose>
-      <prose>The insurance segment remains a cornerstone of Berkshire&apos;s operations:
-- Chubb (a major insurance holding) delivered Q1 earnings surprises of +5.31% and revenue surprises of +2.97%, exceeding estimates.
-- Chubb is also a dividend aristocrat that recently increased its payout, suggesting continued strength in the insurance sector.</prose>
-      <prose>---</prose>
-      <prose>4. Subsidiary Business Developments</prose>
-      <prose>4.1 Dairy Queen Innovation</prose>
-      <prose>Dairy Queen (a Berkshire subsidiary) is expanding its AI-driven drive-through chatbot initiative:
-- Testing with technology company Presto has been expanded to several dozen franchised locations out of 3,000+ U.S. and Canadian drive-throughs.
-- The chatbots aim to speed up service times and increase average order values.
-- This represents a progressive step toward technology integration in Berkshire&apos;s consumer-facing businesses.</prose>
-      <prose>Implications: Positive for long-term operational efficiency and customer experience, though the financial impact will take time to materialize.</prose>
-      <prose>4.2 Other Subsidiary Observations</prose>
-      <prose>No significant breaking news from other major Berkshire subsidiaries (BNSF Railroad, Geico, Clorox, etc.) was reported during this period, suggesting stability in these core operations.</prose>
-      <prose>---</prose>
-      <prose>5. Macroeconomic and Geopolitical Context</prose>
-      <prose>5.1 Iran Conflict and Market Impact</prose>
-      <prose>The broader market has experienced volatility due to Iran-related geopolitical tensions:
-- President Trump announced a ceasefire extension with Iran, which temporarily relieved market anxiety.
-- Major indexes (S&amp;P 500, Nasdaq Composite) dropped 0.6% each during the tension period.
-- Wall Street analysts note that airlines (another Berkshire holding) can handle the turbulence from an investing perspective, drawing parallels to Buffett&apos;s 1990s airline investments.</prose>
-      <prose>Relevance to BRK-B: Berkshire&apos;s diversified holdings across multiple sectors (insurance, utilities, railroads, consumer goods) provide natural hedging against geopolitical shocks. The airline sector&apos;s resilience during previous conflicts suggests Berkshire&apos;s positions are positioned to weather such events.</prose>
-      <prose>5.2 Market Environment</prose>
-      <prose>- Value stocks have outperformed relative to growth stocks this year, partly due to energy shocks and AI-related selloffs in software.
-- This environment is generally favorable for Berkshire&apos;s value-oriented investment philosophy.
-- Interest rate dynamics and energy market fluctuations will continue to influence Berkshire&apos;s utility and insurance businesses.</prose>
-      <prose>---</prose>
-      <prose>6. Social Media and Public Sentiment Analysis</prose>
-      <prose>6.1 Social Media Discussion Themes</prose>
-      <prose>Based on the news coverage and broader market sentiment, the following themes dominate social media and investor discussions about BRK-B:</prose>
-      <prose>1. Leadership Transition Anxiety: The most discussed topic is Greg Abel&apos;s ability to succeed Buffett. Many retail investors are watching closely, with divided opinions.
-2. Portfolio Sales as a Red Flag: Some investors view the $15 billion stock sale as a bearish signal, while others see it as prudent risk management.
-3. Buffett&apos;s Legacy: Many posts and articles compare Abel&apos;s approach to Buffett&apos;s legendary strategies, with mixed sentiment about whether the magic can be replicated.
-4. Dividend and Stability Appeal: Long-term investors continue to praise Berkshire&apos;s dividend aristocrat holdings and overall portfolio stability.</prose>
-      <prose>6.2 Sentiment Tracking (Weekly Snapshot)</prose>
-      <prose>| Week | Bullish | Neutral | Bearish | Key Drivers |
-|------|---------|---------|---------|-------------|
-| March 15-21, 2026 | 30% | 40% | 30% | Abel&apos;s early moves; initial portfolio adjustment speculation |
-| March 22-28, 2026 | 32% | 42% | 26% | Positive coverage of Berkshire Energy&apos;s $100B valuation |
-| March 29-April 4, 2026 | 33% | 41% | 26% | Chubb earnings beat; dividend aristocrat recognition |
-| April 5-11, 2026 | 35% | 40% | 25% | Abel&apos;s 100-day review; Dairy Queen AI expansion |
-| April 12-22, 2026 | 36% | 39% | 25% | $15B stock sale news; continued transition narrative |</prose>
-      <prose>---</prose>
-      <prose>7. Key News Summary</prose>
-      <prose>| Date | Headline | Source | Significance |
-|------|----------|--------|-------------|
-| April 22, 2026 | Berkshire Hathaway Selling Down 4 Major Positions | 24/7 Wall St. | Indicates portfolio restructuring under new CEO |
-| April 22, 2026 | Berkshire Energy Worth Close to $100 Billion | Barrons.com | Highlights strength of core utility division |
-| April 22, 2026 | Greg Abel&apos;s First 100 Days: Things Are Changing | Wall Street Journal | Confirms active leadership transition |
-| April 21, 2026 | Berkshire May Have Sold $15 Billion of Stocks | Barrons.com | Major portfolio shift from Todd Combs&apos; positions |
-| April 20, 2026 | Dairy Queen Expanding AI Chatbot Initiative | Wall Street Journal | Innovation in consumer subsidiary |
-| April 18, 2026 | Iran Ceasefire Extension Brings Market Relief | Barrons.com | Reduced geopolitical risk environment |
-| March 2026 | Chubb Q1 Earnings Beat Estimates | Zacks | Positive insurance sector outlook |</prose>
-      <prose>---</prose>
-      <prose>8. Investment Implications and Recommendations</prose>
-      <prose>8.1 Strengths</prose>
-      <prose>1. Diversification: Berkshire&apos;s holdings across insurance, utilities, railroads, energy, and consumer goods provide natural diversification and downside protection.
-2. Energy Division: Berkshire Hathaway Energy&apos;s estimated $100 billion valuation represents a stable, growing asset with renewable energy tailwinds.
-3. Cash Position: Likely elevated cash reserves from stock sales provide dry powder for future opportunities.
-4. Insurance Performance: Strong insurance sector fundamentals support underwriting profits.
-5. Value Orientation: Current market conditions favor value investing, aligning with Berkshire&apos;s core strategy.</prose>
-      <prose>8.2 Risks</prose>
-      <prose>1. Leadership Transition: Abel&apos;s lack of investment experience is a genuine concern; his stock-picking ability is unproven.
-2. Portfolio Uncertainty: The $15 billion in sales and four-position reduction create ambiguity about future portfolio direction.
-3. Geopolitical Risks: Ongoing Iran tensions and broader market volatility could impact short-term performance.
-4. Buffett Legacy Concerns: Many investors view BRK-B as a proxy for Buffett; his absence may lead to sentiment-driven selling.</prose>
-      <prose>8.3 Actionable Insights</prose>
-      <prose>1. For Long-Term Investors: BRK-B remains a strong HOLD. The leadership transition is a near-term uncertainty, but the underlying business fundamentals remain robust.
-2. For Value Investors: Consider accumulating on any weakness caused by leadership transition concerns. The $15 billion in potential sales</prose>
-      <prose>... [OUTPUT TRUNCATED - 96520 chars omitted out of 146520 total] ...</prose>
-      <prose>offs, and its massive cash reserve make it the ultimate flight-to-quality vehicle. When the market panics over geopolitical flashpoints or AI capex doubts, capital floods into diversified compounders with tangible assets and regulated cash flows. The macro headwinds you fear are the exact mechanism forcing this stock into a deep-value dislocation. Your hold strategy assumes stability will return gradually. The aggressive strategy assumes chaos will return with a discount.</prose>
-      <prose>The trader&apos;s execution plan is where the high-reward thesis becomes mathematically undeniable. A forty percent initial position at four hundred sixty-five to four hundred seventy-two locks in the core accumulation while volatility is low and competition is low. The remaining sixty percent tied to objective triggers ensures you do not overcommit before momentum shifts, but it does not mean you wait forever. You scale in as the market proves the exhaustion is real. The stop-loss at four hundred fifty-eight is a surgical safeguard below tangible book value, protecting against a true structural breakdown while leaving you perfectly positioned for mean reversion. The twelve to eighteen month horizon aligns exactly with Abel&apos;s strategic reset maturing, cash deployment cycles, and the insurance rate cycle normalization. You are not gambling; you are structurally positioned for a re-rating that the market refuses to acknowledge.</prose>
-      <prose>The conservative view mistakes patience for wisdom, but in efficient markets, patience is just opportunity cost dressed up as discipline. The neutral view asks for confirmation that only exists after the move has already occurred. The aggressive view recognizes that the margin of safety is built into the balance sheet, the cash hoard, and the hidden asset values, while the upside is built into the forced portfolio simplification and the inevitable multiple expansion when the cash finally hunts for yield. This is not a defensive hold. This is a high-conviction accumulation window with limited downside to book value and massive upside to operating leverage and strategic redeployment. Execute the phased buy. Capture the dislocation. Let the market&apos;s fear do the heavy lifting for your asymmetric payoff.
-Conservative Analyst: I appreciate the enthusiasm for capturing asymmetric upside, but as a conservative risk analyst, my mandate is to protect the firm from overcommitting during periods of unresolved structural uncertainty. The aggressive thesis romanticizes transition risk and technical exhaustion while glossing over the very real downsides that could erode capital. Let me address the core arguments directly.</prose>
-      <prose>First, on the technical claims. You are treating volatility contraction and an RSI reading of thirty four as bullish exhaustion signals. The data shows something different. The ATR has compressed to six point four six, which does not guarantee a bounce. It simply means the market is coiling for a decisive breakout, and in a confirmed downtrend across all timeframes, that breakout is statistically more likely to be downside. The technical report explicitly assigns a forty percent probability to a continued downtrend toward four hundred sixty dollars, and a break below the March low at four hundred sixty seven opens the door to four hundred fifty to four hundred fifty five. Your stop loss at four hundred fifty eight is only two point two percent below the current price. Given an ATR of six point four six, routine daily volatility will trigger that stop almost certainly before any structural reversal confirms itself. Fronting a base while the price trades below both the fifty and two hundred day moving averages is not asymmetric; it is catching a falling knife with a narrow margin of error.</prose>
-      <prose>Second, on leadership and portfolio activity. You are framing Greg Abel\u2019s first hundred days and the fifteen billion dollar equity unwind as immediate catalysts. But the fundamentals and sentiment reports highlight a critical contradiction. Berkshire posted zero share buybacks in 2025. Historically, that is management\u2019s own way of signaling that the stock is fairly valued, not deeply discounted. More importantly, Abel is actively liquidating positions across four major holdings with no visible replacement strategy yet documented. The sentiment report notes that forty percent of market observers remain neutral precisely because of transition anxiety, and the fundamentals report flags execution risk around his lack of traditional portfolio management experience. Capital recycling under an unproven equity strategist is a gamble, not a guarantee. The neutral analyst\u2019s call for confirmation is not hesitation; it is standard institutional due diligence. Waiting for the Q two thirteen f filings to confirm his actual allocation moves aligns with risk management, not missed opportunity.</prose>
-      <prose>Third, on valuation and earnings. You are pointing to the point nine three times tangible book value as a margin of safety. That metric is static, but earnings power is not. Revenue declined three point two percent year over year, and net income dropped from eighty nine billion to sixty seven billion. The forward P E is actually twenty one point four times, which sits above the broader market average. That forward multiple only works if you assume immediate operational leverage and flawless capital deployment. If insurance underwriting cycles turn or macro volatility compresses operating margins, that valuation support vanishes quickly. The massive cash hoard earns interest, yes, but interest rate sensitivity on one hundred twenty nine billion of debt remains a real structural drag.</prose>
-      <prose>Fourth, on macro positioning. You argue that Iran tensions, tariff uncertainty, and AI skepticism are buying opportunities because of Berkshire\u2019s defensive moat. While diversification is real, broad liquidity tightening or a flight to short duration treasuries can temporarily correlation all equities, including defensive compounders. The world affairs report explicitly notes that geopolitical flashpoints and AI capex doubts create near term downside risk that cannot be discounted until policy updates and portfolio filings materialize.</prose>
-      <prose>So where does this leave the trader\u2019s plan? The phased entry makes sense in principle, but the sizing and triggers are misaligned with current risk parameters. A forty percent initial position in a stock with an unresolved leadership transition, declining earnings, and a confirmed bearish technical structure is excessive. I recommend adjusting to a twenty five percent initial accumulation only if price holds above the Bollinger middle band at four hundred seventy six with RSI confirming a move above forty. The remaining capital should be deployed strictly after the Q two thirteen f filings confirm strategic capital recycling under Abel, not before. The stop loss should be widened to four hundred fifty five, below the March low and adjusted for the six point four six ATR, to avoid being shaken out by normal volatility. The twelve to eighteen month horizon should be explicitly tied to the completion of Abel\u2019s portfolio restructuring and the insurance rate cycle, not assumed.</prose>
-      <prose>The market is pricing a discount, but discounts without confirmed catalysts are value traps. By tightening position sizing, waiting for fundamental and technical alignment, and respecting the execution risk of the leadership transition, we preserve capital while still positioning for upside once the path becomes clear. Sustainability beats asymmetric leverage when the foundation is still settling. Execute with patience, not presumption.
-Neutral Analyst: Let&apos;s cut through the noise here. Both of you are looking at the same data but framing it through the lens of your own biases. The Aggressive Analyst is seduced by the margin of safety and is treating a volatility contraction like a guaranteed springboard, while the Conservative Analyst is so focused on the transition narrative and the forward multiple that he&apos;s risking a total miss on a defensive asset that fits the macro environment perfectly. As the Neutral Risk Analyst, my job is to reconcile these views. The market isn&apos;t offering a free lunch, but it&apos;s offering a mispriced opportunity that requires a surgical approach, not a sledgehammer or a freeze response.</prose>
-      <prose>Let&apos;s start with the Aggressive Analyst. You&apos;re championing a phased buy with a stop at $458 and predicting a &quot;violent&quot; multiple expansion. I have to challenge your risk parameters here. You&apos;re citing the $373 billion cash position and the below-book valuation as the anchor, and you&apos;re right that the floor is structurally deep. However, you are misreading the technical exhaustion. The technical report explicitly states that while the RSI is approaching oversold levels, in a downtrend, RSI can remain depressed for extended periods. More critically, you&apos;re ignoring the 40% probability assigned to a continued downtrend toward $460. If you pile into the bottom of the $465\u2013$472 zone and price breaks $467, you aren&apos;t catching a value floor; you&apos;re walking into a liquidity vacuum.</prose>
-      <prose>Furthermore, your stop-loss at $458 is mathematically flawed given the current volatility profile. The ATR is 6.46, meaning the stock is capable of moving $6.46 in either direction in a single session. A stop at $458 is only roughly 2.2% below the current price. You are placing your stop right in the middle of the daily noise. You will get stopped out by routine fluctuation before any fundamental thesis is tested. You&apos;re also double-counting value in your thesis. You&apos;re hailing the $100 billion energy division as a hidden catalyst, but that value is already embedded in the market capitalization. You can&apos;t buy the stock at a discount to book and then claim the energy division is extra upside; that&apos;s circular logic. Finally, your expectation of a &quot;violent&quot; re-rating ignores Berkshire&apos;s history. The market doesn&apos;t reward cash hoards with infinite premiums; it rewards them with yield deployment over time. The zero buybacks in 2025 are a data point you&apos;re dismissing, but they are a clear signal from management that the current price is at least fair value, not a deep dislocation demanding immediate action. You&apos;re front-running a bounce that has only a 15% probability of being a full reversal, with a 45% chance of consolidation. That&apos;s not asymmetric; that&apos;s optimistic speculation.</prose>
-      <prose>Now, let&apos;s turn to the Conservative Analyst. You&apos;re arguing for a reduced 25% position only after a breakout above $476 and waiting for 13F filings. I challenge your execution friction and your valuation rigidity. By waiting for a daily close above $476, you are fighting the 45% probability of consolidation. The technical data shows volatility is contracting, which often precedes a grinding move rather than a sharp breakout. Price could drift upward into the $476 resistance zone over weeks without a decisive volume surge. If you sit on the sidelines until that candle closes, you either miss the trade entirely or get filled at the top of the range, setting yourself up for a pullback on a false breakout. You&apos;re creating an execution gap that hurts your risk-reward more than the transition risk does.</prose>
-      <prose>You&apos;re also fixated on the Forward P/E of 21.40x as a sign of overvaluation. This is a denominator effect. The forward multiple is stretched only because current earnings are depressed by a temporary drawdown in realized investment gains and revenue contraction. If you normalize the earnings based on Berkshire&apos;s operating power of $70\u2013$80 billion, the P/E is closer to 15x, which is reasonable for a compounder with a beta of 0.70. You&apos;re judging the car by its temporary stall rather than its engine. Moreover, you&apos;re underestimating the defensive utility of BRK-B in this specific macro setup. The World Affairs report highlights Iran tensions, tariff roller coasters, and AI ROI skepticism. In this environment, capital flows to diversified holders with regulated cash flows. Berkshire&apos;s insurance and rail moats, combined with a low beta, make it a natural hedge. By being too conservative, you&apos;re exposing the portfolio to the very risks you claim to avoid, as BRK-B offers diversification benefits that a &quot;hold&quot; or &quot;wait&quot; strategy might overlook. You&apos;re also treating Abel&apos;s leadership transition as a binary risk. The sentiment data shows 40% neutral and 35% bullish. The market isn&apos;t panicking; it&apos;s pausing. Waiting for the Q2 13F filings is prudent, but tying your entire deployment to that event assumes the market won&apos;t price in the strategy shift before the paper trail appears. You&apos;re letting the tail of a future document wag the dog of current value.</prose>
-      <prose>So, what is the balanced, sustainable path? We acknowledge the technical structure is broken but coiling. We accept the fundamental value is real but the catalyst is gradual. We respect the leadership transition as a variable that requires monitoring but not paralysis.</prose>
-      <prose>Here is the moderate strategy that captures the upside while safeguarding against the pitfalls I just outlined:</prose>
-      <prose>First, adjust your position sizing to reflect the consolidation probability. Instead of a heavy 40% initial load or a timid 25% conditional load, propose a 30% initial accumulation in the $465\u2013$470 zone. This acknowledges the support at $467 and the low volatility environment without overcommitting before the structure confirms. This captures the core value zone while the market is indifferent.</prose>
-      <prose>Second, deploy the remaining 40% of your capital with a dual trigger that bridges the gap between aggression and caution. Allocate 20% to a dip into the $455\u2013$458 range, which acts as a secondary support test and aligns with the March low proximity, and 20% for confirmation above $475 with volume. This way, you are positioned if the consolidation grinds higher, but you also have dry powder if the 40% downtrend probability materializes, allowing you to average down into a stronger discount without chasing.</prose>
-      <prose>Third, fix the stop-loss. Abandon the $458 stop. It is statistically vulnerable to the ATR of 6.46. Move your stop to $450. This places the stop below the $467 support zone and the psychological $450 level, giving the position room to breathe within the volatility bands while protecting against a structural breakdown that would invalidate the margin of safety. A stop at $450 is a genuine structural failure signal, not a volatility noise trigger.</prose>
-      <prose>Fourth, reframe the valuation and catalyst thesis. The forward P/E is a trap; focus on the Price to Tangible Book of 0.93x and the cash yield on $373 billion. This provides the floor. The catalyst is not a violent multiple expansion but a slow re-rating as Abel&apos;s strategy clarifies and the energy division&apos;s value is recognized through spin-offs or peer comparisons over the 12\u201318 month horizon. The zero buybacks mean there is no urgency, so your strategy must be patience-driven, not momentum-driven.</prose>
-      <prose>In summary, the Aggressive Analyst is too tight on risk and too loud on the upside catalyst. The Conservative Analyst is too rigid on entry and too blind to the defensive macro fit. The neutral path is a phased accumulation that respects the coiling technicals, hedges the breakdown risk with a wider stop, and leverages the valuation floor without assuming a quick re-rating. This approach sustains the position through the transition noise, captures the value in the consolidation, and manages the risk effectively. Execute with precision, not presumption, and let the data guide the scaling, not the sentiment.</prose>
+            <prose>情緒分化：市場對 Abel 的領導能力持有觀望態度 (40% 中立)，但對公司底層資產的信心依然堅定。</prose>
+      <prose>避風港屬性：在面對地緣政治緊張 (如伊朗局勢) 時，BRK-B 的低 Beta 特性使其成為資金的避風港。</prose>
+      <prose>戰略認可：能源部門的高估值與保險業務的穩健，抵消了領導層交接帶來的不確定性。</prose>
     </section>
     <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
-            <prose>See verdict for detailed risk factors.</prose>
+      <risk>管理風險：Greg Abel 的資本配置能力尚未經長期的市場驗證。</risk> <risk>估值陷阱：若宏觀經濟導致保險或鐵路業務基本面惡化，目前的低 P/B 可能不構成保護。</risk> <risk>流動性風險：若市場發生極端拋售，短期內可能跌破有形帳面價值。</risk>
     </section>
     <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
-            <prose>1. Rating: Buy</prose>
-      <prose>2. Executive Summary: Action Plan for `BRK-B`
-- Entry Strategy: Execute a disciplined phased accumulation. Initiate a core position of 35% at $465\u2013$472 to capture the March low consolidation without overcommitting ahead of structural confirmation. Scale the remaining 65% via a dual-trigger mechanism: deploy 20% on a verified daily close above $475 with expanding volume, and hold 20% for a strategic dip into $455\u2013$458 to capture secondary discount. The final 10% will be deployed strictly upon Q2 13F filings confirming Greg Abel\u2019s capital recycling into high-ROIC operating assets or strategic equities.
-- Risk Management: Set a hard stop-loss at $450. This adjusts the initial $458 proposal to accommodate the current 6.46 ATR and routine daily volatility while remaining below the critical $467 structural support and tangible book floor. Zero buyback activity in 2025 signals management views current pricing as fair, demanding patience over momentum.
-- Time Horizon &amp; Targets: 12\u201318 months, aligned with the insurance rate cycle normalization, energy division recognition, and Abel\u2019s strategic transition. Target range of $520\u2013$560 reflects mean reversion toward tangible book value and normalized operating earnings power.</prose>
-      <prose>3. Investment Thesis
-The Buy rating for `BRK-B` is driven by a highly asymmetric risk-to-reward profile anchored in undeniable balance sheet strength, technical exhaustion, and macro defensive utility. The analysts&apos; debate converges on three validated realities that justify accumulation:</prose>
-      <prose>1. Structural Margin of Safety Overrides Forward Multiples. The Aggressive and Neutral analysts correctly identify that the forward P/E of ~21.4x is a denominator trap, artificially inflated by temporary realized investment drawdowns and a 3.2% revenue contraction. Normalizing for Berkshire\u2019s core operating earnings power of $70\u2013$80 billion yields a reasonable ~15x multiple. More importantly, `BRK-B` trades at 0.93x tangible book value with a $373 billion cash fortress. This creates a mathematically defined floor that the market is incorrectly pricing as dead capital rather than a yield-generating strategic reserve. The zero buybacks in 2025, as noted by the Conservative analyst, confirm management sees current valuations as fair, not deeply discounted, which eliminates urgency and validates a patient, phased approach.</prose>
-      <prose>2. Technical Exhaustion Meets Macro Defensive Utility. While the Conservative analyst rightly warns of a 40% probability of further downside, the technical data (RSI pressing 34, MACD deceleration, contracting volatility) confirms seller exhaustion rather than fundamental breakdown. The ATR of 6.46 makes tight stops ($458) vulnerable to volatility noise, justifying the Neutral analyst\u2019s adjustment to $450. Simultaneously, macro headwinds (Iran tensions, tariff volatility, AI capex skepticism) are not rejection catalysts but rather flight-to-quality drivers. `BRK-B`\u2019s low beta, regulated rail/utility moats, and insurance float position it as an optimal hedge during periods of market stress, turning current macro fear into a relative advantage.</prose>
-      <prose>3. Leadership Transition as a Slow-Burn Catalyst, Not a Binary Risk. The debate correctly frames Greg Abel\u2019s first 100 days and the $15 billion portfolio unwind as transitional friction, not value destruction. The Conservative analyst\u2019s caution regarding unproven equity deployment is valid, but it is mitigated by requiring concrete validation via Q2 13F filings before deploying the final tranche. Abel\u2019s operational mastery and forced consolidation of legacy positions create optionality for high-ROIC redeployment. The catalyst is not a violent multiple expansion but a deliberate, 12\u201318 month re-rating as cash deployment clarity emerges and the insurance/energy franchises are fully priced by the market.</prose>
-      <prose>Conclusion: `BRK-B` is being mispriced as a declining conglomerate when it is fundamentally a cash-rich compounder undergoing a strategic reset. The phased execution plan captures the valuation floor while respecting technical volatility and transitional execution risk. By anchoring the position to tangible book value, respecting the 13F confirmation requirement, and maintaining a structurally wide stop at $450, the portfolio is positioned for asymmetric upside with defined downside protection. The trade is a value-driven accumulation, not a momentum play, and requires disciplined scaling over the specified horizon. Execute with precision.</prose>
+      <strategy>建議【買入 BUY】。這是一個典型的高勝率價值交易。策略：分批建倉。首批 35% 在 465-472 美元配置；若回調至 455-458 美元則增持 20%；餘下資金待 13F 文件確認資本流向後部署。止損設在 450 美元，目標區間 520-560 美元。</strategy>
     </section>
   </stock>
 </report>
