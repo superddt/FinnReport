@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <report date="2026-04-21">
-  <stock ticker="TSLA" name="Tesla, Inc." sector="Automotive / Energy" exchange="NASDAQ">
-    <decision>HOLD</decision>
-    <price>175.20</price>
+  <stock ticker="TSLA" name="Tesla, Inc." sector="Consumer Cyclical" exchange="NASDAQ">
+    <decision>SELL</decision>
+    <price>392.50</price>
     <week52_low>138.80</week52_low>
-    <week52_high>271.00</week52_high>
+    <week52_high>409.28</week52_high>
     <metrics>
-      <metric key="P/E (TTM)" value="45.2" sub="High vs Auto avg"/>
-      <metric key="Rev Growth" value="15%" sub="Slowing YoY"/>
-      <metric key="Gross Margin" value="18.2%" sub="Compression risk"/>
-      <metric key="FSD Progress" value="V12" sub="Scaling phase"/>
-      <metric key="Cash Flow" value="$2.8B" sub="Strong liquidity"/>
+      <metric key="TTM P/E" value="351.29" sub="Extreme Premium"/>
+      <metric key="Net Margin" value="4%" sub="Margin Collapse"/>
+      <metric key="Cash Position" value="$44.06B" sub="Fortress Balance Sheet"/>
+      <metric key="Forward EPS" value="$2.75" sub="High Growth Expectation"/>
+      <metric key="PEG Ratio" value="5.75" sub="Severely Overvalued"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
-      <kv key="Valuation" val="Premium"/>
-      <prose>特斯拉目前的估值依然是作為 AI 與機器人公司而非純車企。雖然毛利率有所下降，但其儲能業務（Energy Storage）增長強勁，成為新的利潤支柱。</prose>
-      <prose>需關注 2026 年 FSD 全面商業化及 Robotaxi 的落地的實際進度。</prose>
+      <kv key="估值狀態" val="極端泡沫"/>
+      <prose>儘管擁有 440 億美元的強大現金流，但 TTM P/E 高達 351 倍，且淨利潤率崩潰至 4%，顯示其定價能力顯著下降。</prose>
+      <prose>目前的股價完全建立在對 AI 與 Robotics 的「未來奇蹟」之幻想上，而非現有營收支持。</prose>
     </section>
     <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
-      <kv key="Trend" val="Consolidation"/>
-      <prose>股價在 160-190 美元區間震盪。RSI 處於中性區（約 48），尚未出現明顯的底部反轉信號。</prose>
-      <prose>關鍵支撐位在 150 美元，突破 200 美元壓力位後方能開啟反彈行情。</prose>
+      <kv key="走勢" val="短期反彈 / 長期看跌"/>
+      <prose>股價雖短期反彈至 $392.50 並站上 50 SMA ($390.24)，但面臨 200 SMA ($399.25) 的強大壓力區。</prose>
+      <prose>MACD 雖出現牛市訊號，但整體結構仍處於長期熊市，目前僅為救贖反彈。</prose>
     </section>
     <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
-      <prose>市場對 Elon Musk 的政治參與度以及對 Robotaxi 的預期持有分歧。短期情緒受交付量數據影響較大。</prose>
-      <tag>Robotaxi</tag>
-      <tag>FSD v12</tag>
+      <prose>極端分歧。看多者關注 Robotaxi，但市場正對 FSD 的真實進度產生懷疑。</prose>
+      <tag>Uber-Lucid 合作</tag>
+      <tag>FSD 集體訴訟</tag>
     </section>
     <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
-      <risk>電動車市場需求飽和導致的價格戰持續。</risk>
-      <risk>CEO 關鍵人物風險及注意力分散。</risk>
+      <risk>Uber 與 Lucid 的合作（5 億美元投資）直接威脅 Tesla 的 Robotaxi 護城河。</risk>
+      <risk>歐美多地針對 FSD 承諾發起集體訴訟，面臨巨大的法律與名譽風險。</risk>
     </section>
     <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
-      <verdict_card label="評級" value="持有 HOLD" value_color="#E6A23A"/>
-      <verdict_card label="目標價" value="$210"/>
-      <verdict_card label="止損" value="$145"/>
-      <strategy>建議在 160-170 美元分批佈局，不宜一次性重倉。等待 Robotaxi 實際路測數據或交付量回升後再加碼。</strategy>
+      <verdict_card label="評級" value="賣出 SELL" value_color="#A32D2D"/>
+      <verdict_card label="目標價" value="$280"/>
+      <verdict_card label="止損" value="$405"/>
+      <strategy>建議立即減持或清空倉位。僅在股價放量突破並企穩於 200 SMA ($399.25) 以上且利潤率止跌回升後才考慮重新介入。</strategy>
     </section>
   </stock>
 </report>
