@@ -76,4 +76,84 @@
       <strategy>採取分批建倉策略：第一批於 $193 附近佈局，第二批於 50SMA ($183.90) 附近加碼。避免在 RSI 超買區一次性重倉。</strategy>
     </section>
   </stock>
+  <stock ticker="AAPL" name="Apple Inc." sector="Technology" exchange="NASDAQ">
+    <decision>BUY</decision>
+    <price>266.17</price>
+    <week52_low>252.13</week52_low>
+    <week52_high>273.05</week52_high>
+    <metrics>
+      <metric key="Forward P/E" value="28.36" sub="Fair Valuation"/>
+      <metric key="ROE" value="152%" sub="Elite Efficiency"/>
+      <metric key="Forward EPS" value="$9.39" sub="Growth Expected"/>
+      <metric key="PEG Ratio" value="2.46" sub="Overvalued by Growth"/>
+      <metric key="Cash Position" value="$66.91B" sub="Strong Liquidity"/>
+    </metrics>
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="估值狀態" val="Edge AI Pivot"/>
+      <prose>Apple is pivoting toward Edge AI, integrating AI directly into silicon and OS, creating a massive potential iPhone upgrade cycle.</prose>
+      <prose>The transition from Tim Cook to John Ternus is seen as a strategic upgrade toward a hardware-centric AI lead.</prose>
+    </section>
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="Strong Bullish"/>
+      <prose>Price is in textbook bullish alignment: Price > 10EMA > 50SMA > 200SMA.</prose>
+      <prose>MACD is positive and accelerating. RSI (66.53) is strong but not yet overbought.</prose>
+    </section>
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <prose>Market sentiment is mixed due to CEO transition, but optimistic about the implementation of AI in consumer hardware.</prose>
+      <tag>Edge AI</tag>
+      <tag>John Ternus</tag>
+      <tag>iPhone Cycle</tag>
+    </section>
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>Key-man risk associated with Tim Cook's departure.
+High valuation compared to immediate growth (PEG 2.46).
+Geopolitical tension (US-Iran) affecting high-beta tech.</risk>
+    </section>
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="BUY" value_color="#3B6D11"/>
+      <verdict_card label="目標價" value="$285.00 - 290.00"/>
+      <verdict_card label="止損" value="$252.13"/>
+      <strategy>Tactical entry: Limit orders at 10EMA (~263.80) and 50SMA (~260.50). Avoid market buying at local peaks.</strategy>
+    </section>
+  </stock>
+  <stock ticker="GOOGL" name="Alphabet Inc." sector="Communication Services" exchange="NASDAQ">
+    <decision>BUY</decision>
+    <price>337.42</price>
+    <week52_low>273.0</week52_low>
+    <week52_high>340.0</week52_high>
+    <metrics>
+      <metric key="Forward P/E" value="26.5x" sub="Reasonable Value"/>
+      <metric key="Profit Margin" value="32.8%" sub="High Efficiency"/>
+      <metric key="Cash Position" value="$126.84B" sub="Cash Fortress"/>
+      <metric key="Debt-to-Equity" value="16.13%" sub="Low Leverage"/>
+      <metric key="Fwd EPS" value="$13.xx" sub="Strong Outlook"/>
+    </metrics>
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="估值狀態" val="AI Infrastructure Domination"/>
+      <prose>Alphabet is building a vertical AI moat: proprietary TPU chips to reduce Nvidia reliance and 'Agentic AI' for B2B (Cloud).</prose>
+      <prose>Hidden asset: multi-billion dollar stake in SpaceX (potential 2026 IPO).</prose>
+    </section>
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="Aggressive Bullish / Overbought"/>
+      <prose>Price is far above 50SMA ($307.91) and 10EMA ($326.80).</prose>
+      <prose>RSI is 68.11 (peaked at 72.64), signaling a need for short-term consolidation.</prose>
+    </section>
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <prose>Strong sentiment driven by AI search recovery and the B2B pivot through Vodafone partnership.</prose>
+      <tag>Agentic AI</tag>
+      <tag>TPU Independence</tag>
+      <tag>SpaceX Stake</tag>
+    </section>
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>CapEx surge (up to $28B/quarter) impacting short-term margins.
+Overbought technicals suggesting a likely pullback.
+Intense competition with OpenAI/Microsoft in search.</risk>
+    </section>
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="BUY" value_color="#3B6D11"/>
+      <verdict_card label="目標價" value="$350.00 - 360.00"/>
+      <verdict_card label="止損" value="$308.00"/>
+      <strategy>Tiered entry: 30% immediate, 70% at 50SMA (~$308) to mitigate risk of buying at local peak.</strategy>
+    </section>
+  </stock>
 </report>
