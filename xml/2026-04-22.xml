@@ -197,8 +197,13 @@
     <week52_low>455.19</week52_low>
     <week52_high>542.07</week52_high>
     <metrics>
+      
+      <metric key="PE" value="15.3" sub="Valuation"/>
+      <metric key="PEG" value="-0.61" sub="PEG Ratio"/>
+      <metric key="ROE" value="9.34%" sub="ROE"/>
       <metric key="P/B" value="0.93" sub="Valuation"/>
       <metric key="Cash" value="$373B" sub="Liquidity"/>
+      <metric key="EPS" value="31.04" sub="EPS"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
             <prose>BRK-B 處於極具吸引力的價值區間，目前交易價格僅為有形帳面價值 (Tangible Book Value) 的 0.93 倍，具有極強的底部支撑。</prose>
