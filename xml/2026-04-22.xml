@@ -164,7 +164,12 @@
     <week52_low>148.40</week52_low>
     <week52_high>350.15</week52_high>
     <metrics>
-      <metric key="PEG" value="2.29" sub="Valuation"/>
+      
+      <metric key="PE" value="31.03" sub="Valuation"/>
+      <metric key="PEG" value="1.59" sub="PEG Ratio"/>
+      <metric key="ROE" value="28.5%" sub="ROE"/>
+      <metric key="Net Margin" value="33.1%" sub="Margin"/>
+      <metric key="EPS" value="10.80" sub="EPS"/>
       <metric key="RSI" value="63.42" sub="Momentum"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
