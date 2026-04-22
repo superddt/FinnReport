@@ -164,7 +164,6 @@
     <week52_low>148.40</week52_low>
     <week52_high>350.15</week52_high>
     <metrics>
-      
       <metric key="PE" value="31.03" sub="Valuation"/>
       <metric key="PEG" value="1.59" sub="PEG Ratio"/>
       <metric key="ROE" value="28.5%" sub="ROE"/>
@@ -173,11 +172,13 @@
       <metric key="RSI" value="63.42" sub="Momentum"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="估值狀態" val="AI 基礎設施轉型"/>
             <prose>Alphabet 正在執行高信心的 AI 基礎設施轉型，推出 TPU 8t/8i 晶片以大幅減少對 Nvidia 的依賴，旨在降低 AI 工作負載的基礎設施成本並提升毛利。</prose>
       <prose>財務面表現極其強勁：營運現金流增長 31.4% 達 1647 億美元，淨利增長 32%，證明其核心業務能充分支撐高昂的 AI 研發投入。</prose>
       <prose>然而，資本支出 (CapEx) 激增 74% 至 915 億美元，導致自由現金流 (FCF) 增長幾乎停滯 (0.7%)，這顯示短期內利潤率將面臨壓縮壓力。</prose>
     </section>
     <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="V 型反轉 / 強勢牛市"/>
             <prose>股價在三週內經歷了劇烈的 V 型反轉，從 273 美元低點反彈至 339 美元高點，漲幅約 24%。</prose>
       <prose>趨勢確認：50 SMA 與 200 SMA 已形成『黃金交叉』，且價格遠高於 200 SMA ($274)，確認長線牛市格局。</prose>
       <prose>動能分析：MACD 線強勢上穿信號線，直方圖持續擴張，顯示牛市動能依然強勁。</prose>
@@ -185,14 +186,21 @@
       <prose>關鍵位：短期支撐在 10 EMA ($325) 與 50 SMA ($307)；壓力位在 $335-$339 區間。</prose>
     </section>
     <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <kv key="核心情緒" val="極為正向 / 強勢買入"/>
             <prose>市場情緒高度正向。核心驅動力在於 Google Cloud Next 發佈的 TPU 新晶片與 Gemini 企業級 Agent 平台。</prose>
       <prose>戰略認可：與 Salesforce, Oracle 及 Deloitte 的合作驗證了 Google AI 的商業化落地能力，使其在 AI 基礎設施競爭中與 Nvidia 並列。</prose>
       <prose>投資者信心：股價在 2026 年累計漲幅近 8%，顯示機構資金正在流入，將其視為 AI 轉型的領軍者。</prose>
+      <tag-row>
+        <tag>TPU 8t/8i</tag> <tag>Gemini Enterprise</tag> <tag>AI Infrastructure</tag>
+      </tag-row>
     </section>
     <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
       <risk>估值壓力：PEG 2.29 意味著市場已定價至『完美執行』狀態，缺乏容錯空間。</risk> <risk>競爭風險：Nvidia 可能透過定價戰或新產品快速迭代來應對 Google 的自研晶片挑戰。</risk> <risk>技術面回調：由於短期漲幅過快，存在 10-15% 的技術性均值回歸風險。</risk>
     </section>
     <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="持有 HOLD" value_color="#EF9F27"/>
+      <verdict_card label="目標價" value="N/A"/>
+      <verdict_card label="止損" value="314"/>
       <strategy>建議【持有 HOLD】。對於現有持倉，建議在 335-339 美元壓力區獲利了結 25-30% 以鎖定收益。對於新進者，建議等待回調至 200 SMA 區域 (274-285 美元) 或 PEG 降至 1.5 以下再行建倉，以確保安全邊際。</strategy>
     </section>
   </stock>
@@ -202,7 +210,6 @@
     <week52_low>455.19</week52_low>
     <week52_high>542.07</week52_high>
     <metrics>
-      
       <metric key="PE" value="15.3" sub="Valuation"/>
       <metric key="PEG" value="-0.61" sub="PEG Ratio"/>
       <metric key="ROE" value="9.34%" sub="ROE"/>
@@ -211,26 +218,35 @@
       <metric key="EPS" value="31.04" sub="EPS"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="估值狀態" val="深層價值區間"/>
             <prose>BRK-B 處於極具吸引力的價值區間，目前交易價格僅為有形帳面價值 (Tangible Book Value) 的 0.93 倍，具有極強的底部支撑。</prose>
       <prose>資產堡壘：持有 3730 億美元的現金儲備，在宏觀不確定性增加時，這提供了巨大的戰略靈活性與抗風險能力。</prose>
       <prose>核心業務穩固：能源部門估值近 1000 億美元且保險業務表現強勁，提供穩定的現金流。</prose>
       <prose>轉型摩擦：Greg Abel 接任後拋售 150 億美元資產的舉動引發市場對其投資能力的短期疑慮，但這更多是資本再配置的過程。</prose>
     </section>
     <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="下跌趨勢 / 動能衰竭"/>
             <prose>趨勢分析：價格處於確認的下跌趨勢，低於所有關鍵均線 (10EMA &lt; 50SMA &lt; 200SMA)。</prose>
       <prose>動能衰竭：RSI 降至 34.89 接近超賣區，MACD 雖然為負但斜率開始走平，顯示下跌動能正在減緩。</prose>
       <prose>支撐與壓力：關鍵支撐位於 467-468 美元（3 月低點），若跌破此位可能下探至 450-455 美元。</prose>
       <prose>波動率：ATR (6.46) 正在收縮，預示著股價將進入盤整期，是價值投資者分批入場的窗口。</prose>
     </section>
     <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
-            <prose>情緒分化：市場對 Abel 的領導能力持有觀望態度 (40% 中立)，但對公司底層資產的信心依然堅定。</prose>
+      <kv key="核心情緒" val="觀望 / 價值回歸"/>
+            <prose>情緒分化：市場對 Abel 的領導能力持有觀望態度 (40% 中立)，但對公司底 underlying assets 的信心依然堅定。</prose>
       <prose>避風港屬性：在面對地緣政治緊張 (如伊朗局勢) 時，BRK-B 的低 Beta 特性使其成為資金的避風港。</prose>
       <prose>戰略認可：能源部門的高估值與保險業務的穩健，抵消了領導層交接帶來的不確定性。</prose>
+      <tag-row>
+        <tag>Leadership Transition</tag> <tag>Value Investing</tag> <tag>Cash Fortress</tag>
+      </tag-row>
     </section>
     <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
       <risk>管理風險：Greg Abel 的資本配置能力尚未經長期的市場驗證。</risk> <risk>估值陷阱：若宏觀經濟導致保險或鐵路業務基本面惡化，目前的低 P/B 可能不構成保護。</risk> <risk>流動性風險：若市場發生極端拋售，短期內可能跌破有形帳面價值。</risk>
     </section>
     <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="買入 BUY" value_color="#1D9E75"/>
+      <verdict_card label="目標價" value="$520 - $560"/>
+      <verdict_card label="止損" value="450"/>
       <strategy>建議【買入 BUY】。這是一個典型的高勝率價值交易。策略：分批建倉。首批 35% 在 465-472 美元配置；若回調至 455-458 美元則增持 20%；餘下資金待 13F 文件確認資本流向後部署。止損設在 450 美元，目標區間 520-560 美元。</strategy>
     </section>
   </stock>
