@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <report date="2026-04-21">
-  <stock ticker="TSLA" name="Tesla, Inc." sector="Consumer Cyclical" exchange="NASDAQ">
-    <decision>SELL</decision>
-    <price>392.50</price>
-    <week52_low>138.80</week52_low>
-    <week52_high>409.28</week52_high>
+  <stock ticker="NVDA" name="NVIDIA Corporation" sector="Technology" exchange="NASDAQ">
+    <decision>BUY</decision>
+    <price>202.06</price>
+    <week52_low>170.00</week52_low>
+    <week52_high>212.19</week52_high>
     <metrics>
-      <metric key="TTM P/E" value="351.29" sub="Extreme Premium"/>
-      <metric key="Net Margin" value="4%" sub="Margin Collapse"/>
-      <metric key="Cash Position" value="$44.06B" sub="Fortress Balance Sheet"/>
-      <metric key="Forward EPS" value="$2.75" sub="High Growth Expectation"/>
-      <metric key="PEG Ratio" value="5.75" sub="Severely Overvalued"/>
+      <metric key="Forward P/E" value="17.78" sub="Undervalued vs Growth"/>
+      <metric key="PEG Ratio" value="0.72" sub="Strong Buy Signal"/>
+      <metric key="Net Margin" value="55.6%" sub="Extreme Pricing Power"/>
+      <metric key="ROE" value=">100%" sub="Hyper-efficiency"/>
+      <metric key="Forward EPS" value="$11.24" sub="Huge Leap Expected"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
-      <kv key="估值狀態" val="極端泡沫"/>
-      <prose>儘管擁有 440 億美元的強大現金流，但 TTM P/E 高達 351 倍，且淨利潤率崩潰至 4%，顯示其定價能力顯著下降。</prose>
-      <prose>目前的股價完全建立在對 AI 與 Robotics 的「未來奇蹟」之幻想上，而非現有營收支持。</prose>
+      <kv key="估值狀態" val="增長紅利"/>
+      <prose>NVDA 展現出極其強悍的財務能力，淨利潤率高達 55.6%，ROE 超過 100%。</prose>
+      <prose>儘管 TTM P/E 較高，但 Forward P/E 僅 17.78 且 PEG 為 0.72，顯示其價格相對於預期增長其實是被低估的。</prose>
     </section>
     <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
-      <kv key="走勢" val="短期反彈 / 長期看跌"/>
-      <prose>股價雖短期反彈至 $392.50 並站上 50 SMA ($390.24)，但面臨 200 SMA ($399.25) 的強大壓力區。</prose>
-      <prose>MACD 雖出現牛市訊號，但整體結構仍處於長期熊市，目前僅為救贖反彈。</prose>
+      <kv key="走勢" val="強勢牛市 (Overbought)"/>
+      <prose>股價處於典型的「牛疊 (Bull Stack)」結構，價格 > 10EMA > 50SMA > 200SMA。</prose>
+      <prose>RSI 為 71.65 進入超買區，短期可能面臨橫盤或回調，但長線趨勢依然強勁。</prose>
     </section>
     <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
-      <prose>極端分歧。看多者關注 Robotaxi，但市場正對 FSD 的真實進度產生懷疑。</prose>
-      <tag>Uber-Lucid 合作</tag>
-      <tag>FSD 集體訴訟</tag>
+      <prose>市場將 NVDA 視為 AI 基礎設施的核心。儘管有「AI 泡沫」的爭論，但超大規模雲端服務商（Hyperscalers）的 CapEx 持續投入提供了強大支撑。</prose>
+      <tag>CUDA 生態護城河</tag>
+      <tag>量子計算擴展</tag>
     </section>
     <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
-      <risk>Uber 與 Lucid 的合作（5 億美元投資）直接威脅 Tesla 的 Robotaxi 護城河。</risk>
-      <risk>歐美多地針對 FSD 承諾發起集體訴訟，面臨巨大的法律與名譽風險。</risk>
+      <risk>客戶集中度風險：極度依賴少數幾家雲端巨頭（Google, Amazon, Meta）。</risk>
+      <risk>估值崩潰風險：若 AI ROI 未能如期轉化為利潤，Forward PE 的支撐將瓦解。</risk>
     </section>
     <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
-      <verdict_card label="評級" value="賣出 SELL" value_color="#A32D2D"/>
-      <verdict_card label="目標價" value="$280"/>
-      <verdict_card label="止損" value="$405"/>
-      <strategy>建議立即減持或清空倉位。僅在股價放量突破並企穩於 200 SMA ($399.25) 以上且利潤率止跌回升後才考慮重新介入。</strategy>
+      <verdict_card label="評級" value="買入 BUY" value_color="#3B6D11"/>
+      <verdict_card label="目標價" value="$230+"/>
+      <verdict_card label="止損" value="$181.98 (200SMA)"/>
+      <strategy>採取分批建倉策略：第一批於 $193 附近佈局，第二批於 50SMA ($183.90) 附近加碼。避免在 RSI 超買區一次性重倉。</strategy>
     </section>
   </stock>
 </report>
