@@ -155,4 +155,45 @@
       <verdict_card label="止損" value="$308.00"/>
       <strategy>分批入場：30% 立即進入，70% 等待 50SMA (~$308) 附近佈局，以降低在高點買入的風險。</strategy>
     </section>
-  </stock></report>
+  </stock>  <stock ticker="MSFT" name="Microsoft Corporation" sector="Technology" exchange="NASDAQ">
+    <decision>買入</decision>
+    <price>418.07</price>
+    <week52_low>392.61</week52_low>
+    <week52_high>470.09</week52_high>
+    <metrics>
+      <metric key="Forward P/E" value="22.44" sub="估值合理"/>
+      <metric key="Profit Margin" value="39.04%" sub="頂級獲利能力"/>
+      <metric key="Cash Position" value="$89.46B" sub="強大流動性"/>
+      <metric key="ROE" value="34.39%" sub="高資本效率"/>
+      <metric key="Net Income Growth" value="Strong" sub="盈利加速"/>
+    </metrics>
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="估值狀態" val="AI 基礎設施規模化"/>
+      <prose>微軟正處於 AI 基礎設施的規模化階段，儘管 CapEx 激增導致自由現金流下降，但營收與淨利潤的同步飆升證明了投資的有效性。</prose>
+      <prose>擁有近 900 億美元的現金儲備，使其在 AI 軍備競賽中具有極高的抗風險能力。</prose>
+    </section>
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="短期強勢反轉 / 長期修復"/>
+      <prose>短期走勢強勁，股價已成功奪回 50 日均線 (SMA 50, ~$392.61)，確認中期趨勢由熊轉牛。</prose>
+      <prose>MACD 強勢金叉且直方圖持續擴張，顯示反彈動能充足。RSI 為 67.44，接近超買區但仍有上升空間。</prose>
+    </section>
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <prose>市場對 Azure AI 的成長充滿信心，但關注英國對雲端授權的 28 億美元集體訴訟風險。遊戲部門的策略調整（價格下調）被視為追求盈利而非盲目擴張。</prose>
+      <tag>Azure AI</tag>
+      <tag>Copilot</tag>
+      <tag>雲端授權爭議</tag>
+      <tag>Xbox 策略調整</tag>
+    </section>
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>英國 28 億美元集體訴訟可能影響 Azure 的利潤率及監管地位。
+自由現金流 (FCF) 因 CapEx 激增而大幅下降，對 AI 投資的回報率 (ROI) 依賴度高。
+地緣政治局勢影響高 Beta 科技股的整體波動。</risk>
+    </section>
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="買入" value_color="#3B6D11"/>
+      <verdict_card label="目標價" value="$470.00 (200SMA)"/>
+      <verdict_card label="止損" value="$392.61 (50SMA)"/>
+      <strategy>採取分批建倉策略：在目前水平 (~418) 建立初步部位，並在回調至 10日EMA (~400) 時加碼，以避免在高點一次性重倉。</strategy>
+    </section>
+  </stock>
+</report>
