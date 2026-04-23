@@ -19,7 +19,7 @@
     </section>
     <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
       <kv key="走勢" val="強勢牛市 (Overbought)"/>
-      <prose>股價處於典型的「牛疊 (Bull Stack)」結構，價格 &gt; 10EMA &gt; 50SMA &gt; 200SMA。</prose>
+      <prose>股價處於典型的「牛疊 (Bull Stack)」結構，價格 &amp;gt; 10EMA &amp;gt; 50SMA &amp;gt; 200SMA。</prose>
       <prose>RSI 為 71.65 進入超買區，短期可能面臨橫盤或回調，但長線趨勢依然強勁。</prose>
     </section>
     <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
@@ -96,7 +96,7 @@
     </section>
     <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
       <kv key="走勢" val="強勢牛市"/>
-      <prose>價格處於教科書級的牛市排列：價格 &gt; 10EMA &gt; 50SMA &gt; 200SMA。</prose>
+      <prose>價格處於教科書級的牛市排列：價格 &amp;gt; 10EMA &amp;gt; 50SMA &amp;gt; 200SMA。</prose>
       <prose>MACD 正向加速。RSI (66.53) 表現強勁且尚未進入超買區。</prose>
     </section>
     <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
@@ -226,7 +226,7 @@
     </section>
     <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
       <kv key="走勢" val="下跌趨勢 / 動能衰竭"/>
-            <prose>趨勢分析：價格處於確認的下跌趨勢，低於所有關鍵均線 (10EMA &lt; 50SMA &lt; 200SMA)。</prose>
+            <prose>趨勢分析：價格處於確認的下跌趨勢，低於所有關鍵均線 (10EMA &amp;lt; 50SMA &amp;lt; 200SMA)。</prose>
       <prose>動能衰竭：RSI 降至 34.89 接近超賣區，MACD 雖然為負但斜率開始走平，顯示下跌動能正在減緩。</prose>
       <prose>支撐與壓力：關鍵支撐位於 467-468 美元（3 月低點），若跌破此位可能下探至 450-455 美元。</prose>
       <prose>波動率：ATR (6.46) 正在收縮，預示著股價將進入盤整期，是價值投資者分批入場的窗口。</prose>
@@ -305,7 +305,7 @@
       <metric key="Revenue Growth" value="21%" sub="Growth"/>
       <metric key="Rule of 40" value="High" sub="Efficiency"/>
       <metric key="Commercial Growth" value="Strong" sub="Segment"/>
-      <metric key="S&P 500" value="Included" sub="Status"/>
+      <metric key="S&amp;P 500" value="Included" sub="Status"/>
       <metric key="Cash Reserves" value="Strong" sub="Liquidity"/>
     </metrics>
     <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
@@ -322,10 +322,10 @@
     </section>
     <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
       <prose>市場對 PLTR 的看法已從「過度炒作的政府承包商」轉向「AI 實踐的領軍者」。AIP 對企業端效率的提升被視為長線增長引擎。</prose>
-      <prose>S&P 500 的納入增加了機構持倉的被動需求，為股價提供了強大的底部支撐。</prose>
+      <prose>S&amp;P 500 的納入增加了機構持倉的被動需求，為股價提供了強大的底部支撐。</prose>
       <tag>AIP Bootcamps</tag>
       <tag>US Commercial Growth</tag>
-      <tag>S&P 500 Inclusion</tag>
+      <tag>S&amp;P 500 Inclusion</tag>
     </section>
     <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
       <risk>估值過高：若增長率未能維持在 20% 以上，估值將面臨劇烈修正。</risk>
