@@ -250,4 +250,49 @@
       <strategy>建議【買入 BUY】。這是一個典型的高勝率價值交易。策略：分批建倉。首批 35% 在 465-472 美元配置；若回調至 455-458 美元則增持 20%；餘下資金待 13F 文件確認資本流向後部署。止損設在 450 美元，目標區間 520-560 美元。</strategy>
     </section>
   </stock>
-</report>
+
+  <stock ticker="META" name="Meta Platforms, Inc." sector="Communication Services" exchange="NASDAQ">
+    <decision>賣出 SELL</decision>
+    <price>668.84</price>
+    <week52_low>520.26</week52_low>
+    <week52_high>691.52</week52_high>
+    <metrics>
+      <metric key="Forward PE" value="18.8x" sub="Valuation"/>
+      <metric key="Revenue Growth" value="22.2%" sub="Growth"/>
+      <metric key="Gross Margin" value="82%" sub="Margin"/>
+      <metric key="FCF Margin" value="23.0%" sub="Cash Flow"/>
+      <metric key="Cash" value="$81.6B" sub="Liquidity"/>
+    </metrics>
+    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
+      <kv key="估值狀態" val="AI 基礎設施轉型 / 利潤率壓力"/>
+      <prose>Meta 展現了強大的營收增長（YoY +22.2%）與極高的毛利率（82%），顯示其在 AI 廣告優化方面的定價能力。</prose>
+      <prose>然而，資本支出 (CapEx) 激增至 697 億美元（佔營收 34.7%），直接導致自由現金流 (FCF) margin 從 32.9% 崩潰至 23.0%。</prose>
+      <prose>目前 Forward PE 18.8x 雖然吸引人，但市場正處於對 AI ROI（投資回報率）的質疑期。</prose>
+    </section>
+    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
+      <kv key="走勢" val="V 型反轉 / 關鍵阻力區"/>
+      <prose>股價從 3 月底的 525 美元底部分析 V 型反彈 31% 至 688 美元高點，目前在 200-day SMA (~680) 處遭遇強烈拋盤。</prose>
+      <prose>MACD 柱狀圖從 14.23 掉至 10.80，顯示上升動能正在快速衰減，且價格未能有效突破 200-day SMA，確認長期趨勢尚未反轉。</prose>
+      <prose>RSI 位於 62，雖有空間但缺乏成交量支持的突破信號。</prose>
+    </section>
+    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
+      <prose>市場正處於「AI 基礎設施信心」與「利潤率擔憂」的拉鋸戰。Deutsche Bank 給出 920 美元目標價，但 Goldman 與 UBS 警告估值過高。</prose>
+      <prose>近期 10 億美元的 Tulsa 數據中心建設顯示 Meta 堅持 AI 持續投入，但消費者集體訴訟（詐騙廣告）帶來一定的監管噪音。</prose>
+      <tag>AI-First Infra</tag>
+      <tag>Tulsa Data Center</tag>
+      <tag>CapEx Pressure</tag>
+    </section>
+    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
+      <risk>CapEx 過高導致 FCF 嚴重萎縮，若 AI 變現速度不及預期，將觸發估值修正。</risk>
+      <risk>200-day SMA (680) 形成強大心理與結構阻力，短期突破難度大。</risk>
+      <risk>4 月 29 日財報為二元風險事件，市場對利潤率的容錯率極低。</risk>
+    </section>
+    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
+      <verdict_card label="評級" value="賣出 SELL" value_color="#A32D2D"/>
+      <verdict_card label="關鍵確認位" value="$680"/>
+      <verdict_card label="風險止損" value="$630"/>
+      <strategy>建議【立即全倉減持】。在 4 月 29 日財報發佈前，目前面臨技術面（200-SMA 阻力）與基本面（FCF 萎縮）的雙重壓力，風險回報比極不對稱。僅在股價放量突破並站穩 680 美元，且 FCF 趨勢企穩後再考慮重新回補。</strategy>
+    </section>
+  </stock>
+
+  </report>
