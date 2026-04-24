@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <report date="2026-04-23">
   <stock ticker="NVDA" name="NVIDIA Corporation" sector="Technology / Semiconductors" exchange="NASDAQ">
+    <price>202.50</price>
+    <week52_low>103.11</week52_low>
+    <week52_high>212.19</week52_high>
     <metrics>
-      <price value="202.50" unit="USD"/>
-      <week52_low value="103.11"/>
-      <week52_high value="212.19"/>
       <metric key="P/E (TTM)" value="41.33"/>
       <metric key="Forward P/E" value="18.02"/>
       <metric key="PEG Ratio" value="0.72"/>
@@ -54,10 +54,10 @@
     </section>
   </stock>
   <stock ticker="GOOG" name="Alphabet Inc." sector="Communication Services" exchange="NASDAQ">
+    <price>330.47</price>
+    <week52_low>148.40</week52_low>
+    <week52_high>350.15</week52_high>
     <metrics>
-      <price value="330.47" unit="USD"/>
-      <week52_low value="148.40"/>
-      <week52_high value="350.15"/>
       <metric key="PE" value="31.03"/>
       <metric key="PEG" value="1.59"/>
       <metric key="ROE" value="28.5%"/>
@@ -98,10 +98,10 @@
     </section>
   </stock>
   <stock ticker="TSLA" name="Tesla, Inc." sector="Auto/Technology" exchange="NASDAQ">
+    <price>386.42</price>
+    <week52_low>244.43</week52_low>
+    <week52_high>498.83</week52_high>
     <metrics>
-      <price value="386.42" unit="USD"/>
-      <week52_low value="244.43"/>
-      <week52_high value="498.83"/>
       <metric key="PE" value="357.8"/>
       <metric key="PEG" value="5.75"/>
       <metric key="ROE" value="4.9%"/>
@@ -135,10 +135,10 @@
     </section>
   </stock>
   <stock ticker="AAPL" name="Apple Inc." sector="Technology/Consumer" exchange="NASDAQ">
+    <price>266.17</price>
+    <week52_low>193.25</week52_low>
+    <week52_high>288.62</week52_high>
     <metrics>
-      <price value="266.17" unit="USD"/>
-      <week52_low value="193.25"/>
-      <week52_high value="288.62"/>
       <metric key="PE" value="34.6"/>
       <metric key="PEG" value="2.46"/>
       <metric key="ROE" value="152%"/>
@@ -169,79 +169,6 @@
       <verdict_card label="減持比例" value="50-60%"/>
       <verdict_card label="止損" value="$252.13"/>
       <strategy>未來 2-3 個交易日內減持 50-60% 部位以平衡資本保存，將资金投入短期國庫券或現金持有，等待更清晰的 AI 變現證據。</strategy>
-    </section>
-  </stock>
-  <stock ticker="META" name="Meta Platforms, Inc." sector="Communication Services" exchange="NASDAQ">
-    <metrics>
-      <price value="674.72" unit="USD"/>
-      <week52_low value="517.50"/>
-      <week52_high value="796.25"/>
-      <metric key="P/E (TTM)" value="28.07"/>
-      <metric key="Forward P/E" value="18.38"/>
-      <metric key="PEG Ratio" value="1.10"/>
-      <metric key="P/B" value="7.68"/>
-      <metric key="ROE" value="30.24%"/>
-      <metric key="Gross Margin" value="82.0%"/>
-      <metric key="Operating Margin" value="41.4%"/>
-      <metric key="Net Margin" value="30.1%"/>
-      <metric key="Revenue TTM" value="200.97B"/>
-      <metric key="FCF TTM" value="46.11B"/>
-      <metric key="Cash" value="81.59B"/>
-      <metric key="Debt" value="83.90B"/>
-      <metric key="Beta" value="1.31"/>
-    </metrics>
-    <section id="fundamental" title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
-      <kv key="估值狀態" val="增長紅利 / 前向 P/E 深度折價"/>
-      <kv key="Forward P/E" val="18.38x"/>
-      <kv key="PEG Ratio" val="1.10"/>
-      <prose>META 展現出世界頂級的互聯網平台商業模式，2025 年營收達 2,009.7 億美元，年增 22.2%，年營業利潤率維持在 41.4% 的高水準。總資產成長強勁，從 2022 年的 1,857 億美元增長至 2025 年的 3,660 億美元，增幅達 97%。</prose>
-      <prose>估值結構呈現顯著差異：TTM P/E 為 28.07x，而 Forward P/E 僅 18.38x，顯示分析師預期 EPS 將從約 23.48 美元成長至約 35.86 美元，成長幅度達 53%。這種前向折價為長期投資者提供了極具吸引力的入場機會。</prose>
-      <prose>資產負債表堅如磐石，持有 815.9 億美元現金及短期投資，僅有 228.7 億美元淨負債。经营現金流從 2022 年的 504.8 億美元飆升至 2025 年的 1,158 億美元，增幅達 129%。ROE 達 30.24%，毛利率 82%，均屬於業界頂級水準。</prose>
-      <prose>研發支出在 2025 年大幅增加 30.8% 至 573.7 億美元（佔營收 28.5%），主要投資於 AI 基礎設施建設。雖然絕對金額驚人，但這是直接推動 AI 廣告平台優勢的戰略支出，其 ROI 已透過 CPM 擴展逐步驗證。</prose>
-      <prose>2025 年淨利微降 3.1% 至 604.6 億美元，主因是研發支出大幅增加 87%（從 439 億至 574 億美元）。然而，隨著 AI 投入逐步成熟，Forward P/E 的折價暗示利潤率將在未來幾個季度回升。</prose>
-      <prose>總負債從 490.6 億美元上升至 839 億美元（長期債務增長 104%），主要用於基礎設施擴張。然而以 39.2% 的負債權益比衡量，槓桿水平對这家盈利公司的規模而言仍屬保守。</prose>
-    </section>
-    <section id="technical" title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
-      <kv key="走勢" val="強勢反彈 / 黃金交叉前夜"/>
-      <prose>META 近期展現了強勁的復甦行情，從 3 月 27 日的低點 525.72 美元上漲約 28.3% 至 674.72 美元。價格目前位於 50 SMA（629.71 美元）與 200 SMA（679.61 美元）之間，屬於潛在趨勢反轉的經典區間。</prose>
-      <prose>MACD 指標從 3 月 30 日的 -26.99 強勁翻升至 +17.26，在僅 23 個交易日內完成從深度負值到強力正值的全過程。MACD 直圖自 4 月 8 日轉正並將近期維持於高檔，確認動能持續加速，這是目前最具說服力的看漲信號。</prose>
-      <prose>RSI 從 4 月 8 日的 53.26 升至 4 月 17 日的 69.82（接近超買），隨後在價格整合期間略微回落至 63.54。這種健康的整合是正面信號，顯示漲勢尚未過度延伸且有繼續上漲的空間。</prose>
-      <prose>布林通道呈現收窄趨勢（從 3 月 24 日的約 97 美元收窄至 4 月 22 日的約 110 美元），歷史模式顯示這通常伴隨大幅價格波動。考慮到強勢的 MACD，突破上通道（719.81 美元）朝向 720 美元以上是合理的情境。</prose>
-      <prose>關鍵技術位：阻力一為 200 SMA 約 680 美元（趨勢反轉的生死線），阻力二為布林上通道約 720 美元，阻力三為盤前高點 750 美元以上。支撐位包括 665 美元（近期反彈高點）、630 美元（50 SMA 動態支撑）、525 美元（3 月低點）。</prose>
-      <prose>ATR（14 日）目前約 18.64 美元，表明日內波動性正在回調，這是有利於趨勢持續的健康信號。極端波動性通常標誌著動能衰竭，而常態化的波動性更支持趨勢延續。</prose>
-    </section>
-    <section id="sentiment" title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="false">
-      <kv key="核心情緒" val="分歧略偏負面 / 長期基本面堅韌"/>
-      <prose>META 在本週宣布了一項 2026 年最具規模的企業重組計劃：將裁減約 8,000 名員工（約占总人力 10%），首批裁員將於 5 月 20 日進行，第二批在 2026 年下半年。此舉被定位為戰略性的資源重新配置，而非疲弱的信號。</prose>
-      <prose>Meta 正以前所未有的規模投入 AI 基礎設施建設，與 Oklo（核能初创公司）和 Nvidia 簽約推進核能驱动的 AI 工廠，顯示其長期基礎設施押注。同時期的微軟也宣布裁員 7%，這表明這是一個行業範圍的 AI 投資轉向，而非 META 個別問題。</prose>
-      <prose>員工任務追蹤軟體爭議在裁員公告前數日引發反響：該強制追蹤軟體無退出選項，引發對隱私、監控和員工士氣的擔憂。這增加了短期聲譽風險，可能影響 Meta 在激烈人才競爭中招募頂級 AI/ML 人才的能力。</prose>
-      <prose>股價在裁員公告後下跌 2.31% 至 659.15 美元，但分析師觀點分化明顯。Motley Fool 將裁員框架為潛在「買入信號」，認為成本紀律結合 AI 定位將強化長期利潤率；但 Barrons 和 CBS 等媒體持負面色調。</prose>
-      <prose>市場情緒總體為「分歧略偏負面」，但長期基本面因 AI 變現潛力依然堅韌。高盛將 AI 回報確定為 2026 年投資者的最大疑問，但 META 的 AI 廣告平台已開始產生實質收入增長，驗證了變現路徑的可行性。</prose>
-      <prose>整體而言，市場對裁員的初始拋售反映的是對頭條新聞的情緒反應。歷史證明，在 Zuckerberg 的領導下，當 AI 敘事保持完整時，META 能夠在裁員後重估向上。</prose>
-      <tag>AI 變現</tag>
-      <tag>結構性重估</tag>
-      <tag>現金流機器人</tag>
-      <tag>前向 P/E 折價</tag>
-      <tag>布林通道收窄突破</tag>
-      <tag>MACD 翻轉</tag>
-    </section>
-    <section id="risk" title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="false">
-      <risk>AI 資本支出 ROI 不確定性：Meta 每年 697 億美元的巨額資本支出能否產生相稱的回報是最大風險。如果 AI 變現落後，利潤率擴展可能會停滯。</risk>
-      <risk>法規和反壟斷風險：歐盟和美國的反壟斷審查持續存在，可能導致結構性變化強制措施，如 WhatsApp 或 Instagram 的剝離。</risk>
-      <risk>總負債攀升：長期債務從 2024 年的 288.3 億美元增至 2025 年的 587.4 億美元，增長 104%。儘管現金頭寸充足，但債務增長幅度仍值得密切監控。</risk>
-      <risk>現實實驗室（Reality Labs）持續燒錢：該部門仍然是利潤率的拖累因素，但其長線投入元宇宙/XR 市場的策略性押注是必要的。</risk>
-      <risk>宏觀廣告週期性敏感度：廣告支出是順週期的，經濟放緩可能導致 ad 預算收縮，進而影響 META 的營收和利潤。當前回調部分是由於對 ad 市場正常化的擔憂。</risk>
-      <risk>人才流失風險：強制 AI 任務追蹤加上大規模裁員可能導致核心技術人才流失，尤其在 AI/ML 領域的人才競爭異常激烈的環境下。</risk>
-    </section>
-    <section id="verdict" title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true" full="true">
-      <verdict_card label="評級" value="買入 BUY" value_color="#1D9E75"/>
-      <verdict_card label="目標價" value="$750+"/>
-      <verdict_card label="止損" value="$628"/>
-      <prose>評級：買入（BUY）。META 的投資論證建立在罕見的估值紀律、現金流韌性和利潤率擴展潛力之上。Forward P/E 僅 18.4x 的價格，對應 22% 營收成長、41% 營業利潤率和每年 1,150 億美元經營現金流量，呈現結構性的定價錯誤。</prose>
-      <prose>技術上，META 處於高概率整合區間，MACD 翻轉至 +17.26，RSI 為 63.54，顯示加速的看漲動能。然而，價格接近 200 日均線 679-680 美元區間，需要成交量確認以避免虛假突破。收窄的布林通道保證波動性擴大，而非方向選擇。</prose>
-      <prose>分批建倉框架是直接綜合了辯論各方觀點的執行方案：捕捉激進分析師對利潤率重估和 AI 變現耐用性的信念，尊重保守分析師對技術和宏觀確認的要求，並應用中性分析師的概率加權來管理廣告預算週期性和債務償付敏感度。</prose>
-      <prose>時間週期為 6-12 個月，動能驅動目標為 720 美元，多重重估上行空間看至 750 美元。主要監測指標為廣告 CPM 擴展和現實實驗室資本支出效率。如果宏觀 ad 預算收縮或 AI ROI 延遲，則需調整風險管理。</prose>
-      <strategy>執行概率加權的分批建倉策略，鎖定 650-665 美元累積區間。首批投入 50% 部位以捕捉近期價值，當價格在 640 美元上方確持有且動能數據建設性時增持 30%，其餘 20% 專門在突破 680 美元且放量時部署以確認趨勢反轉。硬式止損設於 628 美元——低於此水平立即退出以保存資本。時間週期為 6-12 個月，動能目標為 720 美元，多重重估上行空間看至 750 美元。監測廣告 CPM 擴展和現實實驗室資本支出效率作為主要催化劑；若宏觀廣告收縮或 AI 回報延遲則調整部位暴露。</strategy>
     </section>
   </stock>
 </report>
