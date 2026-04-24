@@ -1,144 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <report date="2026-04-24">
-  <stock ticker="GOOG" name="Alphabet Inc. (Google)" sector="科技／網路服務" exchange="NASDAQ">
+  <stock ticker="AAPL" name="Apple Inc." sector="Consumer Electronics" exchange="NASDAQ">
+    <price>$273.43</price>
+    <week52_high>$288.62</week52_high>
+    <week52_low>$193.25</week52_low>
     <metrics>
-      <metric key="current_price" value="337.75" sub="美元"/>
-      <metric key="week52_high" value="350.15" sub="美元"/>
-      <metric key="week52_low" value="149.49" sub="美元"/>
-      <metric key="market_cap" value="4.14兆美元" sub=""/>
-      <metric key="pe_ttm" value="31.64" sub=""/>
-      <metric key="pe_forward" value="25.34" sub=""/>
-      <metric key="peg" value="2.31" sub=""/>
-      <metric key="pb" value="9.96" sub=""/>
-      <metric key="roe" value="35.7%" sub=""/>
-      <metric key="cash" value="1268億美元" sub=""/>
-      <metric key="total_debt" value="593億美元" sub=""/>
-      <metric key="current_ratio" value="2.01" sub=""/>
-      <metric key="debt_to_equity" value="16.13%" sub=""/>
-      <metric key="revenue_q4_2025" value="1138.3億美元" sub=""/>
-      <metric key="net_income_ttm" value="1322億美元" sub=""/>
-      <metric key="operating_margin" value="31.6%" sub=""/>
-      <metric key="capex_q4_2025" value="278.5億美元" sub=""/>
-      <metric key="free_cash_flow" value="246億美元" sub=""/>
-      <metric key="rd_q4_2025" value="185.7億美元" sub=""/>
-      <metric key="rsi" value="67.32" sub=""/>
-      <metric key="macd" value="9.71" sub=""/>
-      <metric key="bollinger_upper" value="357.89" sub="美元"/>
-      <metric key="vwma" value="324.33" sub="美元"/>
-      <metric key="ema10" value="329.66" sub="美元"/>
-      <metric key="sma50" value="307.87" sub="美元"/>
-      <metric key="sma200" value="275.70" sub="美元"/>
+      <metric key="PE Ratio (TTM)" value="34.21" sub="" />
+      <metric key="Forward P/E" value="28.83" sub="" />
+      <metric key="PEG Ratio" value="2.46" sub="" />
+      <metric key="市淨率 P/B" value="45.06" sub="" />
+      <metric key="ROE" value="152.0%" sub="" />
+      <metric key="ROA" value="24.4%" sub="" />
+      <metric key="現金及等價物" value="$45.3B" sub="Cash &amp;amp; Equivalents" />
+      <metric key="市值" value="$3.97T" sub="Market Cap" />
+      <metric key="股息率" value="0.38%" sub="" />
+      <metric key="自由現金流(年化)" value="$106.3B" sub="Annualized FCF" />
     </metrics>
-    <prose>以下為 GOOG 基本面、技術面、市場情緒與風險因素的深度分析報告。</prose>
-
-    <!-- Section 1: Fundamental -->
     <section title="基本面分析" icon="基" color_bg="#EAF3DE" color_text="#3B6D11" open="true">
-      <kv key="公司市值" val="約4.14兆美元"/>
-      <kv key="本益比(TTM)" val="31.64"/>
-      <kv key="預測本益比" val="25.34"/>
-      <kv key="PEG比率" val="2.31"/>
-      <kv key="股價淨值比" val="9.96"/>
-      <kv key="權益報酬率(ROE)" val="35.7%"/>
-      <kv key="現金及短期投資" val="1268億美元"/>
-      <kv key="總債務" val="593億美元"/>
-      <kv key="流動比率" val="2.01"/>
-      <kv key="營運利潤率" val="31.6%"/>
-      <kv key="營收成長(季增)" val="從902億(2025Q1)成長至1138億(2025Q4)"/>
-      <prose>Alphabet Inc. (GOOG) 持續展現卓越的財務實力與市場統治力，在通訊服務領域保持領先地位。公司淨利率高達約32.8%，財務數據揭示一項重大戰略轉向：積極投資基礎建設與研發（大概是以人工智慧為核心）。資本支出的大幅增長（從2024Q4的143億美元飆升至2025Q4的278.5億美元）以及研發支出（從2025Q1的135億美元增至2025Q4的185.7億美元）都印證了這一點。</prose>
-      <prose>營收規模方面，季度營收從2025年第一季的902.3億美元擴張至第4季的1138.3億美元，反映核心搜尋與廣告業務的強勁需求。淨利（TTM）達到1322億美元，營運利潤率31.6%，顯示極高的營運效率。權益報酬率35.7%表示公司對股東資本的使用效率極高。</prose>
-      <prose>財務實力部分，Alphabet 擁有企業界最健全的資產負債表之一。現金及短期投資約1268億美元，流動比率2.01代表公司可輕鬆覆蓋兩倍的短期義務。總債務約593億美元，債務權益比僅16.13%，對這類規模的公司而言槓桿非常低。總資產從2024年底約4500億美元增長至2025年底的5953億美元。</prose>
-      <prose>現金流分析顯示公司處於「重度投資階段」，同時持續回饋股東。營業現金流強勁且穩定，2025年第4季達524億美元。儘管資本支出飆升，自由現金流仍達約246億美元。公司繼續積極執行股票回購（每季55億至150億美元），並維持每季約25億美元的股息。</prose>
-      <prose>估值方面，本益比31.64與預測本益比25.34之間的差距顯示分析師預期每股收益在未來一年有顯著增長。但PEG比率2.31暗示相對於其成長率，股價處於溢價水平。股價淨值比9.96也顯示市場對其資產給予了高度評價。</prose>
-      <tag>基本面強勁</tag>
-      <tag>現金王</tag>
-      <tag>AI投資</tag>
-      <tag>雲端成長</tag>
-      <tag>高ROE</tag>
-      <tag>高研發</tag>
-      <tag>股份回購</tag>
-      <tag>溢價估值</tag>
+      <title>AAPL 基本面分析報告</title>
+      <kv key="市值" val="$3.97兆" />
+      <kv key="營收(TTM)" val="$4,356億" />
+      <kv key="毛利率" val="47.3%" />
+      <kv key="淨利率" val="27.0%" />
+      <kv key="營業毛利率" val="35.4%" />
+      <kv key="TTM EPS" val="$7.90" />
+      <kv key="前瞻EPS" val="$9.37" />
+      <kv key="前瞻EPS成長率" val="18.6%" />
+      <kv key="淨債務" val="$45.2B" />
+      <kv key="股東權益" val="$88.2B" />
+      <kv key="股數減少(近4季)" val="8.4%" />
+      <prose>公司概覽與估值：Apple Inc. (AAPL) 是全球科技領軍企業，隸屬消費電子產業，市值高達 3.97 兆美元。產品生態系涵蓋 iPhone、Mac、iPad、配戴裝置，以及持續擴張的服務部門，持續驅動卓越的獲利能力與顧客忠誠度。Apple 的品牌實力、垂直整合與重複性收入組合，為長期投資者提供防衛型成長混合體位。</prose>
+      <prose>估值分析顯示 AAPL 以溢價估值交易，但前瞻 P/E 從 34.21 壓縮至 28.83，預期隨收益加速而進一步壓縮。PEG 比率 2.46 略偏高，表示成長未能完全抵銷溢價。市淨率 45.06 反映輕資產、IP 密集型的商業模式。前瞻 EPS 為 $9.37，較 TTM EPS $7.90 成長 18.6%。Beta 值 1.11 表示略高於大盤波動。要點總結：AAPL 的估值雖高，但前瞻 P/E 壓縮與強勁收益軌跡支撐該倍數。</prose>
+      <prose>收入與獲利趨勢：Q4 FY2025（2025年12月）營收達 1,437.6 億美元，創下歷史新高，主驅動來自 iPhone 週期與服務收入創紀錄增長。季毛利率為 48.2%（$692億/$1,438億），為歷史新高。TTM 毛利率 47.3%，營業毛利率 35.4%，淨利率 27.0%。服務業務（高毛利重複性收入）成為關鍵成長動能。9月至12月營收從 1,024.7億增至 1,437.6億，符合 Apple 強勁的假日季動態。</prose>
+      <prose>資產負債表分析：總資產 3,793 億美元。現金及等價物 453.2 億美元。總負債 905.1 億美元，淨債務 451.9 億美元，較 2024年12月下降 32%。股東權益 881.9 億美元，年增 32%。可出售證券 779 億美元。負營運資金 -42.6 億美元乃 Apple 供應鏈效率的典型特徵。去槓桿趨勢顯著：淨債務從 2024年12月的 $665億降至 2025年12月的 $452億。現金準備提供充足靈活性用於資本支出、研發及持續股票回購。</prose>
+      <prose>現金流分析：年化自由現金流超過 1,060 億美元，提供龐大資本回報能力。近四季股票回購 917 億美元，約 15億股註銷，支撐 EPS 成長。資本支出維持每季約 30 億美元，研發支出約每季 34 億美元。營運現金流：Q4 達 539.3 億美元。持續債務償還與淨債務下行趨勢一致。股東回報方案極度對股東友善：結合股息與回購，年總資本回報約 1,000 億美元。</prose>
+      <prose>風險因素：前瞻 P/E 28.83 與 PEG 2.46 不留容錯空間。任何收益不及預期或宏觀放緩都可能壓抑股價。營收集中於 iPhone，任何供應鏈或需求中斷將產生重大影響。歐盟與美國的反托審視，以及中國市場曝險仍是主要懸念。營運資金持續為負，雖然對 Apple 模式屬正常現象，但若供應鏈中斷可能成為隱患。</prose>
+      <prose>投資論點優勢：行業領先的毛利率（48%）與淨利率（27%）持續擴張。極致現金流生成能力（年化 $1,063 億）。激進去槓桿與淨債務年減 32%。大規模資本回報方案（每年約 $1,000 億股東回報）。服務業務持续增长提供高毛利重複性收入。強大品牌護城河與高顧客留存率。</prose>
+      <prose>機會：AI 整合 Across 產品（iPhone、服務）可能驅動換機週期。服務邊際持續擴張，因為組合轉向高毛利訂閱。持續股票回購提供持續 EPS 攤薄。新興市場邊際擴張潛力。技術面與基本面雙向支撐 AAPL 處於強勁上漲趨勢中。</prose>
+      <tag>基本面</tag>
+      <tag>估值</tag>
+      <tag>營收成長</tag>
+      <tag>自由現金流</tag>
+      <tag>股東回報</tag>
+      <tag>去槓桿</tag>
+      <tag>服務業務</tag>
+      <tag>AAPL</tag>
     </section>
-
-    <!-- Section 2: Technical -->
     <section title="技術面分析" icon="技" color_bg="#E6F1FB" color_text="#185FA5" open="true">
-      <kv key="目前價格" val="337.75美元"/>
-      <kv key="RSI" val="67.32（接近超買）"/>
-      <kv key="MACD" val="9.71（強烈多頭）"/>
-      <kv key="MACD柱狀圖" val="2.94（動能正減弱）"/>
-      <kv key="布林上緣" val="357.89美元"/>
-      <kv key="VWMA" val="324.33美元"/>
-      <kv key="10日EMA" val="329.66美元"/>
-      <kv key="50日SMA" val="307.87美元"/>
-      <kv key="200日SMA" val="275.70美元"/>
-      <prose> GOOG 在多個時間框架上展現強勁的多頭趨勢。經過三月底的盤整與下跌後，股票進入強力復甦階段，特徵為價格急漲與強勁成交量支撐。目前股價遠高於其主要移動平均線。雖然動能指標顯示股票正接近超買區域，但在預期顯著回調之前，仍有成長空間。</prose>
-      <prose>趨勢分析方面：短期動能上，價格（337.75）交易在10日EMA（329.66）之上，顯示強烈短期上升動能。10日EMA在4月初從約290急升至當前水平，確認價格快速加速。中期趨勢方面，50日SMA（307.87）向上傾斜且位於當前價格下方，顯示中期趨勢穩健多頭，50日SMA若在更深回調中將作為主要動態支撐。長期基準方面，200日SMA（275.70）確認主導性的長期多頭週期，當前價格與200日SMA之間的寬廣差距表明價格遠高於長期均值。</prose>
-      <prose>成交量整合方面，VWMA（324.33）向上趨勢且低於當前價格，確認目前價格上漲伴隨大量成交支撐，降低了這是「假突破」或低量拉抬的可能性。</prose>
-      <prose>動能評估方面，RSI目前為67.32。RSI在4月17日曾達73.01的最高點，進入超買區域。未伴隨重大價格下跌而輕微下降至67.32，顯示一次健康的「冷卻」週期，這通常允許股票比暴漲型態持續更長時間。MACD分析顯示MACD（9.71）強烈正向，在短短三週內從負值區域（4月初的-7.20）攀升至近10，顯示動能從空頭到多頭的巨大轉變。MACD柱狀圖（2.94）為正向，雖然已從4月15日的5.28高峰下降，暗示趨勢雖仍向上但加速率略為減緩。</prose>
-      <prose>波動性與區間方面，GOOG的價格（337.75）未觸及布林上緣（357.89），表示仍有技術性「上升空間」向350-358區間移動，在變得過度擴張前仍有空間。</prose>
-      <tag>多頭趨勢</tag>
-      <tag>動能強勁</tag>
-      <tag>接近超買</tag>
-      <tag>量價齊升</tag>
-      <tag>EMA支撐</tag>
-      <tag>布林帶目標</tag>
+      <title>AAPL 綜合技術分析報告</title>
+      <kv key="當前價格" val="$273.43" />
+      <kv key="整體趨勢" val="強烈看多" />
+      <kv key="RSI(14)" val="62.95" />
+      <kv key="MACD線" val="3.92" />
+      <kv key="MACD訊號線" val="2.11" />
+      <kv key="MACD柱狀圖" val="1.81" />
+      <kv key="10日EMA" val="$267.24" />
+      <kv key="50日SMA" val="$260.23" />
+      <kv key="200日SMA" val="$253.04" />
+      <kv key="布林帶上緣" val="$276.33" />
+      <kv key="布林帶中線" val="$260.49" />
+      <kv key="布林帶下緣" val="$244.65" />
+      <kv key="ATR" val="$6.04" />
+      <prose>執行摘要：Apple Inc. (AAPL) 在所有時間框架內展現強烈上漲動能，從3月30日低點 $246.63 至 4月23日的 $273.43，漲幅約 10.8%。所有主要趨勢指標均對齊做多——價格同時位於 10 EMA、50 SMA 與 200 SMA 之上，這種配置通常被稱為「堆疊移動平均線」，通常表示持續的上漲動能。</prose>
+      <prose>價格動能分析（3月25日 — 4月23日）：關鍵價格節點的移動結構顯示清晰的高點與低點上升模式，確認上漲趨勢。4月21日的回調僅約 2.5%（從4月20日高點），且被迅速吸收——顯示基本面強勢。4月15日突破 $260 關口，收於 $266.43。4月17日持續上漲，於 6,140 萬股成交量下收於 $270.23。4月20日達目前波段高點 $273.05。4月21日短暫回調至 $266.17（獲利了結，5,020 萬股成交量尖峰）。4月22日強勁回升至 $273.17。4月23日在高點附近盤整於 $273.43。</prose>
+      <prose>移動平均線分析：移動平均線以做多功能排列（200 SMA &amp;lt; 50 SMA &amp;lt; 10 EMA &amp;lt; 價格）為一級別的強烈趨勢配置。200 SMA 已從 3月25日的 $247.20 升至 4月23日的 $253.04，確認長期趨勢正在強化。價格位於所有主要移動平均線之上。</prose>
+      <prose>動能分析：RSI（相對強弱指標）為 62.95，處於中性偏多狀態，接近超買區但仍遠未進入超買領域，表示仍有上行空間。RSI 從 3月30日的 35.56 急升至 4月23日的 62.95。MACD 產生黃金交叉（MACD 線於 4月13-14日穿越訊號線），帶動持續上漲。擴張的柱狀圖表明看多動能仍在加強，未顯示背離或力竭訊號。</prose>
+      <prose>布林帶分析：價格目前位於布林帶範圍的上四分位。距上軌約 $2.90。布林帶近期略有收縮，價格接近上緣表明看多壓力增加。突破 $276.33 可能訊號延續至 2月6日高點 $280.65。反之可能回調至中線 $260.49。</prose>
+      <prose>波動性分析：ATR 為 $6.04，表示中等波動性，過去一個月日均真實區間約 $5.5-$6.2。停損建議於 $257.50（低於近期波段低點與上升的 200日 SMA）。</prose>
+      <prose>成交量分析：從 $246.63 至 $273.43 的反弹是由成交量支撐的，特別是在突破日。4月23日盤整期成交量降至 3,330 萬股屬正常現象，表示賣方未積極壓低價格。</prose>
+      <prose>支撐與壓力：關鍵支撐位由強至弱分別為 $253.04（200 SMA）、$260.23（50 SMA）、$260.49（布林中線）、$267.24（10 EMA）、$244.65（布林下緣）。關鍵壓力位分別為 $276.33（布林上緣）、$280.65（2月6日高點）。</prose>
+      <tag>技術分析</tag>
+      <tag>做多動能</tag>
+      <tag>移動平均線</tag>
+      <tag>RSI</tag>
+      <tag>MACD</tag>
+      <tag>布林帶</tag>
+      <tag>ATR</tag>
+      <tag>AAPL</tag>
     </section>
-
-    <!-- Section 3: Sentiment -->
     <section title="市場情緒" icon="情" color_bg="#EEEDFE" color_text="#3C3489" open="true">
-      <kv key="整體情緒" val="強烈看多"/>
-      <kv key="機構情緒" val="正面"/>
-      <kv key="大型投資人人氣" val="Bill Ackman 維持長期看多"/>
-      <kv key="近期催化劑" val="Anthropic 400億美元戰略投資"/>
-      <prose>Alphabet Inc. (GOOG) 在本週經歷了高度看多行情，最具指標性的戰略投資為對Anthropic大舉投入400億美元的計畫。這項戰略結合了對人工智慧領導地位的積極追求，以及對即將揭曉的2026年第一季財報的正面預期。主導主題為Alphabet對人工智慧領導地位的大膽追求。UBS與美銀在第一季財報前提出了看多展望。</prose>
-      <prose>AI擴張方面：最具決定性的催化劑是Alphabet對Anthropic高達400億美元的投資。交易中100億美元將立即投入，其餘300億美元則視Anthropic達成績效目標而定。這是一項明確信號，Alphabet不只依賴內部Gemini開發，更在確保戰略合作夥伴關係，掌握最佳人工智慧模型計算與基礎架構生態系。市場將此視為「巨大AI下注」，導致股價在週五午盤跳空上漲。</prose>
-      <prose>雲端基礎建設方面：UBS分析師預期雲端基礎架構growth將持續加速，將Google Cloud定位為收入擴張的主要驅動因素。美銀重置了其股票預測，認識到Alphabet已從單純的搜尋引擎演變為全面性的「超規模雲端供應商」。Gemini性能方面：儘管中國AI模型（如DeepSeek）崛起，報告顯示Google的封閉式Gemini-Pro-3在世界知識基準測試中持續領先對手，維持其競爭優勢。</prose>
-      <prose>生態系統協同方面：Alphabet擴大了與Cadence Design Systems、台積電、NVIDIA的人工智慧結盟，旨在將「agentic AI」與先進IP帶入下一代半導體設計，深化Alphabet在AI硬體層的整合。</prose>
-      <prose>市場與社群情緒已由「謹慎觀察」轉變為「積極樂觀」。Anthropic投資新聞觸發了Yahoo Finance、GuruFocus等財經社群平台上正 sentiment 的激增，投資者將此視為對抗微軟與OpenAI等競爭對手的積極手段。知名投資者Bill Ackman（Pershing Square）持續將Alphabet視為頂尖長期科技力量。</prose>
-      <tag>AI戰略</tag>
-      <tag>Anthropic投資</tag>
-      <tag>雲端成長樂觀</tag>
-      <tag>機構看多</tag>
-      <tag>Gemini領先</tag>
-      <tag>生態系整合</tag>
-      <tag>Ackman看多</tag>
-      <tag>財報催化劑</tag>
+      <title>AAPL 市場情緒綜覽</title>
+      <kv key="整體情緒" val="極度樂觀" />
+      <kv key="分析者共識" val="強力買入" />
+      <kv key="機構情緒" val="強力買入/超配" />
+      <kv key="散戶情緒" val="看多" />
+      <kv key="媒體情緒" val="正面" />
+      <prose>執行摘要：Apple Inc. (AAPL) 正面臨一個關鍵週期，結合了財報後的樂觀情緒、創紀錄的 CEO 領導交接（Tim Cook 於 9月退休，John Ternus 接任 CEO），以及升高的宏觀與地緣風險。儘管財務媒體、分析師評級與社群媒體評論普遍正面指出 Apple 的持久生態系、創紀錄服務收入與資本回報計畫。然而 9月 Cook-to-Ternus 的 CEO 交接引入顯著執行風險需密切監控。</prose>
+      <prose>關鍵新聞主題：一、CEO 交接：Tim Cook 9月正式卸任 CEO，結束其領導時代。John Ternus（硬體主管）被選為接班人。Barron's 以正面視角報導，稱 Ternus 給予公司「全新開始」的機會。二、強勁財報：Q1 營收達 $1,437.6億，服務收入創紀錄。股票進入「反彈模式」，在 Magnificent Seven 財報週期連續兩季上漲。三、股息與資本回報：過去十年股息增長約 900%。機構將 AAPL 列為藍籌底倉持有標的。四、法律風險：Apple Pay 聯邦訴訟指控 ADA 合規問題，屬中程風險。五、市場背景：科技股持穩於歷史高位附近，受財報驅動大盤上漲，地緣風險目前被財報優勢覆蓋。</prose>
+      <prose>散戶情緒：散戶投資者持續加碼，多個投資者於 $252-$273 區間重複買入。Reddit 與社群媒體顯示長期信心。機構情緒：分析師強烈買入，被列為「入門級安全股票」第二名。情緒趨勢：4/17 中性偏多 → 4/18 略多 → 4/19 多 → 4/20 多（CEO 交接確認）→ 4/21 混合（P/E 審查與訴訟）→ 4/22 多 → 4/23 多 → 4/24 極度樂觀。</prose>
+      <risk>CEO 交接風險（9月）：高嚴重性，執行不確定性仍須監控 Ternus 早期戰略信號</risk>
+      <risk>Apple Pay 訴訟：中等嚴重性，監管先例風險，需追蹤擴展</risk>
+      <risk>估值过高（34x P/E）：中等風險，溢價定價要求持續成長</risk>
+      <risk>地緣政治（伊朗/石油）：低至中等，短期影響，目前被基本面優勢覆蓋</risk>
+      <risk>App Store 監管：中等風險，歐盟 DMA、DOJ 行動、全球反壟斷審視</risk>
+      <tag>市場情緒</tag>
+      <tag>CEO交接</tag>
+      <tag>財報樂觀</tag>
+      <tag>機構買入</tag>
+      <tag>散戶信心</tag>
+      <tag>Apple Pay訴訟</tag>
+      <tag>地緣政治</tag>
+      <tag>AAPL</tag>
     </section>
-
-    <!-- Section 4: Risk -->
     <section title="風險因素" icon="險" color_bg="#FCEBEB" color_text="#A32D2D" open="true">
-      <kv key="風險等級" val="中等"/>
-      <risk>獲利能力疑問：Investor's Business Daily 提出了核心問題——Alphabet能否有效將其龐大AI投資轉化為底線利潤。這暗示雖「投資階段」受到歡迎，但市場在即將到來的財報電話會議上將尋求具體的變現路徑。</risk>
-      <risk>中國AI競爭威脅：DeepSeek新模型針對華為晶片量身打造，其「Pro」版本僅落後於Google Gemini-Pro-3，顯示中美AI能力差距正在縮小，可能威脅全球市佔率。</risk>
-      <risk>資本支出疑慮：400億美元的投資是龐大的資本支出；若「附帶條件」部分在未達成明確ROI的情況下支出，可能對毛利率造成壓力。</risk>
-      <risk>財報波動性：UBS與美銀行已上調預期，留下極少容錯空間。若財報表現不如高度預期的市場共識，可能觸發劇烈回調。</risk>
-      <risk>估值溢價：PEG比率2.31顯示市場已定價了極少能達成的完美程度。在高科技結構轉變期，追蹤指標可能具有誤導性，若AI變現未如預期，回調風險較高。</risk>
-      <risk>CapEx飆升風險：資本支出一年內幾乎翻倍，對利潤率構成重大風險。若AI變現未能如預期，利潤率將快速壓縮。</risk>
-      <tag>估值風險</tag>
-      <tag>中國競爭</tag>
-      <tag>支出壓力</tag>
-      <tag>財報不確定</tag>
-      <tag>變現挑戰</tag>
-      <tag>利潤率壓縮</tag>
+      <title>AAPL 主要風險因素</title>
+      <prose>1. 估值風險：前瞻 P/E 28.8 倍與 PEG 2.46 表示股票不便宜。任何收益不及預期或宏觀放緩都可能導致估值壓縮。溢價定價不留容錯空間。</prose>
+      <prose>2. CEO 交接風險：Tim Cook 9月退休，John Ternus 接任。領導層換手引入執行不確定性。歷史前例表明初期市場動盪可能創造買入機會，但也可能導致短期股價波動。</prose>
+      <prose>3. Apple Pay 訴訟：聯邦訴訟指控 Apple Pay 便利快速線上賭博交易，涉及 ADA 與加州 Unruh 民事權利法合規問題。屬低至中等機率的風險，但需監控擴展。</prose>
+      <prose>4. 地緣政治風險：美國-伊朗緊張局勢與霍爾木茲海峽關閉導致油價上漲。間接影響科技情緒，但已財報優勢覆蓋。若持續上升可能影響消費者支出。</prose>
+      <prose>5. App Store 監管壓力：30% 抽成面臨歐盟 DMA、DOJ 行動與全球反壟斷審視。此為長期風險，可能影響服務邊際擴張。</prose>
+      <prose>6. 營收集中度：iPhone 銷售仍佔主導，任何供應鏈或需求中斷將產生過度影響。中國市場曝險是另一隱懸念。</prose>
+      <prose>7. 增長放緩風險：營收成長穩健但非爆炸性。增量成長動能（服務、配戴裝置、AI 整合）需要持續實現。</prose>
+      <risk>估值溢價風險：PE 34x、PEG 2.46 - 中等嚴重性</risk>
+      <risk>CEO 交接：9月 Cook → Ternus - 高嚴重性</risk>
+      <risk>Apple Pay 訴訟：低至中等機率</risk>
+      <risk>地緣政治：中-短期風險</risk>
+      <risk>App Store 監管壓力：長期結構性風險</risk>
+      <tag>風險</tag>
+      <tag>估值</tag>
+      <tag>CEO交接</tag>
+      <tag>訴訟</tag>
+      <tag>地緣政治</tag>
+      <tag>監管</tag>
+      <tag>AAPL</tag>
     </section>
-
-    <!-- Section 5: Verdict -->
     <section title="最終評級與操作建議" icon="結" color_bg="#EAF3DE" color_text="#27500A" open="true">
-      <kv key="評級" val="買入(BUY)"/>
-      <kv key="建議買入區間" val="324-330美元"/>
-      <kv key="目標價格" val="358美元（布林上緣）"/>
-      <kv key="停損價格" val="308美元（50日SMA）"/>
-      <kv key="時間框架" val="中等期（財報週期）"/>
-      <verdict_card label="評級" value="買入(BUY)"/>
-      <verdict_card label="建議買入區間" value="324-330美元" value_color="#185FA5"/>
-      <verdict_card label="目標價格" value="358美元" value_color="#27500A"/>
-      <verdict_card label="停損價格" value="308美元" value_color="#A32D2D"/>
-      <strategy>操作策略：採取「逢回檔買進」策略。進場目標區間為324-330美元，此區間與VWMA（324.33）及10日EMA（329.66）吻合，能最佳化風險報酬比。主要目標價格為358美元，對應布林上緣，代表下一個主要技術阻力位。風險管理方面，已將原建議的275美元停損調整為308美元（50日SMA），以避免冒17%的風險去追求10%的上漲。這在專業資金保全標準與捕捉動能之间取得平衡。投資論點建立在「垂直堡壘」概念——Google不只參與AI競賽，更擁抱從自製晶片（TPU）、雲端基礎建設到模型層的完整生產鏈，創造出競爭對手依賴第三方硬體或軟體難以匹敵的成本優勢護城河。400億美元的Anthropic投資被視為戰略對沖而非對Gemini缺乏信心的表現。Alphabet擁有1268億美元現金儲備的財務堡壘，使其能大膽擴張而不危及財務穩定性。</strategy>
+      <title>AAPL 最終交易評級與操作建議</title>
+      <kv key="評級" val="買入 (BUY)" />
+      <kv key="操作策略" val="分批建倉" />
+      <kv key="時間框架" val="4-8週" />
+      <verdict_card label="評級" value="買入 (BUY)" value_color="#27AE60" />
+      <verdict_card label="目標價" value="$280.65 (2月高點)" value_color="#27AE60" />
+      <verdict_card label="停損價" value="$257.50" value_color="#E74C3C" />
+      <prose>執行摘要：以分批方式在 $267-$270 區間建立 AAPL 部位，此處為10日EMA與機構支撐收斂區間。在此水準部署 25-30% 的目標部位。在 $260-$263 回調或 $276 突破（需4,000萬股以上成交量確認）時加碼剩餘 70-75%。設定硬性停損於 $257.50，200日移動平均線（約 $253）作為趨勢無效化位。在2月高點 $280.65 處開始獲利了結，出倉 50% 部位，以20日移動平均線或 $272 波段低點進行尾隨停損。</prose>
+      <prose>投資論點：研究組與風險辯論的綜合確認確認 AAPL 的積極方向性偏見。看多論點建立在可執行的機械性動力基礎之上：前瞻 EPS 成長 18.6%、年化自由現金流超過 1,060 億美元，以及年回購率 8.4%，正在複利每股價值並迫使前瞻倍數壓縮。技術面上，AAPL 位於上升移動平均線之上，MACD 柱狀圖擴張且 RSI 位於 62.95，表示機構買進而非散客力竭。</prose>
+      <prose>相反，保守與中立視角正確地標誌結構性逆風：PEG 比率超過 2.4、9月的 Cook 至 Ternus 領導交接，以及宏觀/地緣政治壓力（能源價格上漲、監管懸念）。然而，現金流與回購是市場尊重的積極槓桿，而 CEO 交接已被機構頭寸消化。中道路徑拒絕追高溢價擴張，同時利用結構性動能。</prose>
+      <prose>歷史週期表明，在領導交接期間 Fade 大型科技股往往錯過重新定價反彈。忽略技術確認會留下 Alpha 在桌上。透過在 AAPL 建立計量多單，我們以成交量確認的機構活動而非滯後估值指標為基礎對齊成本基礎。$257.50 硬性停損與 $253 趨勢無效化防護缺口風險與消息驅動的跌幅。</prose>
+      <prose>操作建議細節：一、建倉策略：在 $267-$270 區間建立初始 25-30% 部位。二、加碼條件：在 $260-$263 回調確認或 $276 成交量突破時加碼。三、停損：$257.50 硬性停損。四、獲利了結：$280.65 出倉 50%，尾隨停損 20日 MA 或 $272。五、成交量確認：突破 $275 需至少 4,000 萬股確認機構跟風。</prose>
+      <strategy>{esc("以 $267-$270 為基礎建倉區間，分批部署至 100% 目標部位。停損 $257.50，目標價 $280.65。時間框架 4-8 週，配合季報淨利與 9月領導交接。在 $260-$263 回調確認時加碼，或於 $276 高成交量突破時加碼。持續監控 CEO 交接進展與季報毛利率數據。")}</strategy>
       <tag>買入</tag>
-      <tag>逢回檔買進</tag>
-      <tag>AI堡壘</tag>
-      <tag>垂直整合</tag>
-      <tag>財報催化</tag>
-      <tag>風險可控</tag>
+      <tag>分批建倉</tag>
+      <tag>目標價$280</tag>
+      <tag>停損$257</tag>
+      <tag>趨勢跟隨</tag>
+      <tag>機構買進</tag>
+      <tag>AAPL</tag>
     </section>
   </stock>
 </report>
