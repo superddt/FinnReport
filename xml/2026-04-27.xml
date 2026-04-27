@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report date="2026-04-27">
+  <stock ticker="AAPL" name="Apple Inc." sector="Consumer Electronics" exchange="NASDAQ">
+    <metrics>
+      <title>AAPL Key Metrics</title>
+      <metric key="Current Price" value="$271.06"/>
+      <metric key="52-Week High" value="$288.35"/>
+      <metric key="52-Week Low" value="$188.99"/>
+      <metric key="Market Cap" value="3.98T"/>
+      <metric key="P/E (TTM)" value="34.35"/>
+      <metric key="P/E (Forward)" value="28.98"/>
+      <metric key="PEG Ratio" value="2.44"/>
+      <metric key="P/B" value="45.19"/>
+      <metric key="EPS (TTM)" value="$7.89"/>
+      <metric key="ROE" value="152.02%"/>
+      <metric key="ROA" value="24.38%"/>
+      <metric key="Profit Margin" value="27.04%"/>
+      <metric key="Operating Margin" value="35.37%"/>
+      <metric key="Gross Margin" value="46.90%"/>
+      <metric key="Revenue (TTM)" value="$436.00B"/>
+      <metric key="Free Cash Flow" value="$98.80B"/>
+      <metric key="Revenue Growth (YoY)" value="15.70%"/>
+      <metric key="Earnings Growth (YoY)" value="18.30%"/>
+      <metric key="Dividend Yield" value="0.38%"/>
+      <metric key="Beta" value="1.11"/>
+      <metric key="Analyst Target" value="$296.33"/>
+    </metrics>
+
+    <section open="true">
+      <title>基本面分析</title>
+      <icon>基</icon>
+      <color_bg>#EAF3DE</color_bg>
+      <color_text>#3B6D11</color_text>
+      <body>
+        <kv key="當前股價" val="$271.06"/>
+        <kv key="公司規模" val="3.98T"/>
+        <kv key="營業利潤率" val="35.37%"/>
+        <kv key="毛利率" val="46.90%"/>
+        <kv key="淨利率" val="27.04%"/>
+        <kv key="ROE" val="152.02%"/>
+        <kv key="ROA" val="24.38%"/>
+        <kv key="EPS (TTM)" val="$7.89"/>
+        <kv key="營收成長（年增）" val="15.70%"/>
+        <kv key="EPS成長（年增）" val="18.30%"/>
+      </body>
+      <body>
+        <prose>Apple Inc.（AAPL）是全球市值最高的科技公司，總市值約3.98兆美元。公司設計、製造並行銷智慧型手機（iPhone）、個人電腦（Mac）、平板電腦（iPad）和穿戴裝置（Apple Watch、AirPods），並透過App Store、iCloud、Apple Music、Apple Pay及服務生態系創造穩定且持續成長的經常性收入。</prose>
+        <prose>財力方面，TTM營收達4,360億美元，年增7.6%。營業利潤率達35.37%，毛利率46.9%，淨利潤率27.04%，展現極強的定價能力與成本管控。FY2025營收增長6.4%至4,161.6億美元，毛利率擴張至46.9%，顯示高毛利服務與高級硬體持續發揮效益。</prose>
+        <prose>資產負債表穩健，淨債務同比下降18.2%，自由現金流達988億美元。FCF龐大引擎支援AI基礎設施投資、策略性併購與股東回報。利息覆蓋率高達33.9倍。這顯示財務結構的持久力，非槓桿風險。</prose>
+        <prose>估值方面，TTM P/E為34.35倍，前瞻P/E為28.98倍，PEG為2.44。相對於7.6%的營收成長，PEG處於偏高水準，反映市場對AI整合與服務擴張的預期。P/B 45.19倍為極高水準，反映其輕資產商業模式。股息殖利率0.38%。</prose>
+        <prose>股東回報方面，公司擁有900億美元的年度回購計劃，年化減持約5%，構成持續性的EPS支撐底盤。自IPO以來累計回購達千億美元規模，是華爾街最具股東友善的公司之一。</prose>
+        <prose>關鍵競爭力包括：1）iOS生態系鎖定效應；2）自研晶片（M-series、A-series）形成的硬體─軟體垂直整合護城河；3）20億+活躍裝置的全球基礎；4）服務業務的複利增長；5）AI整合催化劑（Apple Intelligence、on-device AI）。</prose>
+      </body>
+      <body>
+        <tag>Apple</tag>
+        <tag>Consumer Electronics</tag>
+        <tag>iPhone</tag>
+        <tag>Services Revenue</tag>
+        <tag>AI Integration</tag>
+        <tag>Buyback Program</tag>
+        <tag>Free Cash Flow</tag>
+        <tag>Ecosystem Lock-in</tag>
+        <tag>Privacy-first AI</tag>
+        <tag>M-series Chip</tag>
+      </body>
+    </section>
+
+    <section open="true">
+      <title>技術面分析</title>
+      <icon>技</icon>
+      <color_bg>#E6F1FB</color_bg>
+      <color_text>#185FA5</color_text>
+      <body>
+        <kv key="價格" val="$271.06"/>
+        <kv key="趨勢" val="多週期上升趨勢"/>
+        <kv key="RSI" val="59.71（健康偏離區間）"/>
+        <kv key="MACD" val="4.02（看漲交叉）"/>
+        <kv key="200 SMA" val="$253.34（長期支撐）"/>
+        <kv key="50 SMA" val="$260.15（中期支撐）"/>
+        <kv key="布林帶下軌" val="$245.32（主要支撐）"/>
+        <kv key="布林帶中軌" val="$245.32（均值回歸目標）"/>
+        <kv key="布林帶上軌" val="$245.32（短期阻力）"/>
+      </body>
+      <body>
+        <prose>AAPL 截至4月24日收盤報271.06美元，展現強勁的上升趨勢。價格高於50 SMA（260.15美元）和200 SMA（253.34美元），確認中期上升趨勢。50 SMA在200 SMA之上，即黃金交叉設置，驗證持續的看漲動能。50 SMA自3月31日的約259.95美元爬升至260.15美元，200 SMA從約247.94美元攀升至253.34美元。</prose>
+        <prose>動能指標：MACD（+4.02）自3月30日的-3.85深谷底大漲至正價區間，呈現強動能轉變。這在約三週內從負值到強正價MACD的轉變表明加速的看漲動能。擴張的MACD直方圖支持動能延續。</prose>
+        <prose>RSI（59.71）處於健康偏離區間，距離超買區間70仍有充足空間。4月20日的66.53高點回調至目前水準，顯示RSI有進一步上行空間而無需進入超買區域。</prose>
+        <prose>布林帶：當前價格277.48美元接近上軌，距中軌261.40美元82%距離至下軌245.32美元。上軌為短期阻力，下軌為主要支撐。頻寬（32.16美元）表明擴大波動性。</prose>
+        <prose>技術推論：當前趨勢結構完整，價格在高點和更高點的模式中運行。布林帶上側的接近可能是突破的發射台或是回調中軌的預兆。RSI的下降和MACD的擴張表明動能仍具擴張性而非衰竭。</prose>
+        <prose>關鍵支撐：50 SMA（260.15美元）和200 SMA（253.34美元）。日線低於260將表明短期疲軟，低於253將表明趨勢反轉風險。關鍵阻力：布林帶上軌（277.48美元）和52週高點（288.62美元）。</prose>
+      </body>
+      <body>
+        <tag>Golden Cross</tag>
+        <tag>Bullish Momentum</tag>
+        <tag>MACD Crossover</tag>
+        <tag>Upper Bollinger Band</tag>
+        <tag>Multi-timeframe Uptrend</tag>
+        <tag>Support at 50/200 SMA</tag>
+      </body>
+    </section>
+
+    <section open="true">
+      <title>市場情緒</title>
+      <icon>情</icon>
+      <color_bg>#EEEDFE</color_bg>
+      <color_text>#3C3489</color_text>
+      <body>
+        <kv key="分析師共識" val="65% 買入 | 31% 持有 | 4% 賣出"/>
+        <kv key="目標價（平均）" val="$296.33"/>
+        <kv key="機構持股" val="65.31%"/>
+        <kv key="內部人持股" val="1.64%"/>
+        <kv key="空頭比率" val="0.85%"/>
+        <kv key="輿論情緒" val="偏多（伴隨CEO交接和Buffett減持關注）"/>
+      </body>
+      <body>
+        <prose>Apple（AAPL）正處於公司歷史上關鍵的轉型期。股價271.06美元，在Q1財報（2026年4月29-30日）前，這週期涉及Tim Cook的退休、John Ternus接任CEO、以及Buffett的伯克希爾75% Apple持倉減持。</prose>
+        <prose>John Ternus被確認為下任CEO（2026年9月生效），被Motley Fool、Barron's視為正面轉折點。Ternus與首席硬體官Johny Srouji形成的組合被視作鞏固創新和AI路線。</prose>
+        <prose>Buffett的75%減持引發複雜情緒。看跌方認為是價值投資者的警訊，看漲方認為伯克希爾仍然持有大量Apple持倉。Buffett的持股成本基僅約50美元，仍保留巨大未實現收益。</prose>
+        <prose>Q1財報（4月29-30日）將與Amazon、Google、Microsoft、Meta同期公布，構成「七大科技巨強」財報浪潮。市場預期Q1營收約1,452億美元，服務收入創新高是關鍵催化劑。</prose>
+        <prose>監管風險：EU DMA和美國DOJ反托銷持續施壓。Apple Pay和App Store經濟模式正在被強制開放。這可能影響服務的長期利潤率。</prose>
+        <prose>社交媒體方面，零售投資者對CEO交接高度參與。整體情緒偏多，但財報前的不確定性使情緒有所降溫。</prose>
+        <prose>分析師共識：65%買入、31%持有、4%賣出。平均目標價296.33美元，潛在上漲空間約9.3%。</prose>
+      </body>
+      <body>
+        <tag>CEO Transition</tag>
+        <tag>John Ternus</tag>
+        <tag>Johny Srouji</tag>
+        <tag>Buffett Divestiture</tag>
+        <tag>Magnificent 7 Earnings</tag>
+        <tag>AI Narrative</tag>
+        <tag>Regulatory Risk</tag>
+        <tag>EU DMA</tag>
+        <tag>DOJ Antitrust</tag>
+        <tag>Retail Sentiment</tag>
+      </body>
+    </section>
+
+    <section open="true">
+      <title>風險因素</title>
+      <icon>險</icon>
+      <color_bg>#FCEBEB</color_bg>
+      <color_text>#A32D2D</color_text>
+      <body>
+        <risk>Q1 FY2026財報不及預期或指引疲軟：高風險。財報日期4月29-30日，在34.35x P/E估值下，任何iPhone銷量或China收入弱引導都可能觸發8─12%的大幅跌幅。</risk>
+        <risk>Buffett持續減持：中風險。伯克希爾75%減持是重大結構性流動性變化。後續幾週若有任何額外的伯克希爾賣出申報將是重大警訊。</risk>
+        <risk>中國市場疲軟：中風險。Apple收入的重要來源地，地緣政治和中國本土化政策構成持續壓力。</risk>
+        <risk>監管審查：中風險。EU DMA和美國DOJ反托銷持續施壓Apple Pay和App Store經濟模式。</risk>
+        <risk>Fed宏觀不確定性：中風險。Jerome Powell的最後FOMC會議增添了利率環境的變數。</risk>
+        <risk>估值極端：回溯P/E 34.35x處於10年均值的42%以上，任何盈利增長放緩都可能導致倍數收縮。</risk>
+        <risk>技術面接近阻力：價格逼近布林帶上軌（277.48美元），若無法突破可能引發短期均線回調。</risk>
+        <risk>AI競爭壓力：OpenAI、Google等競爭對手在生成式AI領域的進展可能壓縮Apple的AI整合空間。</risk>
+      </body>
+    </section>
+
+    <section open="true">
+      <title>最終評級與操作建議</title>
+      <icon>結</icon>
+      <color_bg>#EAF3DE</color_bg>
+      <color_text>#27500A</color_text>
+      <body>
+        <verdict_card label="評級" val="持有 (Hold)"/>
+        <verdict_card label="當前價格" val="$271.06" value_color="#185FA5"/>
+        <verdict_card label="目標價" val="$296.33" value_color="#3B6D11"/>
+        <verdict_card label="預估波動" val="$188.99 - $288.35（52週）" value_color="#3C3489"/>
+        <verdict_card label="上行動能" val="RSI 59.71 偏離，MACD 4.02 正價擴張" value_color="#185FA5"/>
+      </body>
+      <body>
+        <strategy>
+          一、評級：持有（Hold）
+
+二、執行摘要：
+- 倉位規模：繼續維持現有AAPL持倉，不新增做多部位。
+- 回調買入區域：AAPL回調至50 SMA（260.15美元）至布林帶中軌（261.40美元）區間時可考慮逐步加倉。
+- 上突破確認：若AAPL以強成交量突破277.48美元且Q1財報強勁，可重新評估做多機會，目標看漲至288.62美元。
+- 止損位：近端止損設在260.15美元，結構性無效價設在253.34美元。
+
+三、投資論點：
+AAPL處於確認的上升趨勢中（50 SMA \> 200 SMA黃金交叉），MACD +4.02正價擴張，RSI 59.71健康偏離。
+基本面穩健：TTM營收4,360億美元，利潤率27.04%，FCF 988億美元。
+風險：Q1財報二元事件風險、34.35x P/E估值極端、Buffett減持流動性變化。
+
+四、具體操作策略：
+1. 現持有者：維持現有部位，不新增做多，等待財報後評估。
+2. 觀望者：考慮在260─261美元區間逐步建倉。
+3. 風險對沖：考慮購買財報前到期看跌期權。
+4. 破位警訊：若跌破253.34美元，趨勢結構已破壞。
+5. 突破確認：若財報強勁且突破277.48美元，可在後確認做多，目標288.62美元。
+
+五、時間週期：中短期（Q1財報週期後重新評估）
+        </strategy>
+      </body>
+    </section>
+  </stock>
+</report>
