@@ -7,8 +7,8 @@ function getColor(t){return TICKER_COLORS[t]||'#9c27b0';}
 const P={
   x(md,re,fb){if(!md)return fb||'N/A';const m=md.match(re);return m?m[1]:fb||'N/A';},
   tech(md){return{
-    price:P.x(md,/(?:close|current\s*price|trading\s*close)[^$]*?\$(\d+\.\d+)/i,'--')||P.x(md,/\$(\d+\.\d+)/,'--'),
-    sma50:P.x(md,/50.SMA.*?\$(\d+\.\d+)/),sma200:P.x(md,/200.SMA.*?\$(\d+\.\d+)/),
+    price:P.x(md,/(?:close|current\s*price|trading\s*close|最新收盤價|最新價格|最新股價)[^$]*?\$(\d+\.\d+)/i,'--')||P.x(md,/\$(\d+\.\d+)/,'--'),
+    sma50:P.x(md,/50.SMA.*?\\$(\\d+\\.\\d+)/),sma200:P.x(md,/200.SMA.*?\\$(\\d+\\.\\d+)/),
     ema10:P.x(md,/10.EMA.*?\$(\d+\.\d+)/),
     // NOTE: 使用表格格式 "| MACD | +4.02 |" 或 "MACD line (X.XX)" 精確匹配
     macd:P.x(md,/\|\s*MACD\s*\|\s*([+-]?\d+\.\d+)/)||P.x(md,/MACD\s+(?:line\s*)?\(?([+-]?\d+\.\d+)/),
