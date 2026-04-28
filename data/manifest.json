@@ -3,7 +3,11 @@
   "dates": [
     {
       "date": "2026-04-27",
-      "stocks": ["AAPL", "GOOG", "NVDA"]
+      "stocks": [
+        "AAPL",
+        "GOOG",
+        "NVDA"
+      ]
     }
   ]
 }
