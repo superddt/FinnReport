@@ -4,6 +4,7 @@
     {
       "date": "2026-05-05",
       "stocks": [
+        "AAPL",
         "GOOG",
         "NVDA",
         "TSLA"
