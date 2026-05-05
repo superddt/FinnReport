@@ -7,8 +7,8 @@ function getColor(t){return TICKER_COLORS[t]||'#9c27b0';}
 const P={
   x(md,re,fb){if(!md)return fb||'N/A';const m=md.match(re);return m?m[1]:fb||'N/A';},
   tech(md){return{
-    price:P.x(md,/(?:close|current\s*price|trading\s*close|最新收盤價|最新價格|最新股價)[^$]*?\$(\d+\.\d+)/i,'--')||P.x(md,/\$(\d+\.\d+)/,'--'),
-    sma50:P.x(md,/50.SMA.*?\\$(\\d+\\.\\d+)/),sma200:P.x(md,/200.SMA.*?\\$(\\d+\\.\\d+)/),
+    price:P.x(md,/(?:close|current\s*price|trading\s*close)[^$]*?\$(\d+\.\d+)/i,'--')||P.x(md,/\$(\d+\.\d+)/,'--'),
+    sma50:P.x(md,/50.SMA.*?\$(\d+\.\d+)/),sma200:P.x(md,/200.SMA.*?\$(\d+\.\d+)/),
     ema10:P.x(md,/10.EMA.*?\$(\d+\.\d+)/),
     // NOTE: 使用表格格式 "| MACD | +4.02 |" 或 "MACD line (X.XX)" 精確匹配
     macd:P.x(md,/\|\s*MACD\s*\|\s*([+-]?\d+\.\d+)/)||P.x(md,/MACD\s+(?:line\s*)?\(?([+-]?\d+\.\d+)/),
@@ -25,8 +25,14 @@ const P={
     fcf:P.x(md,/[Ff]ree [Cc]ash [Ff]low.*?\$([\d.]+[BM])/)
   };},
   decision(d){
-    const t=(d.final_trade_decision||d.trader_investment_decision||'').toUpperCase();
-    if(t.includes('SELL'))return'SELL';if(t.includes('BUY'))return'BUY';return'HOLD';
+    // NOTE: 兼容舊格式（字串）與新 n8n v2 格式（物件）的 final_trade_decision
+    let raw=d.final_trade_decision||d.trader_investment_decision||'';
+    if(typeof raw==='object'&&raw!==null){
+      // 新格式：final_trade_decision 是物件，依序嘗試 action、reasoning 欄位
+      raw=raw.action||raw.reasoning||'';
+    }
+    const t=String(raw).toUpperCase();
+    if(t.includes('SELL'))return'SELL';if(t.includes('BUY'))return'BUY';if(t.includes('OVERWEIGHT'))return'BUY';return'HOLD';
   },
   rsiColor(v){const n=parseFloat(v);if(isNaN(n))return'var(--text2)';if(n>70||n<30)return'var(--sell)';if(n>60)return'var(--hold)';if(n>50)return'var(--buy)';return'var(--text2)';},
   macdColor(v){const n=parseFloat(v);return n>0?'var(--buy)':n<0?'var(--sell)':'var(--text2)';},
@@ -136,7 +142,8 @@ function renderOverview(tickers){
   let cards='<div class="grid-3" style="margin-bottom:24px">';
   const allTech=[],allFund=[];
   tickers.forEach(t=>{
-    const d=stockData[t],tech=P.tech(d.market_report),fund=P.fund(d.fundamentals_report),dec=P.decision(d);
+    // NOTE: 兼容 fundamentals_report（舊格式）與 fundamental_report（新格式）
+    const d=stockData[t],tech=P.tech(d.market_report),fund=P.fund(d.fundamentals_report||d.fundamental_report),dec=P.decision(d);
     allTech.push({t,tech,fund,dec});
     const col=getColor(t),lc=t.toLowerCase();
     const bars=genMiniChart(d.market_report,col);
@@ -184,7 +191,8 @@ function renderOverview(tickers){
 
 /* 個股頁渲染 */
 function renderStock(ticker,data){
-  const tech=P.tech(data.market_report),fund=P.fund(data.fundamentals_report),dec=P.decision(data);
+  // NOTE: 兼容 fundamentals_report（舊格式）與 fundamental_report（新格式，缺少 s）
+  const tech=P.tech(data.market_report),fund=P.fund(data.fundamentals_report||data.fundamental_report),dec=P.decision(data);
   const col=getColor(ticker),lc=ticker.toLowerCase();
   let h='';
   // 標題區
@@ -225,14 +233,22 @@ function renderStock(ticker,data){
 
   // 辯論
   h+=sectionHeader('多空辯論 · 最終裁決');
+  // NOTE: 兼容舊格式（investment_debate_state）與新 n8n v2 格式（無此欄位）
   const ds=data.investment_debate_state||{};
+  const bullText=ds.bull_history||'';
+  const bearText=ds.bear_history||'';
   h+='<div class="debate-panel">';
-  h+='<div class="debate-card"><div class="debate-role bull-role">🐂 多方論點</div><div class="debate-text">'+truncate(ds.bull_history||'無資料',800)+'</div></div>';
-  h+='<div class="debate-card"><div class="debate-role bear-role">🐻 空方論點</div><div class="debate-text">'+truncate(ds.bear_history||'無資料',800)+'</div></div>';
+  h+='<div class="debate-card"><div class="debate-role bull-role">🐂 多方論點</div><div class="debate-text">'+truncate(bullText||'（此報告格式不含多空辯論）',800)+'</div></div>';
+  h+='<div class="debate-card"><div class="debate-role bear-role">🐻 空方論點</div><div class="debate-text">'+truncate(bearText||'（此報告格式不含多空辯論）',800)+'</div></div>';
   h+='</div>';
 
-  // 裁決
-  const jd=ds.judge_decision||data.investment_plan||'';
+  // 裁決：多層 fallback 兼容新舊格式
+  // NOTE: 新格式 final_trade_decision 是物件，.reasoning 含完整裁決文字
+  let rawFtd=data.final_trade_decision;
+  const ftdText=typeof rawFtd==='object'&&rawFtd!==null
+    ? (rawFtd.reasoning||JSON.stringify(rawFtd,null,2))
+    : (typeof rawFtd==='string'?rawFtd:'');
+  const jd=ds.judge_decision||data.investment_plan||ftdText||data.risk_assessment||'';
   h+='<div class="verdict-box '+dec.toLowerCase()+'"><div class="verdict-title">⚖️ 裁判裁決 · 最終建議</div><div class="verdict-text">'+formatVerdict(jd,dec)+'</div></div>';
 
   // 新聞
